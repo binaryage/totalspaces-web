@@ -1,7 +1,7 @@
 ---
 layout: tf-home2
 title: TotalFinder brings tabs to your native Finder and more!
-product_title: TotalFinder
+product_title: TotalSpaces
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
 download: http://downloads.binaryage.com/TotalFinder-1.3.2.dmg
