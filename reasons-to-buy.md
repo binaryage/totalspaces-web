@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: My reasons to buy TotalFinder
 subtitle: My reasons to buy TotalFinder
 ---

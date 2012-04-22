@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Show System Files in TotalFinder
 subtitle: Show System Files
 ---

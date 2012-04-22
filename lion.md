@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: TotalFinder compatibility with OSX 10.7 (Lion)
 subtitle: Compatibility with OSX 10.7 (Lion)
 ---

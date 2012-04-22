@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Free licenses for TotalFinder
 subtitle: Free licenses for TotalFinder
 ---

@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Recent Questions about TotalFinder
 subtitle: Recent Questions
 ---

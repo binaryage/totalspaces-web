@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Recent Ideas for TotalFinder
 subtitle: Recent Ideas
 ---

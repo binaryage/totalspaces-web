@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Folders on Top in TotalFinder
 subtitle: Folders on Top
 ---

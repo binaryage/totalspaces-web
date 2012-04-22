@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Installing TotalFinder
 subtitle: Install TotalFinder
 ---

@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: Recent Problems in TotalFinder
 subtitle: Recent Problems
 ---

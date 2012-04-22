@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: TotalFinder Documentation
 subtitle: Documentation
 ---

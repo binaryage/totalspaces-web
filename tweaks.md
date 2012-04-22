@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: sf-doc
 title: TotalFinder Tweaks
 subtitle: Tweaks
 ---
