@@ -1,5 +1,5 @@
 ---
-layout: tf-doc2
+layout: tf-doc
 title: Recent changes in TotalFinder pre-releases
 subtitle: Recent changes in pre-releases
 ---

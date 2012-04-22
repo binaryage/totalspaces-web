@@ -1,5 +1,5 @@
 ---
-layout: tf-doc2
+layout: tf-doc
 title: Visor in TotalFinder
 subtitle: Visor
 ---

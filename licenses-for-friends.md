@@ -1,5 +1,5 @@
 ---
-layout: tf-doc2
+layout: tf-doc
 title: TotalFinder discount with friends
 subtitle: Discount for friends
 plusone: 1
