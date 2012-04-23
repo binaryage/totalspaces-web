@@ -31,276 +31,327 @@
             .changelog .blog-post-pointer a {font-weight: bold;}
 
             .changelog .titlebox { background-color: #eee; border-bottom: 0px solid #aaa; margin-top: 20px; line-height: 20px;}
-            .changelog h4{float:left;font-size: 12px;padding:3px;line-height:16px;font-weight: bold; padding-left: 10px; padding-right:6px; width: 90px; white-space:nowrap; text-align:right;}
+            .changelog h4{float:left;font-size: 12px;padding:3px;line-height:16px;font-weight: bold; padding-left: 10px; padding-right:6px; width: 100px; white-space:nowrap; text-align:right;}
             .changelog h5{margin:0;padding:0;padding:3px;margin-left:6px;font-size:10px;color:#666;line-height:16px;font-weight:normal;}
 
-            .changelog .sticker { float: left; width: 70px; display: block; text-align: right; color: white; font-weight: bold; padding: 1px 6px 2px 6px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 10px; position: relative; top:1px; }
-            .changelog .fixed { background-color: #00A825; }
-            .changelog .new { background-color: #BCB901; }
-            .changelog .removed { background-color: #BC0E00; }
-            .changelog .improved { background-color: #0486BC; }
-            .changelog .note { background-color: #AEAEAE; }
+            .changelog .sticker { float: left; width: 80px; display: block; text-align: right; }
+            .changelog .sticker b { color: white; font-weight: bold; padding: 1px 6px 2px 6px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 10px; position: relative; top:-1px; }
+            .changelog .fixed b { background-color: #00A825; }
+            .changelog .new b { background-color: #BCB901; }
+            .changelog .removed b { background-color: #BC0E00; }
+            .changelog .improved b { background-color: #0486BC; }
+            .changelog .note b { background-color: #AEAEAE; }
+            .changelog .known_bug b { background-color: #f98d02; }
             .changelog .info { display: table; padding-left: 6px; }
-			.changelog .known_bug { background-color: #f98d02; }
         </style>
     </head>
     <body>
         <div id="page" class="changelog" style="padding: 5px 12px">
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.2.mpkg.zip">0.9.7.2</a></h4>
-
-        <h5>16 April 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash on startup</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">New full screens are now noticed immediately</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Full screen apps and dashboard now appear in the notification grid (when changing
-            desktops)</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.1.mpkg.zip">0.9.7.1</a></h4>
-
-        <h5>14 April 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash in select grid code</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash in Dock when reading active windows</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Select grid does not retain views of windows that are not on the main screen any
-            more (could happen when switching monitors)</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Some performance improvement in select grid</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic displays more reliably</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">ReSpaceApp attempts to recover if transitions stop working due to a display mode
-            problem (usually happens after switching monitors)</span></li>
-
-            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Windows can be dragged by portions that are not visible in select
-            grid</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Activating select grid closes exposé mode to avoid
-            inconsistencies</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.mpkg.zip">0.9.7</a></h4>
-
-        <h5>11 April 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker new">NEW</span> <span class="info">Drag and drop windows in the select grid</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">New preferences panel</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Status bar item can be hidden</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Hot corner support for launching select grid</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Navigation to full screen apps and dashboard is now supported</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Windows that are no longer visible are not shown in the select grid</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Growl support, Growl notifications can be used for sound effects</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Brighter outline for selected desktop in select grid</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Reduced size of notification grid on large monitors</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Re-trigger select grid hotkey causes it to disappear if it is
-            showing</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Code injection failed to work under certain configurations</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">ReSpaceApp no longer shows the incorrect desktop number if desktops are re-ordered
-            in mission control</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Miscellaneous stability, performance and memory usage
-            enhancements</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Fix bug where unnamed spaces would cause various functions to fail</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Fix bug where hotkeys could not be removed</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Crash watcher to directly report bugs</span></li>
-
-            <li><span class="sticker note">NOTE</span> <span class="info">The beta trial period has been extended by one month to end June 1st 2012</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.6.mpkg.zip">0.9.6</a></h4>
-
-        <h5>5 March 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Memory leak in select grid</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.5.mpkg.zip">0.9.5</a></h4>
-
-        <h5>4 March 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker new">NEW</span> <span class="info">Bird's eye view of the grid of desktops accessible through a new hotkey assignment
-            ('Select')</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Full screen app desktops are now recognised by ReSpaceApp, and can be navigated to if
-            circulation is turned off</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">You can insist on certain key combinations even if the system reports them as
-            in-use</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">If ReSpaceApp crashes, the Dock component will not continue to ask for space
-            transitions, but will disable itself until ReSpaceApp is restarted</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">ReSpaceApp no longer crashes if it's started when only one desktop
-            exists</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Expose mode is now automatically closed if a space switch is done when Expose is in
-            use</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Hotkey assignment no longer gets confused with the A key</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">The notification grid adjusts its size automatically depending on screen
-            dimensions</span></li>
-
-            <li><span class="sticker removed">REMOVED</span> <span class="info">Diagonal transition animations have been removed as they confusingly only
-            worked on one of the diagonal axes</span></li>
-
-            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Activating the select grid when in Expose mode should be
-            disallowed</span></li>
-
-            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Windows that have been closed or minimised can show in the select grid,
-            only disappearing after a second grid activation</span></li>
-
-            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">ReSpaceApp cannot update itself if you have moved it out of /Applications
-            (the new version is placed in /Applications anyway)</span></li>
-
-            <li><span class="sticker note">NOTE</span> <span class="info">The beta trial period has been extended by one month to end May 1st 2012</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.4.mpkg.zip">0.9.4</a></h4>
-
-        <h5>13 February 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Fixed bug with transitions where incorrect space would be navigated to if dashboard
-            was set to overlay.</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Support added for default keyboard shortcuts - Cmd-W will close prefs, return
-            will close about and licence dialogs</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">Dock is now restarted on quitting ReSpaceApp so space change behaviour returns to
-            normal</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.3.mpkg.zip">0.9.3</a></h4>
-
-        <h5>12 February 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker new">NEW</span> <span class="info">Transitions can be disabled entirely in preferences</span></li>
-
-            <li><span class="sticker new">NEW</span> <span class="info">Transitions now work in the correct directions (as much as possible) when app switching
-            using the dock or cmd-tab to select an app</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">The automatically rearrange spaces setting in Mission Control settings is now
-            automatically forced to off to prevent desktops being rearranged (which would be bad)</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.2.mpkg.zip">0.9.2</a></h4>
-
-        <h5>8 February 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker fixed">FIXED</span> <span class="info">No longer crashes when default key combinations are already used</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic now shows in a lower position similar to Snow
-            Leopard's</span></li>
-
-            <li><span class="sticker fixed">FIXED</span> <span class="info">0 desktops is no longer incorrectly reported on app startup</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.1.mpkg.zip">0.9.1</a></h4>
-
-        <h5>4 February 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker new">NEW</span> <span class="info">Circulation can be disabled entirely</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Clearer row circulation preferences</span></li>
-
-            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic now shows to help orientation when hotkey is pressed but
-            circulation settings prevent movement</span></li>
-        </ul>
-    </div>
-</div>
-
-<div class="release">
-    <div class="titlebox">
-        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.0.mpkg.zip">0.9.0</a></h4>
-
-        <h5>1 February 2012</h5>
-    </div>
-
-    <div class="infobox">
-        <ul class="changes">
-            <li><span class="sticker note">NOTE</span> <span class="info">First public beta of ReSpaceApp</span></li>
-        </ul>
-    </div>
-</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.2.mpkg.zip">0.9.7.2</a>
+					</h4>
+					<h5>
+						16 April 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Crash on startup</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">New full screens are now noticed immediately</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Full screen apps and dashboard now appear in the notification grid (when changing desktops)</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.1.mpkg.zip">0.9.7.1</a>
+					</h4>
+					<h5>
+						14 April 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Crash in select grid code</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Crash in Dock when reading active windows</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Select grid does not retain views of windows that are not on the main screen any more (could happen when switching monitors)</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Some performance improvement in select grid</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Notification graphic displays more reliably</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">ReSpaceApp attempts to recover if transitions stop working due to a display mode problem (usually happens after switching monitors)</span>
+						</li>
+						<li>
+							<span class="sticker known_bug"><b>KNOWN BUG</b></span> <span class="info">Windows can be dragged by portions that are not visible in select grid</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Activating select grid closes exposé mode to avoid inconsistencies</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.mpkg.zip">0.9.7</a>
+					</h4>
+					<h5>
+						11 April 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Drag and drop windows in the select grid</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">New preferences panel</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Status bar item can be hidden</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Hot corner support for launching select grid</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Navigation to full screen apps and dashboard is now supported</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Windows that are no longer visible are not shown in the select grid</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Growl support, Growl notifications can be used for sound effects</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Brighter outline for selected desktop in select grid</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Reduced size of notification grid on large monitors</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Re-trigger select grid hotkey causes it to disappear if it is showing</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Code injection failed to work under certain configurations</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">ReSpaceApp no longer shows the incorrect desktop number if desktops are re-ordered in mission control</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Miscellaneous stability, performance and memory usage enhancements</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fix bug where unnamed spaces would cause various functions to fail</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fix bug where hotkeys could not be removed</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Crash watcher to directly report bugs</span>
+						</li>
+						<li>
+							<span class="sticker note"><b>NOTE</b></span> <span class="info">The beta trial period has been extended by one month to end June 1st 2012</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.6.mpkg.zip">0.9.6</a>
+					</h4>
+					<h5>
+						5 March 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Memory leak in select grid</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.5.mpkg.zip">0.9.5</a>
+					</h4>
+					<h5>
+						4 March 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Bird's eye view of the grid of desktops accessible through a new hotkey assignment ('Select')</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Full screen app desktops are now recognised by ReSpaceApp, and can be navigated to if circulation is turned off</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">You can insist on certain key combinations even if the system reports them as in-use</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">If ReSpaceApp crashes, the Dock component will not continue to ask for space transitions, but will disable itself until ReSpaceApp is restarted</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">ReSpaceApp no longer crashes if it's started when only one desktop exists</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Expose mode is now automatically closed if a space switch is done when Expose is in use</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Hotkey assignment no longer gets confused with the A key</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">The notification grid adjusts its size automatically depending on screen dimensions</span>
+						</li>
+						<li>
+							<span class="sticker removed"><b>REMOVED</b></span> <span class="info">Diagonal transition animations have been removed as they confusingly only worked on one of the diagonal axes</span>
+						</li>
+						<li>
+							<span class="sticker known_bug"><b>KNOWN BUG</b></span> <span class="info">Activating the select grid when in Expose mode should be disallowed</span>
+						</li>
+						<li>
+							<span class="sticker known_bug"><b>KNOWN BUG</b></span> <span class="info">Windows that have been closed or minimised can show in the select grid, only disappearing after a second grid activation</span>
+						</li>
+						<li>
+							<span class="sticker known_bug"><b>KNOWN BUG</b></span> <span class="info">ReSpaceApp cannot update itself if you have moved it out of /Applications (the new version is placed in /Applications anyway)</span>
+						</li>
+						<li>
+							<span class="sticker note"><b>NOTE</b></span> <span class="info">The beta trial period has been extended by one month to end May 1st 2012</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.4.mpkg.zip">0.9.4</a>
+					</h4>
+					<h5>
+						13 February 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed bug with transitions where incorrect space would be navigated to if dashboard was set to overlay.</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Support added for default keyboard shortcuts - Cmd-W will close prefs, return will close about and licence dialogs</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">Dock is now restarted on quitting ReSpaceApp so space change behaviour returns to normal</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.3.mpkg.zip">0.9.3</a>
+					</h4>
+					<h5>
+						12 February 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Transitions can be disabled entirely in preferences</span>
+						</li>
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Transitions now work in the correct directions (as much as possible) when app switching using the dock or cmd-tab to select an app</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">The automatically rearrange spaces setting in Mission Control settings is now automatically forced to off to prevent desktops being rearranged (which would be bad)</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.2.mpkg.zip">0.9.2</a>
+					</h4>
+					<h5>
+						8 February 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">No longer crashes when default key combinations are already used</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Notification graphic now shows in a lower position similar to Snow Leopard's</span>
+						</li>
+						<li>
+							<span class="sticker fixed"><b>FIXED</b></span> <span class="info">0 desktops is no longer incorrectly reported on app startup</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.1.mpkg.zip">0.9.1</a>
+					</h4>
+					<h5>
+						4 February 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker new"><b>NEW</b></span> <span class="info">Circulation can be disabled entirely</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Clearer row circulation preferences</span>
+						</li>
+						<li>
+							<span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Notification graphic now shows to help orientation when hotkey is pressed but circulation settings prevent movement</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="release">
+				<div class="titlebox">
+					<h4>
+						<a href="http://downloads.binaryage.com/TotalSpaces-0.9.0.mpkg.zip">0.9.0</a>
+					</h4>
+					<h5>
+						1 February 2012
+					</h5>
+				</div>
+				<div class="infobox">
+					<ul class="changes">
+						<li>
+							<span class="sticker note"><b>NOTE</b></span> <span class="info">First public beta of ReSpaceApp</span>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
     </body>
 </html>
