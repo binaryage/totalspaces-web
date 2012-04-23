@@ -34,816 +34,273 @@
             .changelog h4{float:left;font-size: 12px;padding:3px;line-height:16px;font-weight: bold; padding-left: 10px; padding-right:6px; width: 90px; white-space:nowrap; text-align:right;}
             .changelog h5{margin:0;padding:0;padding:3px;margin-left:6px;font-size:10px;color:#666;line-height:16px;font-weight:normal;}
 
-            .changelog .sticker { float: left; width: 70px; display: block; text-align: right; }
-            .changelog .sticker b { color: white; font-weight: bold; padding: 1px 6px 2px 6px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 10px; position: relative; top:1px; }
-            .changelog .fixed b { background-color: #00A825; }
-            .changelog .new b { background-color: #BCB901; }
-            .changelog .removed b { background-color: #BC0E00; }
-            .changelog .improved b { background-color: #0486BC; }
-            .changelog .note b { background-color: #AEAEAE; }
+            .changelog .sticker { float: left; width: 70px; display: block; text-align: right; color: white; font-weight: bold; padding: 1px 6px 2px 6px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 10px; position: relative; top:1px; }
+            .changelog .fixed { background-color: #00A825; }
+            .changelog .new { background-color: #BCB901; }
+            .changelog .removed { background-color: #BC0E00; }
+            .changelog .improved { background-color: #0486BC; }
+            .changelog .note { background-color: #AEAEAE; }
             .changelog .info { display: table; padding-left: 6px; }
+			.changelog .known_bug { background-color: #f98d02; }
         </style>
     </head>
     <body>
         <div id="page" class="changelog" style="padding: 5px 12px">
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.3.2.dmg">1.3.2</a></h4>
-                    <h5>released on December 4, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder 10.7.2 (which is included in OSX update 10.7.3).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved performance when Folders on Top is enabled.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Do not resolve symlinks when doing Cut&amp;Paste (<a href="http://getsatisfaction.com/binaryage/topics/cuting_symbolic_link_also_cuts_original_directory">issue</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.3.1.dmg">1.3.1</a></h4>
-                    <h5>released on October 26, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Resolved an issue causing 100% CPU usage when opening "All Files" with enabled Folders on Top (<a href="http://getsatisfaction.com/binaryage/topics/99_finder_cpu_load">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed a bug causing missing sidebars after opening DMG files (<a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed memory leaks reported by static analysis in Xcode 4.2.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.3.dmg">1.3</a></h4>
-                    <h5>released on October 12, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder 10.7.1 (which is included in OSX update 10.7.2).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Symbolic links to folders sort as expected when "Folders on Top" is enabled.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed Asepsis feature and the kernel extension. Asepsis is now freely available as a <a href="http://asepsis.binaryage.com">standalone software</a>.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.2.5.dmg">1.2.5</a></h4>
-                    <h5>released on August 11, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">New Tab command opens default window location as set in General Finder Preferences. Previously it was opening the same location as the current tab. This was causing a lot of support requests because novices can be stuck in DMG view without sidebar (Lion does not have pill button anymore and CMD+OPT+T to show/hide toolbar with sidebar is not very well known keyboard shortcut).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Show/Hide Path Bar and Show/Hide Status Bar commands work reliably (even in dual mode).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Resolved some rare crashes in Folder On Top feature.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed AppleScript command for setting window bounds (<a href="http://getsatisfaction.com/binaryage/topics/lion_totalfinder_breaks_finder_window_tandem_scripts">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Ironed out more sidebar issues.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">The CrashWatcher was improved and <a href="https://github.com/binaryage/crashwatcher">open-sourced</a>. I've also resolved memory leaks.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">TotalFinder.app can be freely relocated. Also optional ~/.totalfinder config is not used anymore.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.2.1.dmg">1.2.1</a></h4>
-                    <h5>released on July 21, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">I believe this is correct solution for <a href="http://getsatisfaction.com/binaryage/topics/problem_with_scrolling_in_dual_mode_tf_1_2_on_lion">sidebar issues</a> under Lion.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Compatibility check does not complain that Lion has unsupported version of Finder.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.2.dmg">1.2</a></h4>
-                    <h5>released on July 20, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">It is possible to drag small tab icons (folder proxy icons) (<a href="http://getsatisfaction.com/binaryage/topics/re_enable_small_icon_dragging">issue</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinderCrashWatcher - a new improved way for reporting TotalFinder crashes.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Applications and scripts may now ask Finder via AppleScript if TotalFinder has been loaded (<a href="https://github.com/binaryage/totalfinder-osax">more info</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Alternative TotalFinder installation path may be specified via optional ini file (<a href="https://github.com/binaryage/totalfinder-osax">more info</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Lion: Fixed compatibility with Afloat and other SIMBL plugins which use <a href="https://github.com/rentzsch/jrswizzle">jrswizzle library</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Lion: Asepsis feature implemented from scratch - needs testing! (<a href="http://getsatisfaction.com/binaryage/topics/lion_bugs">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Lion: Make sure items get properly sorted after adding new files into folder (<a href="http://getsatisfaction.com/binaryage/topics/lion_bugs">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Lion: Sidebar mirroring in dual mode works similar to Snow Leopard.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Lion: When switching tabs sidebar width stays the same as under Snow Leopard.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed the annoying iPhoto issue (<a href="http://getsatisfaction.com/binaryage/topics/iphoto_isnt_playing_nicely_with_finder_or_automator_services">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed broken "open location" applescript event (<a href="http://getsatisfaction.com/binaryage/topics/problems_with_automator_or_applescripts">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor's pin state indication wasn't updated when using keyboard shortcut (<a href="http://getsatisfaction.com/binaryage/topics/pin_visor_not_working_in_latest_version_of_tf">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Made reading and writing of DSDontWriteNetworkStores flag reliable (<a href="http://getsatisfaction.com/binaryage/topics/when_i_toggle_dont_write_ds_store_files_to_network_shares_it_resets_the_domain_default_pair_of_com_apple">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab animations are faster to match current Chrome settings.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Prevent tab icon jumping when switching to and from dual mode. Also put 2px space between icon and tab title.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Fixed tab focus problem when creating tabs by dragging folders into tab bar.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">TotalFinder reports reasonable error message when fails launching.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">TotalFinder is not using Spotlight anymore to locate TotalFinder.app if not found on standard location.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.13.dmg">1.1.13</a></h4>
-                    <h5>released on June 1, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">Related blog post: <a href="http://blog.binaryage.com/free-totalfinder-lion-upgrade">TotalFinder upgrade for Lion will be free of charge</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Major progress on <a href="http://totalfinder.binaryage.com/lion">Lion compatibility</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed uninstaller - TotalFinder.osax wasn't removed properly.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash reporter - report upload failed because of gist API changes.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Unfocused pinned Visor receives focus when activated. Second activation hides it.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Visor Pin state is persistent between TotalFinder restarts.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Sparkle offers update options during first launch (after installation).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Implemented URL scheme: totalfinder://register/[name]/[key] for better registering experience in the future.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.11.dmg">1.1.11</a></h4>
-                    <h5>released on March 30, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Belorussian by <a href="https://github.com/maksar">Alexander Shestakov</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed broken feature of dragging files to tabs (<a href="http://getsatisfaction.com/binaryage/topics/_move_file_from_and_to_a_tab">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed invalid version info reported at some places (<a href="http://getsatisfaction.com/binaryage/topics/newest_version_99eeac1_instead_of_1_8">issue</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.10.dmg">1.1.10</a></h4>
-                    <h5>released on March 22, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder 10.6.8 (which is included in OSX update 10.6.7).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Initial compatibility with OSX 10.7 (Lion). Please read <a href="http://totalfinder.binaryage.com/lion">Lion Compatibility Page</a> to get more info.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Greek by <a href="https://github.com/evripidis">Evripidis Argyropoulos</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Lithuanian by <a href="https://github.com/hemc">Nuno Salvador</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Hopefully fixed installer's troubles updating TotalFinder binary.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.8.dmg">1.1.8</a></h4>
-                    <h5>released on February 28, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder in the upcoming OSX update (10.6.7)</span></li>
-                        <!-- <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Greek by <a href="https://github.com/evripidis">Evripidis Argyropoulos</a>.</span></li> -->
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Danish by <a href="https://github.com/Tyilo">Asger Hatuop Drewsen</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Macedonian by <a href="https://github.com/bojan">Bojan</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Ukrainian by <a href="https://github.com/CryAngel">CryAngel</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed some "gray window" problems. (<a href="http://getsatisfaction.com/binaryage/topics/grey_window_if_visor_pinned_when_alt_t">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Moved traffic lights placement to match the Chrome (<a href="http://getsatisfaction.com/binaryage/topics/copy_chromiums_new_traffic_light_placement">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">You can now move TotalFinder.app outside /Applications folder. Launcher uses Spotlight to locate TotalFinder.app if not found in /Applications. (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_stops_working_if_totalfinder_app_is_moved">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/tf_will_not_launch_in_user_application_folder">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Asepsis checks presence of .DS_Store file, it does not do redirection when .DS_Store exists (see Console.app for affected folders). This fixes display of DMG backgrounds when Asepsis enabled.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.5.dmg">1.1.5</a></h4>
-                    <h5>released on January 27, 2011</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added command-command, control-control and shift-shift activation options to Visor feature. To switch between them click the button image.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added Copy Path menu item support (<a href="http://dl.dropbox.com/u/559047/Screenshots/copypath-menuitem-sample.png">see sample</a>). Must be enabled in Preferences > TotalFinder > Tweaks.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Bulgarian by <a href="https://github.com/ivaylodj">Ivaylo Djounov</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Indonesian by <a href="https://github.com/atmawarin">Ganis Angger Atmawarin</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevented ghost icons. (<a href="http://getsatisfaction.com/binaryage/topics/gosh_icon_on_desktop_after_file_move">issue</a>)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevented a small memory leak left behind with every closed Finder window.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed duplicate window names in Windows Menu and also when switching tabs window name is correctly updated. (<a href="http://getsatisfaction.com/binaryage/topics/front_tab_names_appear_twice_under_windows_menu">issue</a>)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder no longer hardcodes ⌘ ⌥ → and ⌘ ⌥ ← for tab switching. (<a href="http://getsatisfaction.com/binaryage/topics/running_totalfinder_disables_cmd_opt_rightarrow_expand_all_effect">issue</a>)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed problem where Visor may get activated back again when in dual mode and ESC is pressed. (<a href="http://getsatisfaction.com/binaryage/topics/when_in_dual_pane_with_visor_up_esc_to_close_visor_does_not_work">issue</a>)</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Prevented initial window flickering during TotalFinder startup.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved internal code structure.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.3.dmg">1.1.3</a></h4>
-                    <h5>released on December 20, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Finnish. Thanks to <a href="https://github.com/rantom">Tomi Rantalankila</a>!</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder shows window titles in Expose. (<a href="http://getsatisfaction.com/binaryage/topics/no_window_titles_in_snow_leopard_expose">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed annoying bug where windows could not receive focus under some circumstances. (<a href="http://getsatisfaction.com/binaryage/topics/windows_have_no_focus">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/total_finder_not_getting_the_focus_back">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">When cycling through windows skip the desktop window. (<a href="http://getsatisfaction.com/binaryage/topics/_cycle_through_windows_menu_command_is_always_disabled_grayed_out">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed window displacement bug where tab was pulled out and returned back into the same window. (<a href="http://getsatisfaction.com/binaryage/topics/dragging_a_tab_out_and_back_gives_graphics_artifacts">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">When sliding Visor up, visor window always appears on top of other TotalFinder windows.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash when unplugging monitor. (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_crashes_when_unplugging_monitor_from_macbook_pro">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed disjointed UI during Visor activation when clicking icons in the Dock and the Desktop. (<a href="http://getsatisfaction.com/binaryage/topics/visor_bug_in_version_1_1_2">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">The cut-operation cooperates better with system clipboard. (<a href="http://getsatisfaction.com/binaryage/topics/cutting_files_folders_and_finders_clipboard">issue</a>)</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab switching should be a bit faster and window switching/dragging should not flicker.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Default menubar icon is black (it was previously gray).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.1.dmg">1.1.1</a></h4>
-                    <h5>released on December 7, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder 10.6.7 (in the upcoming OSX update)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed scrolling bug in icon view in dual mode (<a href="http://getsatisfaction.com/binaryage/topics/no_scroll_in_the_right_window_of_double_mode">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed icons disappearing after cut operation on the Desktop (<a href="http://getsatisfaction.com/binaryage/topics/cut_option_hides_desktop_icons">issue</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.1.dmg">1.1</a></h4>
-                    <h5>released on December 6, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">Related blog post: <a href="http://blog.binaryage.com/totalfinder-with-cut-and-paste">TotalFinder 1.1 with Cut&amp;Paste</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Cut&amp;Paste in Finder, finally! The feature implemented by <a href="https://github.com/akahan">Roman Yusufkhanov</a> (<a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">issue</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Korean and Welsh. Thanks to <a href="https://github.com/lth1301">Taehwan Lee</a> and <a href="https://github.com/justinrjett">Justin Jett</a>!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">New icon with slightly modern look + new Menu Bar icons. Nicely done by <a href="http://robinraszka.com">Robin Raszka</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed Visor sliding in dual mode (<a href="http://getsatisfaction.com/binaryage/topics/hiding_in_visor_and_dual_mode_only_hides_the_second_window">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Solved possible crash situation when dragging TotalFinder window via frame.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Solved possible crash situation when TotalFinder gets deminiaturized.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed broken crash report uploading (<a href="https://github.com/blog/738-sidejack-prevention-phase-2-ssl-everywhere">GitHub started using SSL</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Added command to select next and previous tab into Window menu (<a href="http://getsatisfaction.com/binaryage/topics/shortcuts_to_switch_tabs">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Toolbar hiding is fast - for example via pill button or via keyboard shortcut.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">New tabs open with path from previously active tab.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Reimplemented sidebar tweaks in dual mode.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Prevent frame flickering in various situations. Especially when sliding Visor.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Opening folders in Expose mode works without breaking the UI (<a href="http://getsatisfaction.com/binaryage/topics/no_window_titles_in_snow_leopard_expose">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Fixed opening Trash from Dock or activating Folder when TotalFinder window is minimized.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Registration Dialog is immune to extraneous whitespace and new-lines in the middle of the license key.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Pulling tabs in and out is much more smooth.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Many internal improvements in the project structure.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.0.1.dmg">1.0.1</a></h4>
-                    <h5>released on October 13, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Polish and Portugal. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, you rock!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Introduced secret tweak TotalFinderDontTweakSidebar, to help folk having <a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">this issue</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Do not apply "Folders on Top" sorting on the desktop view. This should fix <a href="http://getsatisfaction.com/binaryage/topics/gosh_icon_on_desktop_after_file_move">ghost icons on the desktop</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed "Go To ..." keyboard shortcuts in Dual Mode (<a href="http://getsatisfaction.com/binaryage/topics/folder_navigation_problem_in_dual_pane_mode">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Registration Dialog is immune to extraneous whitespace characters.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">In trial mode the window badge shows remaining days.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed annoyance dialog which popped after every 10 tab switches. It was a bad idea.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-1.0.dmg">1.0</a></h4>
-                    <h5>released on September 27, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">Related blog post: <a href="http://blog.binaryage.com/totalfinder-birthday-launch">Happy birthday, TotalFinder!</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Unlocked licensing subsystem.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Updated website for 1.0 and add <a href="http://totalfinder.binaryage.com/documentation">documentation</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">"Folders On Top" feature works reliably in all views. Nice and clean code contributed by russian hacker Roman Yusufkhanov. Big kudos!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">The main window stretches horizontally when resizing columns in ColumnsView (<a href="http://getsatisfaction.com/binaryage/topics/cannot_resize_right_most_column_in_columns_view">issue</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Romanian. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, nice!</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed buggy checkbox "Don't write .DS_Store to Network" in preferences (<a href="http://getsatisfaction.com/binaryage/topics/_ds_store_file_creation_prevention_not_showing_current_status">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed tab title clipping bug in dual mode.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed mysterious double-shadow visual glitch after starting TotalFinder (<a href="http://getsatisfaction.com/binaryage/topics/odd_shadow_behavior">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">TotalFinder window uses rounded corners as the original Finder (<a href="http://getsatisfaction.com/binaryage/topics/somewhat_minor_ui_gripes_drive_me_insane">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Desktop does not show dot files even when you check "Show System Files".</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Asepsis ignores .DS_Store file on Desktop to prevent unexpected desktop settings resets. (<a href="http://getsatisfaction.com/binaryage/topics/total_finder_0_9_3_asepsis_does_not_remember_desktop_icon_position">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab title is now truncated from the beginning, which makes sense for folks using _FXShowPosixPathInTitle tweak (<a href="http://getsatisfaction.com/binaryage/topics/unix_paths_in_title_should_truncate_start_not_end">issue</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg">0.9.9</a></h4>
-                    <h5>released on August 31, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-broken-updater">Aargh, broken auto-updater</a></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed broken auto-updater (<a href="http://blog.binaryage.com/totalfinder-broken-updater">more info</a>)</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Slovak and Slovenian. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, sweet!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Compatibility with Finder 10.6.6 (in the upcoming OSX update)</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Introduced BETA channel for updates (Preferences / TotalFinder / About)</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab switching is fast again (<a href="http://getsatisfaction.com/binaryage/topics/slower_tabs_switching_with_0_9_8">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Sidebar not appearing in new tabs (<a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">issue</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.8.dmg">0.9.8</a></h4>
-                    <h5>released on August 17, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-summer-update/">TotalFinder summer update</a></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed occasional crashing when dropping a tab. This was reproducible by ninjas who were able to drag&drop a tab and immediately move mouse over dying semi-transparent window.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Possibly fixed the crash when Finder decided to deallocate its window and some of my code cached pointer to it and didn't notice it is already gone. This was rarely reproducible.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.7.dmg">0.9.7</a></h4>
-                    <h5>released on August 16, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-summer-update/">TotalFinder summer update</a></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed 100% crash when 0.9.5 or 0.9.6 expired. I didn't do my homework and test this state at all. <a href="http://blog.binaryage.com/localized-totalfinder-keeps-crashing">I'm sorry for that</a>.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Turkish and Swedish. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, nice!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Removed disabling code after expiration and replaced it with small red note embedded into a window frame and tab switching limit.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Updated tabs look to match the latest Google Chrome.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Sidebar width is kept constant when switching tabs in one window.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Pill button toggles both Finder windows in dual mode.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.6.dmg">0.9.6</a></h4>
-                    <h5>released on July 26, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/toolbar-pill-button-strikes-back/">Toolbar Pill Button strikes back</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localized into Czech, Dutch, French, German, Italian, Japanese, Russian, Spanish and Chinese. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">all translators</a>, you guys rock!</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added toolbar pill button to the top-right corner of the main chrome window. Yaay! (<a href="http://getsatisfaction.com/binaryage/topics/toolbar_pill_button_missing">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Sidebar and toolbar toggling should work more reliably and without visual glitches.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Using <a href="http://github.com/darwin/chromium-src-chrome-browser/commit/a460417f45efb3bf19aea54acbb782a968454a43">zombies</a> - better internal tracking of unintentional usage of deallocated memory. This should help me fix some remaining crashes.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.5.dmg">0.9.5</a></h4>
-                    <h5>released on June 29, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-localization/">TotalFinder opened for localization</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Localization support (<a href="http://github.com/binaryage/totalfinder-i18n">more info</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Switching between keyboard layouts caused OSX to slow down! (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_freezes_the_system_on_keyboard_layout_change">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Toggling hidden files does also refresh the desktop (<a href="http://getsatisfaction.com/binaryage/topics/_show_system_files_cant_be_toggled_off_for_the_desktop">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed random bug in TotalFinder launcher (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_cannot_start_after_first_installation">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Pixel perfection! Tabs have a better colors matching the current Chrome Browser.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Removed some dead code and minor house keeping.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.4.dmg">0.9.4</a></h4>
-                    <h5>released on June 16, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Compatibility update with Finder 10.6.5 coming in <a href="http://support.apple.com/kb/HT4150">OSX v10.6.4 update</a>.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor window accepts new tabs even if it is hidden (<a href="http://getsatisfaction.com/binaryage/topics/new_windows_arent_adopted_as_tabs_any_more">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Show Hidden Files works reliably also in 32-bit Finder.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed possible crash situation when main window controller was deallocated too early.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.3.dmg">0.9.3</a></h4>
-                    <h5>released on June 08, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-with-customizable-shortcuts">TotalFinder with customizable shortcuts</a></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed CMD+W (<a href="http://getsatisfaction.com/binaryage/topics/get_info_not_closing_with_command_w">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed possible crash situation when processing tabs windows events.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.2.dmg">0.9.2</a></h4>
-                    <h5>released on June 07, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-with-customizable-shortcuts">TotalFinder with customizable shortcuts</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder keyboard shortcuts can be overridden in Preferences. This should solve the headaches for people with AZERTY keyboards.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Newly CMD+SHIFT+W closes current window including all tabs (like in the Google Chrome Browser the option available in the File menu) (<a href="http://getsatisfaction.com/binaryage/topics/shortcut_to_close_an_entire_window_with_multiple_tabs">idea</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed installer bug when TotalFinder failed to install with unselected TotalFinder.kext (<a href="http://getsatisfaction.com/binaryage/topics/install_problems_without_admin_rights_with_0_9">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/installation_of_totalfinder_0_83_fails_without_apparent_reason">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor's Pin button is click-through.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Do not alter with Visor window level when pinned, it solved some pin button problems.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Installer creates /usr/local/.dscache with proper rights when TotalFinder.kext is selected. Also when this folder is missing TotalFinder gracefully works with Asepsis feature disabled.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Clicking right-side close button of dualized tab closes the right-side Finder panel properly (<a href="http://getsatisfaction.com/binaryage/topics/left_right_tab_closing_issue">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/closing_right_pane_in_dual_mode_actually_closes_left_one">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">TotalFinder actions are available in the Finder menu (mostly under View submenu).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Revised logic which decides if a new Finder is opened in a new tab or a new window (<a href="http://getsatisfaction.com/binaryage/topics/new_windows_arent_adopted_as_tabs_any_more">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved look & feel of Preferences Panel.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed CMD+Q keyboard shortcut for closing all windows. You should be using standard CMD+OPT+W.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.1.dmg">0.9.1</a></h4>
-                    <h5>released on May 17, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-almost-gold/">TotalFinder almost gold</a></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed keyboard shortcuts problem. I didn't test Command and Shift key modifiers properly (<a href="http://getsatisfaction.com/binaryage/topics/shortcut_problems">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">CMD+Q does not kill the Desktop window (<a href="http://getsatisfaction.com/binaryage/topics/unexpected_command_q_behavior">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevent window jump during the Zoom operation.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.dmg">0.9</a></h4>
-                    <h5>released on May 17, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-almost-gold/">TotalFinder almost gold</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Toggle display of hidden files without Finder restart! (CMD+SHIFT+.)</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor has blue pin button in place of close button (CMD+SHIFT+P)</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor window can be resized by dragging main window's title bar vertically. Visor window is no longer movable.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">New Tweak option 'Always Maximize' - makes Zoom behave like in Google Chrome.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">New Tweak option 'Narrow Tabs Bar' - saves some vertical space for folks with 13" notebooks.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">CMD+Q closes all open windows. This does not terminate Finder process tough.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed random crashes caused by pending tabs animations accessing already destroyed browser window.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed possible crash in tabs state serialization code.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevented crash when last windows was closed and user requested to create a new tab via a keyboard shortcut.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed `Cycle Through Windows` menu command (<a href="http://getsatisfaction.com/binaryage/topics/_cycle_through_windows_menu_command_is_always_disabled_grayed_out">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed `Zoom` and `Zoom All` menu commands.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Zoom acts as the original Finder `Zoom` command - hold SHIFT to maximize (<a href="http://getsatisfaction.com/binaryage/topics/zoom_acting_as_maximize">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Seamless switching between free-form and classic visor mode. Resizing works without Visor window recreation.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved look of TotalFinder preference panels. Also renamed some options and added more descriptive texts.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Installer disables POSIX names in Finder's plist option during installation (<a href="http://getsatisfaction.com/binaryage/topics/option_to_display_only_the_folder_name_in_tabs">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">LSUIElement hides TotalFinderLauncher.app from the Dock (<a href="http://getsatisfaction.com/binaryage/topics/use_lsuielement_argument_for_the_new_totalfinder_app">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Better logic for selecting target browser for a new tab: open it in visor if visor is visible and key window else use last active non-visor window.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Overall refactorings, dead code removal and speed improvements.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Dual panel separator line goes over toolbar and statusbar.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed close button on Visor window.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed continuous crash preventer code (not needed anymore).</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed TotalFinderOptionTab tweak option. Switching panels is going to be just OPT+TAB. Using plain TAB wasn't good idea.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg">0.8.3</a></h4>
-                    <h5>released on April 26, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-without-simbl/">TotalFinder now works without SIMBL</a></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder has its own mechanism for Finder injection.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Echelon.kext renamed to TotalFinder.kext. Launch daemon is not needed anymore for .DS_Store redirect feature to work.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added option which prevents adopting new Finder windows as tabs automatically. See TotalFinder/Tweaks preferences. (<a href="http://getsatisfaction.com/binaryage/topics/desktop_folders_open_as_tabs_spaces_and_generic_problem">issue</a>)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed window jump problem (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps-1ac42">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">FinderSize utility works again with TotalFinder (<a href="http://getsatisfaction.com/binaryage/topics/findersize_broken_again">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed CMD+P glitch. (<a href="http://getsatisfaction.com/binaryage/topics/cmd_p_bug">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Warning dialog appears when running TotalFinder with untested Finder version.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Updated crash dialog UI and also updated Breakpad sources to the latest version.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed SIMBL dependency.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.8.2.dmg">0.8.2</a></h4>
-                    <h5>released on April 04, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder main icon and relevant graphics like installer icons, status menu icons, etc. (<a href="http://blog.binaryage.com/totalfinder-new-icon/">read more</a>)</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Redesigned the website (<a href="http://blog.binaryage.com/binaryage-redesigned/">read more</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder plays nice with TimeMachine (<a href="http://getsatisfaction.com/binaryage/topics/time_machine_crashes">issue</a>, <a href="http://getsatisfaction.com/binaryage/topics/totalfinder_and_time_machine_dont_play_nice">issue</a>, <a href="http://getsatisfaction.com/binaryage/topics/totalfinder_skin_disappears_in_timemachine">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/when_in_time_machine_finder_windows_do_not_display_correctly">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevent a monster memory leak when sliding Visor window (<a href="http://getsatisfaction.com/binaryage/topics/memory_leak_upon_hiding">issue</a>). My apologies for this.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed stuck scrollbars in icon view of dual panel (<a href="http://getsatisfaction.com/binaryage/topics/dual_pane_scroll_not_working">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/split_window_scrolling_bug">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Resolved random crash in showToolbar call.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Hiding sidebar works properly in dual mode.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Auto-connection to Echelon didn't work after machine restart (<a href="http://getsatisfaction.com/binaryage/topics/restart_unloads_echelon">in some cases</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Robust shutdown path. TotalFinder state was not properly serialized into plist (when Finder's code decided not to save my in-memory changes).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevent crashes in getFinderGradientParams call.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Drag&amp;drop between tabs respects system springing preferences and can be customized on the Finder's General preferences pane.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Better uninstaller (original Uninstall.scpt wrapped in Platypus app).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Descriptive error message when launching TotalFinder.app without SIMBL installed.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Renamed some status menu items and added "Check for Updates" item.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Pixel perfect sidebar width syncing in dual mode.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.8.1.dmg">0.8.1</a></h4>
-                    <h5>released on March 11, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed desktop quirks because desktop window was originally treated the same way as classic windows by TotalFinder overrides. For example this fixed desktop problems after switching resolution or changing number of displays. (<a href="http://getsatisfaction.com/binaryage/topics/finder_does_not_react_on_resolution_changes_anymore">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/mouse_clicking_gets_offset_on_desktop">issue</a>)</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash when saved windows state referenced no longer existing paths.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash when closing browser and some tabs might have pending animation requests.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash when browser window was destroyed before controller got deallocated.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Clicking might have offset or window might jump because of incorrect coordinates transformation (<a href="http://github.com/darwin/chromium-src-chrome-browser/commit/3f009cf3836da5b03d25a69f32cc3fa0d9d30080">commit</a>) .</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.8.dmg">0.8</a></h4>
-                    <h5>released on March 6, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Drag&drop support between tabs.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Tabs perform spring loading when hovered during drag operation.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">You may drag folder(s) out as tabs. Hint: drop them between tabs.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder restores windows dimensions and tabs layout after restart.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder windows may be moved by dragging window background or toolbar background like in the original Finder.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">You may switch Option+TAB panel switching instead of TAB switching in Preferences (<a href="http://getsatisfaction.com/binaryage/topics/tab_key_behavior_co_opted_by_dual_panes">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Stability improvements. Fixed more than 5 crash situations.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Annoying bug when frame window did not respond to resizing after first resize.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed whole class of weird bugs caused by adopting Finder windows created prior SIMBL injection.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Solved the problem with detached finder panels (movable via toolbar background).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed the problem when got external request to close dualized tab (<a href="http://getsatisfaction.com/binaryage/topics/mounted_dmg_linked_tabs_visual_issues">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Double-clicking on right side of a dualized tab leaves the right Finder tab selected after "dedualization".</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed invalid hover effect during tab dualization.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Closing tab by clicking on close button was hiding whole frame at some circumstances.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Tear-off of a tab as a new window does not animate tab as being closed.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed buggy tab color after window dragging session.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevent crash when browser displays "More ..." button (in "Folders on Top" mode).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Refactored .DS_Store redirection. Made it a little bit faster and more robust.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Solved some Visor window sliding quirks and fine tuned freeform mode.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Play proper tab closing animation when closing selected tab.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Faster tab animations. The speed of tab animations matches Chrome/Mac again.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">No more flickering when closing browser window using red close button.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Consistent color of deselected tabs in inactive windows.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Less CPU usage during window resizing with dual panel selected.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.7.1.dmg">0.7.1</a></h4>
-                    <h5>released on February 10, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added options to restart Finder and uninstall TotalFinder into status menu item.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed .DS_Store related crash.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash when TotalFinder was trying to return focus to app which ceased to exist during Visor session.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed rare crash during Visor window sliding.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crash related to external apple events.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed visual glitches when hiding toolbar or changing its type.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Bottom PathBar works again.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor window in freeform mode is resizable again.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Screen selector works again in Visor Preferences.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab opening and closing animations are smooth again.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Don't close existing windows on start, but adopt them as tabs.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Visor window respects the Dock.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Visor window shows reliably on top of the Dock when "Show on Dock level" is enabled.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Better Visor sliding. Works fading and also solved stuck Visor window under the Dock.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.7.dmg">0.7</a></h4>
-                    <h5>released on February 3, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Introduced dual mode. Activation: double-click on tab or press CMD+U. Pane switching with TAB. (<a href="http://blog.binaryage.com/totalfinder-with-dual-mode">more</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Custom crash reporting dialog based on Breakpad project (<a href="http://blog.binaryage.com/totalfinder-status">more</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Rapid closure mode for tabs (<a href="http://getsatisfaction.com/binaryage/topics/chrome_tabs_arent_quite_chrome_tabs">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Stuck hover states on close buttons (<a href="http://src.chromium.org/viewvc/chrome?view=rev&revision=35678">more</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Solved problem when Preferences windows appears in lower-left corner when first activated.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Back-ported fix for occasional crash when tab is closed (<a href="http://github.com/darwin/chromium-src-chrome-browser/commit/c15953419284b6d30b7cdd15de0a4cfb0c790f28">commit</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed annoying bug when bottom status bar was not updated when switching views (<a href="http://getsatisfaction.com/binaryage/topics/_of_items_in_folder_doesnt_show_in_totalfinder">issue</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Plugging/Unplugging external monitor breaks windows (<a href="http://getsatisfaction.com/binaryage/topics/plugging_unplugging_external_monitor_breaks_windows">issue</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">General refactoring, stability and speed improvements.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Updated Sparkle to latest GitHub version.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab context menu shows also when CMD+left click or CTRL+left click.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Force dot files to appear always on top (when in folders-on-top mode).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Window resizing.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Tab animations.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Disabled Finder window animations. This should fix Time Machine quirks (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_and_time_machine_dont_play_nice">issue</a>)</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Installer re-enables Echelon after installation in case it was previously enabled.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.7.dmg">0.6.7</a></h4>
-                    <h5>released on January 25, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker note"><b>NOTE</b></span> <span class="info">This is just dummy release identical to 0.6.6. I need to extend expiration period. Working hard on dual-panel feature, but didn't make it on time.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.6.dmg">0.6.6</a></h4>
-                    <h5>released on January 19, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed crashing during tab dragging (<a href="http://getsatisfaction.com/binaryage/topics/finder_crashes_while_dragging_tab_with_0_6_5">read more</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Tab background color is consistent with Finder window during dragging.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.5.dmg">0.6.5</a></h4>
-                    <h5>released on January 18, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">CMD+SHIFT+ARROWS or CMD+OPT+ARROWS keyboard shortcuts to move between tabs (<a href="http://getsatisfaction.com/binaryage/topics/modify_shortcut_for_next_tab">read more</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Right-click on tab title displays original titlebar context menu (<a href="http://getsatisfaction.com/binaryage/topics/add_right_click_hierarchy_menu_to_each_tab">read more</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Full UNIX path is presented as a tooltip when hovering over tab title.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Uninstall script is more robust and works in the case Echelon was uninstalled independently.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Last created/selected window become default for new Finder child windows being opened by the system or other apps.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Plays nice with resizing utilities like SizeUp, FinderSize or BetterTouchTool (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_moving_applescript_sizeup">more info</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed visual glitches after changing resolution or reconfiguring displays.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed quirks when activating Visor by clicking on Dock icon.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Echelon KEXT is not being installed by default (users should opt-in).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Dock icon brings Visor only if there is no other tabs window.</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">After sliding Visor window down, in case TotalFinder has still main status, next visible window gets focus (Visor window does not keep it anymore).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Installed clearly states that current version is ALPHA and final version will be paid (<a href="http://getsatisfaction.com/binaryage/topics/payware">more info</a>).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.4.dmg">0.6.4</a></h4>
-                    <h5>released on January 14, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Finder window keeps main status. Originally I was setting tab-browser window as main and Finder window as key. TotalFinder should be more stable now.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Labels via right click context-menu work again (<a href="http://getsatisfaction.com/binaryage/topics/labels_not_working">read more</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder remembers position of last closed window, new window is reopened on the same position (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_finder_like_default_window_position">read more</a>).</span></li>
-                        <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Returning focus to previously active app should be a little bit faster.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.3.dmg">0.6.3</a></h4>
-                    <h5>released on January 13, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">CMD+TAB activation must be more strict. Activating Visor only in the case there is no other classic Finder window.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.2.dmg">0.6.2</a></h4>
-                    <h5>released on January 13, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Regression introduced by CMD+TAB activation. Clicking on Desktop caused Visor to slide up.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.1.dmg">0.6.1</a></h4>
-                    <h5>released on January 13, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Disabled Visor mode by default. Many newcomers were confused by default Visor behavior. Visor veterans from Terminal.app may always enable Visor mode in preferences.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">You may force Visor window to appear on top of Dock (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">You may resize Visor window and keep it's dimensions in free-form mode (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed broken TotalFinder when running on top of localized Finder.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Clicking on Finder Dock icon toggles Visor if available.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">CMD+TAB activation activates Visor if available.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Corrected behavior in crash-recovery mode (<a href="http://getsatisfaction.com/binaryage/topics/tf_crashed_prefs_could_not_be_deleted_and_changed">read more</a>).</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed "Show on Reopen" obsolete option from Visor for Terminal.app.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.6.dmg">0.6</a></h4>
-                    <h5>released on January 11, 2010</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Tabs! thanks to Chromium codebase, love you Google.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor mode window could be avoided by unchecking both activation options.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Better stability.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor window remembers it's height during restarts.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor window does not show up during expose.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed quirks related to sliding visor window.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Visor window stays up until there is no window with main status within Finder.app.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Visor window can slide only from bottom of the screen. Removed "Position" selector.</span></li>
-                        <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Dropped ppc architecture support.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.5.dmg">0.5</a></h4>
-                    <h5>released on December 18, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added tweak option "Don't customize Dock Icon".</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Installer displays warning if SIMBL is not detected.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Archive contains compatible SIMBL package (for case TotalFinder.dmg is found on Planet of the Apes).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Quick TotalFinder restart from Preferences Pane is not counted as a crash.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Using latest Sparkle which supports asynchronous package installation. This fixes installer choking when updating via Sparkle's "Install and Relaunch" button.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.4.dmg">0.4</a></h4>
-                    <h5>released on December 9, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added option to force "Folders on Top".</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder should work for users with 32-bit hardware (folks running i386 binary of Finder).</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.3.dmg">0.3</a></h4>
-                    <h5>released on December 6, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Sparkle updating system. </span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added red face preventing continuous crashing during startup (because Finder is being restarted after crash by launchd).</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added uninstall script. </span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Changed TotalFinder window level so that auxiliary floating windows are visible on top of it (<a href="http://getsatisfaction.com/binaryage/topics/deactivate_always_on_top_window">more info</a>).</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed Echelon registration into startup items. Previously Echelon wasn't started again after restart.</span></li>
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Desktop icons should persist during Finder restarts. I'm restoring important .DS_Store files to original locations during restart.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg">0.2.1</a></h4>
-                    <h5>released on November 30, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">prefix folder /usr/local/.dscache is created by installer with proper rights. Originally TotalFinder was suddenly exiting when trying to perform operation with insufficient rights.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.2.dmg">0.2</a></h4>
-                    <h5>released on November 30, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">.DS_Store redirect mode.</span></li>
-                        <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor-like hot-key activation.</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="release">
-                <div class="titlebox">
-                    <h4><a href="http://downloads.binaryage.com/TotalFinder-0.1.dmg">0.1</a></h4>
-                    <h5>September - November, 2009</h5>
-                </div>
-                <div class="infobox">
-                    <ul class="changes">
-                        <li><span class="sticker note"><b>NOTE</b></span> <span class="info">Idea, experiments with Snow Leopard, proof-of-concept code</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.2.mpkg.zip">0.9.7.2</a></h4>
+
+        <h5>16 April 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash on startup</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">New full screens are now noticed immediately</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Full screen apps and dashboard now appear in the notification grid (when changing
+            desktops)</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.1.mpkg.zip">0.9.7.1</a></h4>
+
+        <h5>14 April 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash in select grid code</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Crash in Dock when reading active windows</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Select grid does not retain views of windows that are not on the main screen any
+            more (could happen when switching monitors)</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Some performance improvement in select grid</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic displays more reliably</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">ReSpaceApp attempts to recover if transitions stop working due to a display mode
+            problem (usually happens after switching monitors)</span></li>
+
+            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Windows can be dragged by portions that are not visible in select
+            grid</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Activating select grid closes exposé mode to avoid
+            inconsistencies</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.7.mpkg.zip">0.9.7</a></h4>
+
+        <h5>11 April 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker new">NEW</span> <span class="info">Drag and drop windows in the select grid</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">New preferences panel</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Status bar item can be hidden</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Hot corner support for launching select grid</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Navigation to full screen apps and dashboard is now supported</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Windows that are no longer visible are not shown in the select grid</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Growl support, Growl notifications can be used for sound effects</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Brighter outline for selected desktop in select grid</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Reduced size of notification grid on large monitors</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Re-trigger select grid hotkey causes it to disappear if it is
+            showing</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Code injection failed to work under certain configurations</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">ReSpaceApp no longer shows the incorrect desktop number if desktops are re-ordered
+            in mission control</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Miscellaneous stability, performance and memory usage
+            enhancements</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Fix bug where unnamed spaces would cause various functions to fail</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Fix bug where hotkeys could not be removed</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Crash watcher to directly report bugs</span></li>
+
+            <li><span class="sticker note">NOTE</span> <span class="info">The beta trial period has been extended by one month to end June 1st 2012</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.6.mpkg.zip">0.9.6</a></h4>
+
+        <h5>5 March 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Memory leak in select grid</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.5.mpkg.zip">0.9.5</a></h4>
+
+        <h5>4 March 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker new">NEW</span> <span class="info">Bird's eye view of the grid of desktops accessible through a new hotkey assignment
+            ('Select')</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Full screen app desktops are now recognised by ReSpaceApp, and can be navigated to if
+            circulation is turned off</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">You can insist on certain key combinations even if the system reports them as
+            in-use</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">If ReSpaceApp crashes, the Dock component will not continue to ask for space
+            transitions, but will disable itself until ReSpaceApp is restarted</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">ReSpaceApp no longer crashes if it's started when only one desktop
+            exists</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Expose mode is now automatically closed if a space switch is done when Expose is in
+            use</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Hotkey assignment no longer gets confused with the A key</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">The notification grid adjusts its size automatically depending on screen
+            dimensions</span></li>
+
+            <li><span class="sticker removed">REMOVED</span> <span class="info">Diagonal transition animations have been removed as they confusingly only
+            worked on one of the diagonal axes</span></li>
+
+            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Activating the select grid when in Expose mode should be
+            disallowed</span></li>
+
+            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">Windows that have been closed or minimised can show in the select grid,
+            only disappearing after a second grid activation</span></li>
+
+            <li><span class="sticker known_bug">KNOWN_BUG</span> <span class="info">ReSpaceApp cannot update itself if you have moved it out of /Applications
+            (the new version is placed in /Applications anyway)</span></li>
+
+            <li><span class="sticker note">NOTE</span> <span class="info">The beta trial period has been extended by one month to end May 1st 2012</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.4.mpkg.zip">0.9.4</a></h4>
+
+        <h5>13 February 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Fixed bug with transitions where incorrect space would be navigated to if dashboard
+            was set to overlay.</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Support added for default keyboard shortcuts - Cmd-W will close prefs, return
+            will close about and licence dialogs</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">Dock is now restarted on quitting ReSpaceApp so space change behaviour returns to
+            normal</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.3.mpkg.zip">0.9.3</a></h4>
+
+        <h5>12 February 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker new">NEW</span> <span class="info">Transitions can be disabled entirely in preferences</span></li>
+
+            <li><span class="sticker new">NEW</span> <span class="info">Transitions now work in the correct directions (as much as possible) when app switching
+            using the dock or cmd-tab to select an app</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">The automatically rearrange spaces setting in Mission Control settings is now
+            automatically forced to off to prevent desktops being rearranged (which would be bad)</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.2.mpkg.zip">0.9.2</a></h4>
+
+        <h5>8 February 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker fixed">FIXED</span> <span class="info">No longer crashes when default key combinations are already used</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic now shows in a lower position similar to Snow
+            Leopard's</span></li>
+
+            <li><span class="sticker fixed">FIXED</span> <span class="info">0 desktops is no longer incorrectly reported on app startup</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.1.mpkg.zip">0.9.1</a></h4>
+
+        <h5>4 February 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker new">NEW</span> <span class="info">Circulation can be disabled entirely</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Clearer row circulation preferences</span></li>
+
+            <li><span class="sticker improved">IMPROVED</span> <span class="info">Notification graphic now shows to help orientation when hotkey is pressed but
+            circulation settings prevent movement</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="release">
+    <div class="titlebox">
+        <h4><a href="http://downloads.binaryage.com/TotalSpaces-0.9.0.mpkg.zip">0.9.0</a></h4>
+
+        <h5>1 February 2012</h5>
+    </div>
+
+    <div class="infobox">
+        <ul class="changes">
+            <li><span class="sticker note">NOTE</span> <span class="info">First public beta of ReSpaceApp</span></li>
+        </ul>
+    </div>
+</div>
+		</div>
     </body>
 </html>

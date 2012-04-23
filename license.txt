@@ -1,14 +1,14 @@
-TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
+TotalSpaces Copyright (c) 2010 Antonin Hildebrand (me)
 
 -----------------------------------------------------------------------------
 
  EVALUATION LICENSE:
 
  Permission is hereby granted to any person (you) obtaining a free copy of
- this software and associated documentation files (TotalFinder),
+ this software and associated documentation files (TotalSpaces),
  to use it under the following conditions:
 
- You may install TotalFinder to test and evaluate for 14 days. After
+ You may install TotalSpaces to test and evaluate for 14 days. After
  this test period of 14 days you must obtain a commercial license or uninstall.
 
  TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -24,16 +24,16 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
  COMMERCIAL LICENSE:
 
  Permission is hereby granted to the person (you) buying a copy of 
- this software and associated documentation files (TotalFinder),
+ this software and associated documentation files (TotalSpaces),
  to use it under the following conditions:
 
- You may install and use TotalFinder in one of these scenarios:
- 1. TotalFinder is used by one user on multiple computers exclusively
- 2. TotalFinder is used by multiple users on a single computer
+ You may install and use TotalSpaces in one of these scenarios:
+ 1. TotalSpaces is used by one user on multiple computers exclusively
+ 2. TotalSpaces is used by multiple users on a single computer
  You may freely switch between those scenarios.
 
  You may improve, modify, decompile, disassemble, otherwise reverse engineer 
- TotalFinder as long as you are doing it for good, not for evil.
+ TotalSpaces as long as you are doing it for good, not for evil.
 
  That is all you may explicitly do, but you may always do more if you ask 
  me at antonin@binaryage.com and I reply "yes" or if your local laws

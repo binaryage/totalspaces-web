@@ -1,14 +1,14 @@
 ---
-layout: sf-doc
-title: TotalFinder Documentation
+layout: ts-doc
+title: TotalSpaces Documentation
 subtitle: Documentation
 ---
 
-## TotalFinder is a Finder plugin
+## TotalSpaces provides a grid of spaces on OSX Lion
 
-<img src="/images/showcase/showcase-dual-mode.png" style="width: 760px; margin-left: -34px; margin-bottom: -10px">
+<img src="/images/grid-view.png">
 
-TotalFinder loads into Finder and improves it by adding several useful features: [tabs](/tabs), [dual panel](/dual-mode), [folders on top](/folders-on-top) and more [useful features](/tweaks).
+An easy to use 2D grid of desktops, inspired by the implementation OS X Snow Leopard. Navigate using the cursor keys, choose your transitions, and quickly access a birds eye view of your grid of spaces where you can manage your application windows.
 
 **« For more info please select a topic from the left-side menu**
 

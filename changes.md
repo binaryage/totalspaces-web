@@ -1,10 +1,8 @@
 ---
-layout: sf-doc
-title: Recent changes in TotalFinder
+layout: ts-doc
+title: Recent changes in TotalSpaces
 subtitle: Recent changes
 ---
-
-<a href="/beta-changes">Interested in pre-releases?</a>
 
 <div class="changelogx"></div>
 
