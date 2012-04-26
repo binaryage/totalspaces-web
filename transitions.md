@@ -4,12 +4,14 @@ title: TotalSpaces Transitions
 subtitle: Transitions
 ---
 
-You can select whether to use transitions, and which type and the speed they go in the Transitions preferences.
+You can select whether to use transitions - the animation that is shown when you change desktop - and which type and the speed they go in the Transitions preferences.
 
-<img src="/images/transitions-preferences.png">
+Some people prefer to turn the transitions off altogether, and this provides the fastest possible way of changing desktops.
 
-If you want the fastest possible desktop switching experience, turn transitions off.
+<img src="/images/transitions-preferences.png" class="prefs-screenshot">
 
-Most people use Slide or Cube transitions, but the Swap and Flip settings are useful too.
+If you like the transitions (and I do), I recommend you use Slide or Cube transitions. But the Swap and Flip settings are useful too - try them out!
 
-Note that there are some known issues with transitions, particularly with 'black blocking' and that occasionally the transition is not shown, see the [FAQ](/faq).
+The transitions will reinforce the impression that your desktops are in a grid, and help you to remember where each application is.
+
+Also see the [FAQ](/faq) where there is some additional information about transition animations.

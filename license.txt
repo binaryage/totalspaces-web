@@ -1,4 +1,4 @@
-TotalSpaces Copyright (c) 2010 Antonin Hildebrand (me)
+TotalSpaces Copyright (c) 2012 Stephen Sykes (me)
 
 -----------------------------------------------------------------------------
 
@@ -11,13 +11,13 @@ TotalSpaces Copyright (c) 2010 Antonin Hildebrand (me)
  You may install TotalSpaces to test and evaluate for 14 days. After
  this test period of 14 days you must obtain a commercial license or uninstall.
 
- TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ TOTALSPACES IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH TOTALFINDER OR THE USE OR OTHER DEALINGS IN
- TOTALFINDER.
+ OUT OF OR IN CONNECTION WITH TOTALSPACES OR THE USE OR OTHER DEALINGS IN
+ TOTALSPACES.
 
 -----------------------------------------------------------------------------
 
@@ -36,16 +36,16 @@ TotalSpaces Copyright (c) 2010 Antonin Hildebrand (me)
  TotalSpaces as long as you are doing it for good, not for evil.
 
  That is all you may explicitly do, but you may always do more if you ask 
- me at antonin@binaryage.com and I reply "yes" or if your local laws
+ me at sds@switchstep.com and I reply "yes" or if your local laws
  force me to allow that regardless.
 
- TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ TOTALSPACES IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH TOTALFINDER OR THE USE OR OTHER DEALINGS IN
- TOTALFINDER.
+ OUT OF OR IN CONNECTION WITH TOTALSPACES OR THE USE OR OTHER DEALINGS IN
+ TOTALSPACES.
 
 -----------------------------------------------------------------------------
 

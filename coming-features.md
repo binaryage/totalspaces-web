@@ -8,15 +8,15 @@ I take requests for features over at [GetSatisfaction](http://getsatisfaction.co
 
 ## Full screen apps
 
-Although TotalSpaces supports full screen apps as of v0.9.7, it is intended that they can participate more fully in the grid of spaces, in particular by being visualised in the select grid view, and with more options as to how they can be navigated to.
+Although TotalSpaces supports full screen apps, they could be visualised in the select grid view, and with more options as to how they can be navigated to.
 
 ## Multi monitors
 
-The select grid should show both (or all) monitors' contents, not just the main screen.
+The select grid could show both (or all) monitors' contents, not just the main screen.
 
 ## App window dragging
 
-Windows should be able to be dragged from desktop to desktop via the edges of the screen.
+Windows could be able to be dragged from desktop to desktop via the edges of the screen, both up and down as well as the existing Lion support for left and right.
 
 ## Locking apps to desktops
 
@@ -28,8 +28,8 @@ Right now the system names your desktops for you, but it's nice to name your own
 
 ## Gesture support
 
-Changing space with gestures.
+Changing desktops with gestures.
 
 ## Mountain Lion
 
-Current indications are that we will fully be able to support Mountain Lion.
+We intend to fully support Mountain Lion.

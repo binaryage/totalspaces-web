@@ -14,23 +14,23 @@ If you attempt to navigate off the edge of the grid, and you have circulation tu
 
 Note that the notification won't appear when you are going from or to a full screen app desktop, or the dashboard.
 
-You can also navigate using the "Select grid", a birds eye view of each of your desktops.
+You can also navigate using the "Overview Grid", a birds eye view of each of your desktops.
 
 <img src="/images/grid-view-8.png">
 
 The currently active desktop is highlighted with a blue border. You can either click on the desktop you wish to go to, or you can navigate using the cursor keys to move the blue border and hit enter to change to the desktop you want.
 
-You can dismiss the select grid by pressing the hotkey again, clicking outside of it, or pressing esc.
+You can dismiss the overview grid by pressing the hotkey again, clicking outside of it, or pressing esc.
 
 You can also use a hotcorner to access the select grid, this can be set up in Hotcorner preferences. Hotcorners currently look at your monitor setup, and choose the leftmost (for the left corners) or rightmost (for right corners) monitor screen to place the corners in.
 
-<img src="/images/hotcorners-preferences.png">
+<img src="/images/hotcorners-preferences.png" class="prefs-screenshot">
 
 ## Circulation
 
 Circulation allows you to join one edge of your grid to the opposite edge.
 
-<img src="/images/circulation-preferences.png">
+<img src="/images/circulation-preferences.png" class="prefs-screenshot">
 
 If you enable circulation, going left from the left side of your grid will move you to the right side, and vice-versa.
 

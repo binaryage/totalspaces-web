@@ -4,8 +4,8 @@ title: TotalSpaces app brings back grid Spaces to OS X Lion and more!
 product_title: TotalSpaces
 product_subtitle: brings back grid Spaces to OS X Lion and more!
 subtitle: brings back grid Spaces to OS X Lion and more!
-download: http://downloads.binaryage.com/TotalSpaces-1.0.mpkg.zip
-downloadtitle: Download v1.0
+download: http://downloads.binaryage.com/TotalSpaces-0.9.8.mpkg.zip
+downloadtitle: Download v0.9.8
 facebook: 1
 retweet: 1
 buzz: 1
@@ -25,8 +25,8 @@ ogmeta: {
     image: "http://totalspaces.binaryage.com/shared/img/icons/totalspaces-256.png"
 }
 shots: [{
-    title: "Dual Mode",
-    thumb: "/images/showcase/thumb-showcase-dual-mode.png",
+    title: "Overview",
+    thumb: "/images/showcase/thumb-showcase-overview-grid.png",
     full: "/images/showcase/desktop-showcase-dual-mode.png"
 },    {
     title: "Finder with tabs!",
@@ -39,36 +39,36 @@ shots: [{
     <div class="features-separator"></div>
     <div class="highlights">
         <div class="highlight" data-showcase="2">
-            <div class="highlight-icon hoverable" title="read more about Tabbed Browsing">
-                <a href="/tabs">
-                    <div class="thumb-tabs"></div>
+            <div class="highlight-icon hoverable" title="read more about the grid of desktops">
+                <a href="/layout">
+                    <div class="thumb-grid"></div>
                 </a>
             </div>
             <div class="highlight-content wf">
-                <h3>Feature 1</h3>
-                <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
+                <h3>Define your grid</h3>
+                <p>Navigate left, right, up and down between your desktops.</p>
             </div>
         </div>
         <div class="highlight" data-showcase="1">
-            <div class="highlight-icon hoverable" title="read more about Dual Mode">
-                <a href="/dual-mode">
-                    <div class="thumb-dual"></div>
+            <div class="highlight-icon hoverable" title="read more about the overview">
+                <a href="/overview">
+                    <div class="thumb-overview"></div>
                 </a>
             </div>
             <div class="highlight-content wf">
-                <h3>Feature 2</h3>
-                <p>Display two Finder windows side-by-side in dual mode.</p>
+                <h3>Manage your desktops</h3>
+                <p>Display an overview of desktops and drag windows between them.</p>
             </div>
         </div>
         <div class="highlight last" data-showcase="3">
-            <div class="highlight-icon hoverable" title="read more about Folders on Top">
-                <a href="/folders-on-top">
-                    <div class="thumb-fot"></div>
+            <div class="highlight-icon hoverable" title="read more about transitions">
+                <a href="/transitions">
+                    <div class="thumb-transitions"></div>
                 </a>
             </div>
             <div class="highlight-content wf">
-                <h3>Feature 3</h3>
-                <p>Don't make me think. Folders should always go first in list view.</p>
+                <h3>Choose transitions and more</h3>
+                <p>Fully customizable transitions and hotkeys.</p>
             </div>
         </div>
         <br class="clear"/>
