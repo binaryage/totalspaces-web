@@ -9,7 +9,7 @@ subtitle: Free licenses for TotalSpaces
 I will grant a free license to everyone who meets any of these criteria:
 
 1. **helped directly** in TotalSpaces development, or in development of its forerunners ReSpaceApp and ChangeSpace.app
-2. Anyone who has previously donated to ChangeSpace.app
+2. has previously donated to ChangeSpace.app
 3. created or significantly **contributed to an open-source project** I've used in TotalSpaces
 4. is **a public speaker** and sends me a link to his/her talk (must be recorded and publicly available on youtube or similar site)
 5. is **a Google engineer** with a valid `someone@google.com` email address<br>- this is my "thanks" for the Chrome project and great meals
