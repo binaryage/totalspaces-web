@@ -8,12 +8,13 @@ subtitle: Free licenses for TotalSpaces
 
 I will grant a free license to everyone who meets any of these criteria:
 
-1. **helped directly** in TotalSpaces development
-2. created or significantly **contributed to an open-source project** I've used in TotalSpaces
-3. is **a public speaker** and sends me a link to his/her talk (must be recorded and publicly available on youtube or similar site)
-4. is **a Google engineer** with a valid `someone@google.com` email address<br>- this is my "thanks" for the Chrome project and great meals
-5. is **an Apple employee** with a valid `someone@apple.com` email address<br>- this is my general "thank you" for making awesome products
-6. feels that he/she should get a free license for **some other reason** and convinces me
+1. **helped directly** in TotalSpaces development, or in development of its forerunners ReSpaceApp and ChangeSpace.app
+2. Anyone who has previously donated to ChangeSpace.app
+3. created or significantly **contributed to an open-source project** I've used in TotalSpaces
+4. is **a public speaker** and sends me a link to his/her talk (must be recorded and publicly available on youtube or similar site)
+5. is **a Google engineer** with a valid `someone@google.com` email address<br>- this is my "thanks" for the Chrome project and great meals
+6. is **an Apple employee** with a valid `someone@apple.com` email address<br>- this is my general "thank you" for making awesome products
+7. feels that he/she should get a free license for **some other reason** and convinces me
 
 Please [drop me an email](mailto:support@binaryage.com?subject=Free%20TotalSpaces%20license%20request) and I will send you a free license link if you meet the criteria.
 
