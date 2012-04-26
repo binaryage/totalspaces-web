@@ -25,13 +25,13 @@ ogmeta: {
     image: "http://totalspaces.binaryage.com/shared/img/icons/totalspaces-256.png"
 }
 shots: [{
-    title: "Overview",
+    title: "Overview grid",
     thumb: "/images/showcase/thumb-showcase-overview-grid.png",
-    full: "/images/showcase/desktop-showcase-dual-mode.png"
+    full: "/images/showcase/showcase-overview-grid.png"
 },    {
-    title: "Finder with tabs!",
-    thumb: "/images/showcase/thumb-showcase-tabs.png",
-    full: "/images/showcase/desktop-showcase-tabs.png"
+    title: "Customizable layouts",
+    thumb: "/images/showcase/thumb-showcase-layout-preferences.png",
+    full: "/images/showcase/showcase-layout-preferences.png"
 }]
 ---
  

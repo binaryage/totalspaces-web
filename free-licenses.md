@@ -21,7 +21,7 @@ Please [drop me an email](mailto:support@binaryage.com?subject=Free%20TotalSpace
 
 Journalists and bloggers may apply for a TotalSpaces license if they plan to review it.
 
-I love to read articles about TotalSpaces and I will be happy to [give you a NFR license](mailto:support@binaryage.com?subject=NFR%20TotalSpaces%20license%20request) in exchange.
+I love to read articles about TotalSpaces and I will be happy to [give you a NFR license](mailto:support@binaryage.com?subject=NFR%20TotalSpaces%20license%20request) in exchange, although at this point you should be aware that the software is officially beta until it has reached version 1.0.0.
 
 For your articles you may grab any graphics assets you see around. You may also browse these public github projects:
 

@@ -7,7 +7,7 @@ subtitle: Licensing TotalSpaces
 ## Trial Version
 
 <div class="license-desk">
-During the beta period, you may use TotalSpaces without charge, but you can choose to buy a license if you wish.
+During the beta period (before version 1.0.0), you may use TotalSpaces without charge, but you can choose to buy a license if you wish.
 Once version 1.0.0 is reached, you may install TotalSpaces and use it in trial mode for 14 days. Then you need to decide to buy it or uninstall it.
 </div>
 
