@@ -12,7 +12,11 @@ This shows you which desktop you came from, and which you are now on. (You can t
 
 If you attempt to navigate off the edge of the grid, and you have circulation turned off (so you cannot go that direction), then the notification will show to remind you of your current position.
 
-Note that the notification won't appear when you are going from or to a full screen app desktop, or the dashboard.
+If you have those options enabled, you can see the full screen apps and the dashboard alongside your grid, and you can navigate to these by using the direction hotkeys also.
+
+<img src="/images/navigation-notification-wide.png">
+
+But note that the notification doesn't show on the dashboard.
 
 You can also navigate using the "Overview Grid", a birds eye view of each of your desktops.
 

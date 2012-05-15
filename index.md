@@ -4,8 +4,8 @@ title: TotalSpaces app brings back grid Spaces to OS X Lion and more!
 product_title: TotalSpaces
 product_subtitle: brings back grid Spaces to OS X Lion and more!
 subtitle: brings back grid Spaces to OS X Lion and more!
-download: http://downloads.binaryage.com/TotalSpaces-0.9.8.zip
-downloadtitle: Download v0.9.8
+download: http://downloads.binaryage.com/TotalSpaces-0.9.9.pkg
+downloadtitle: Download v0.9.9
 facebook: 1
 retweet: 1
 buzz: 1
@@ -67,8 +67,42 @@ shots: [{
                 </a>
             </div>
             <div class="highlight-content wf">
-                <h3>Choose transitions and more</h3>
+                <h3>Choose your transitions</h3>
                 <p>Fully customizable transitions and hotkeys.</p>
+            </div>
+        </div>
+        <div class="highlight-separator"></div>
+        <div class="highlight" data-showcase="4">
+            <div class="highlight-icon hoverable" title="swipe between desktops">
+                <a href="/swipe">
+                    <div class="thumb-swipe"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Swipe between desktops</h3>
+                <p>Moving around your grid has never been easier</p>
+            </div>
+        </div>
+        <div class="highlight" data-showcase="5">
+            <div class="highlight-icon hoverable" title="read more about Hotcorners">
+                <a href="/hotcorners">
+                    <div class="thumb-hotcorners"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Hotcorners</h3>
+                <p>Trigger the overview grid just by moving your mouse.</p>
+            </div>
+        </div>
+        <div class="highlight last">
+            <div class="highlight-icon hoverable" title="read more about app assignments">
+              <a href="/apps">
+                <div class="thumb-app-assignments"></div>
+              </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>App assignments</h3>
+                <p>Keep your apps where you want them. Assign apps to desktops.</p>
             </div>
         </div>
         <br class="clear"/>

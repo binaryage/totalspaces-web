@@ -16,10 +16,22 @@ Ultimately we hope to solve the problem by getting an internal notification from
 
 ## How can I make a particular app stay on a particular desktop in the grid?
 
-You can do this via the control-click, or right-click / double finger click menu from the Dock.
+You can now do this from the new [Apps preferences](/apps)
 
-When bring this menu up and choose Options, you can then assign the app to This desktop.
+## Why do you only support 5 finger swiping?
 
-So navigate to the desktop you want the app to occupy, then choose This desktop from the menu.
+It turns out that the way the trackpad driver and settings work make it very difficult to prevent 3 and 4 finger swipe gestures being delivered to other apps. We found during testing that some apps (like Safari and Xcode) get these events and change state when you are trying to change desktop with 3 or 4 finger gestures. Also the behaviour of the trackpad driver was not at all consistent.
 
-In the future we hope to add management of which apps are fixed to which desktops inside TotalSpaces, but until then you can use this method.
+So in order to avoid this we presently only support 5 finger swiping. This may change in the future as we certainly would wish to support fewer fingers.
+
+## How can I uninstall TotalSpaces?
+
+Use [the uninstaller](http://downloads.binaryage.com/UninstallTotalSpaces.app.zip).
+
+TotalSpaces is a normal app that can be dragged to the Trash, except for one additional file that must be removed from /Library/ScriptingAdditions.
+
+The uninstaller will remove this file along with the app itself, as well as restarting Dock so that no trace of TotalSpaces remains in the system.
+
+## Help, I can't see the menu bar icon!
+
+There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
