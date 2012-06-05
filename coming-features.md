@@ -8,11 +8,7 @@ I take requests for features over at [GetSatisfaction](http://getsatisfaction.co
 
 ## Full screen apps
 
-Although TotalSpaces supports full screen apps, they could be visualised in the select grid view, and with more options as to how they can be navigated to.
-
-## Multi monitors
-
-The select grid could show both (or all) monitors' contents, not just the main screen.
+Although TotalSpaces supports full screen apps, they could be visualised in the overview grid view, and with more options as to how they can be navigated to.
 
 ## App window dragging
 
@@ -24,5 +20,5 @@ Right now the system names your desktops for you, but it's nice to name your own
 
 ## Mountain Lion
 
-We intend to fully support Mountain Lion. Version 0.9.9 adds experimental support. There are some known issues, including that some windows may temporarily disappear from the overview grid after exposé has been used.
+We intend to fully support Mountain Lion. Version 0.10.0 adds beta support. There may be some minor issues, please report anything you find on [GetSatisfaction](http://getsatisfaction.com/binaryage)
 

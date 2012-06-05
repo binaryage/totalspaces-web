@@ -18,11 +18,15 @@ Ultimately we hope to solve the problem by getting an internal notification from
 
 You can now do this from the new [Apps preferences](/apps)
 
-## Why do you only support 5 finger swiping?
+## How can I make a particular appear on all desktops in the grid?
+
+Control-click on the app in the dock, then choose Options and Assign to All Desktops.
+
+## Why do you recommend 5 finger swiping?
 
 It turns out that the way the trackpad driver and settings work make it very difficult to prevent 3 and 4 finger swipe gestures being delivered to other apps. We found during testing that some apps (like Safari and Xcode) get these events and change state when you are trying to change desktop with 3 or 4 finger gestures. Also the behaviour of the trackpad driver was not at all consistent.
 
-So in order to avoid this we presently only support 5 finger swiping. This may change in the future as we certainly would wish to support fewer fingers.
+So in order to avoid this we recommend 5 finger swiping. However, some people have had good results with 4 fingers, and 3 finger swiping is really the only option for the magic mouse, so you may find these settings to your taste.
 
 ## How can I uninstall TotalSpaces?
 
@@ -35,3 +39,7 @@ The uninstaller will remove this file along with the app itself, as well as rest
 ## Help, I can't see the menu bar icon!
 
 There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
+
+## Why are there no diagonal transitions?
+
+In Lion, the core graphics routines we are using do not support diagonal transitions for both diagonal axes. However, we may experiment with making our own transitions in future.

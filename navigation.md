@@ -22,11 +22,11 @@ You can also navigate using the "Overview Grid", a birds eye view of each of you
 
 <img src="/images/grid-view-8.png">
 
-The currently active desktop is highlighted with a blue border. You can either click on the desktop you wish to go to, or you can navigate using the cursor keys to move the blue border and hit enter to change to the desktop you want.
+The currently active desktop is highlighted with a light border. You can either click on the desktop you wish to go to, or you can navigate using the cursor keys to move the  border and hit enter to change to the desktop you want.
 
 You can dismiss the overview grid by pressing the hotkey again, clicking outside of it, or pressing esc.
 
-You can also use a hotcorner to access the select grid, this can be set up in Hotcorner preferences. Hotcorners currently look at your monitor setup, and choose the leftmost (for the left corners) or rightmost (for right corners) monitor screen to place the corners in.
+You can also use a hotcorner to access the overview grid, this can be set up in Hotcorner preferences. Hotcorners currently look at your monitor setup, and choose the leftmost (for the left corners) or rightmost (for right corners) monitor screen to place the corners in.
 
 <img src="/images/hotcorners-preferences.png" class="prefs-screenshot">
 
