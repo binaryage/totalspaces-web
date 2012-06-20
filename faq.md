@@ -22,12 +22,6 @@ You can now do this from the new [Apps preferences](/apps)
 
 Control-click on the app in the dock, then choose Options and Assign to All Desktops.
 
-## Why do you recommend 5 finger swiping?
-
-It turns out that the way the trackpad driver and settings work make it very difficult to prevent 3 and 4 finger swipe gestures being delivered to other apps. We found during testing that some apps (like Safari and Xcode) get these events and change state when you are trying to change desktop with 3 or 4 finger gestures. Also the behaviour of the trackpad driver was not at all consistent.
-
-So in order to avoid this we recommend 5 finger swiping. However, some people have had good results with 4 fingers, and 3 finger swiping is really the only option for the magic mouse, so you may find these settings to your taste.
-
 ## How can I uninstall TotalSpaces?
 
 Use [the uninstaller](http://downloads.binaryage.com/UninstallTotalSpaces.app.zip).
