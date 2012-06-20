@@ -13,7 +13,15 @@ You can also organise your windows by dragging them from desktop to desktop, and
 
 <img src="/images/drag-windows.png">
 
-When dragging a window from one desktop to another, you choose to have the system place the window in the same place on the new desktop (as it was in the previous desktop), or to just leave it where you dropped it. This setting is in the General preferences pane.
+If you can't see the window you need, just press the space bar, and all the windows will move to visible positions.
+
+<img src="/images/grid-exposed.png">
+
+If you click on a window it will come to the front, and the space will activate - so it's a quick way to select the window you need to work with.
+
+You can drag windows between desktops when they are exposed like this, and you can cancel this mode by pressing the space bar again.
+
+When dragging a window from one desktop to another (and they are not in exposed mode), you choose to have the system place the window in the same place on the new desktop (as it was in the previous desktop), or to just leave it where you dropped it. This setting is in the General preferences pane.
 
 <img src="/images/general-preferences.png">
 

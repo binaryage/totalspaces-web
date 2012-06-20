@@ -6,6 +6,8 @@ subtitle: Hotkeys
 
 TotalSpaces allows you to set hotkeys for going Left, Right, Up and Down in your grid of desktops, and for opening the [Overview Grid](/overview).
 
+You can also choose to use the center or 3rd button to trigger the grid if you have a 3 button mouse.
+
 <img src="/images/hotkeys-preferences.png" class="prefs-screenshot">
 
 You can click inside the hotkey recorder to change the hotkey setting.
