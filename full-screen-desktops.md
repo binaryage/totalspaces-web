@@ -15,3 +15,13 @@ So when you are on your top right desktop, you can then use your rightwards hotk
 Even if you have "Navigate right to full screen desktops" turned off, you can navigate between your full screen apps by hotkeying left and right.
 
 And hotkeying left from your leftmost full screen app will take you back to your top right desktop.
+
+## Advanced: full screen apps in the grid
+
+It is possible to have some or all of your full screen apps in the grid. This is set using the Advanced preferences.
+
+<img src="/images/advanced-preferences.png" class="prefs-screenshot">
+
+So, for instance, you may have a grid of 3x3, and choose to have one full screen app in the grid. Then you would have 8 desktops, and the full screen app would take the last (bottom right) space in the grid.
+
+Further full screen apps would appear to the right as usual.
