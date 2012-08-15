@@ -4,8 +4,8 @@ title: TotalSpaces app brings back grid Spaces to OS X Lion and more!
 product_title: TotalSpaces
 product_subtitle: brings back grid Spaces to OS X Lion and more!
 subtitle: brings back grid Spaces to OS X Lion and more!
-download: http://downloads.binaryage.com/TotalSpaces-0.10.6.zip
-downloadtitle: Download v0.10.6
+download: http://downloads.binaryage.com/TotalSpaces-0.10.8.zip
+downloadtitle: Download v0.10.8
 facebook: 1
 retweet: 1
 buzz: 1

@@ -37,3 +37,23 @@ There is an option to hide the menu bar icon, and perhaps this is turned on for 
 ## Why are there no diagonal transitions?
 
 In Lion, the core graphics routines we are using do not support diagonal transitions for both diagonal axes. However, we may experiment with making our own transitions in future.
+
+## How can I completely turn off growl notifications?
+
+Use this command at the command line:
+
+defaults write com.binaryage.TotalSpaces sendGrowlNotifications NO
+
+then restart TotalSpaces.
+
+## How can I make the transitions even faster than the slider allows?
+
+Use this command at the command line:
+
+defaults write com.binaryage.TotalSpaces transitionSpeed 110 
+
+then restart TotalSpaces. 
+
+The normal preferences slider goes to 100, but 130 is the hard limit, do not set it higher - anyway you won't even see the transitions at that speed. 
+
+Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.
