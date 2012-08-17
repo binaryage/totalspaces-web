@@ -4,9 +4,9 @@ title: TotalSpaces Swipe navigation
 subtitle: Swipe to navigate
 ---
 
-You can select in the general preferences pane to enable finger swiping on your trackpad to change desktops.
+Use the transitions preferences pane to enable finger swiping gestures on your trackpad to change desktops.
 
-<img src="/images/general-preferences.png">
+<img src="/images/transitions-preferences.png">
 
 After you have turned this on, you can use the trackpad to move between the desktops in your grid.
 
@@ -21,3 +21,5 @@ It's important to note that the system also uses three and four finger gestures,
 In most cases everything should work as expected (and TotalSpaces will override the system settings if they are set to use the same number of fingers), but if you use three finger swiping you must disable "Three finger drag" in trackpad preferences.
 
 <img src="/images/trackpad-preferences.png">
+
+Note also that if you have chosen only one row of spaces in your layout, then you can still use 3 or 4 finger vertical swipes for Mission Control / Exposé.

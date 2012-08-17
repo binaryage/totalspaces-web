@@ -15,3 +15,5 @@ If you like the transitions (and I do), I recommend you use Slide or Cube transi
 The transitions will reinforce the impression that your desktops are in a grid, and help you to remember where each application is.
 
 Also see the [FAQ](/faq) where there is some additional information about transition animations.
+
+The transitions preferences pane is also where you configure [swiping gestures](/swipe) and [using the mouse](/mouse-edges) to trigger space changes.

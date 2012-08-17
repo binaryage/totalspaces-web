@@ -50,10 +50,10 @@ then restart TotalSpaces.
 
 Use this command at the command line:
 
-defaults write com.binaryage.TotalSpaces transitionSpeed 110 
+defaults write com.binaryage.TotalSpaces transitionSpeed 115
 
 then restart TotalSpaces. 
 
-The normal preferences slider goes to 100, but 130 is the hard limit, do not set it higher - anyway you won't even see the transitions at that speed. 
+The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed. 
 
 Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.
