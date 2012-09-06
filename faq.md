@@ -4,6 +4,28 @@ title: TotalSpaces Questions
 subtitle: Questions I think you might ask
 ---
 
+## What systems will TotalSpaces run on?
+
+TotalSpaces is tested on **OSX Lion 10.7.4+**, and **OSX Mountain Lion 10.8+**, and should work on any mac that can run these operating systems.
+
+## Where is TotalSpaces?
+
+TotalSpaces runs without an icon in the Dock, but instead an icon like this should appear in your menu bar.
+
+<img src="/images/menubar-icon.png">
+
+## Help, I can't see the menu bar icon!
+
+There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
+
+## How do I assign an app to all spaces?
+
+This is possible using Apple's own app assignment menus. You access them by ctrl-clicking the icons in your Dock. Then choose Options to see the Assign to menu.
+
+<img src="/images/assign-to-menu.png">
+
+Assign to all spaces will be added to TotalSpaces preferences later.
+
 ## Why is there black blocking on the screen when you change desktop?
 
 This is because OSX is not quick enough at redrawing the screen windows and desktop.
@@ -29,10 +51,6 @@ Use [the uninstaller](http://downloads.binaryage.com/UninstallTotalSpaces.app.zi
 TotalSpaces is a normal app that can be dragged to the Trash, except for one additional file that must be removed from /Library/ScriptingAdditions.
 
 The uninstaller will remove this file along with the app itself, as well as restarting Dock so that no trace of TotalSpaces remains in the system.
-
-## Help, I can't see the menu bar icon!
-
-There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
 
 ## Why are there no diagonal transitions?
 
