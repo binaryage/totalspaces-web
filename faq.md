@@ -18,6 +18,10 @@ TotalSpaces runs without an icon in the Dock, but instead an icon like this shou
 
 There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
 
+## How can I make a particular app stay on a particular desktop in the grid?
+
+You can now do this from the new [Apps preferences](/apps)
+
 ## How do I assign an app to all spaces?
 
 This is possible using Apple's own app assignment menus. You access them by ctrl-clicking the icons in your Dock. Then choose Options to see the Assign to menu.
@@ -35,10 +39,6 @@ When you change space, in order to do the animation correctly, we freeze the scr
 We can solve this by making the delay longer, but this will make changing the desktop slower You can also of course turn animations off altogether in the preferences.
 
 Ultimately we hope to solve the problem by getting an internal notification from the system as to when the new desktop is ready so we can avoid black blocking altogether.
-
-## How can I make a particular app stay on a particular desktop in the grid?
-
-You can now do this from the new [Apps preferences](/apps)
 
 ## How can I make a particular appear on all desktops in the grid?
 
