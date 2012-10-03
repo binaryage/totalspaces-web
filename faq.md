@@ -6,7 +6,7 @@ subtitle: Questions I think you might ask
 
 ## What systems will TotalSpaces run on?
 
-TotalSpaces is tested on **OSX Lion 10.7.4+**, and **OSX Mountain Lion 10.8+**, and should work on any mac that can run these operating systems.
+TotalSpaces is tested on **OSX Lion 10.7.5**, and **OSX Mountain Lion 10.8.2**, and should work on any mac that can run these operating systems. We also try to keep compatibility with earlier versions of Lion and Mountain Lion, and we add support for new versions as soon as the betas are available.
 
 ## Where is TotalSpaces?
 
