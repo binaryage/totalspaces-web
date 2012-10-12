@@ -13,7 +13,7 @@ fbsdk: 1
 meta_title: TotalSpaces app brings back Spaces to OS X Lion and more!
 meta_keywords: totalspaces,mac,dock,spaces,respaceapp,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,binaryage
 meta_description: TotalSpaces aims to re-create the 2D 'spaces' grid functionality that was removed from OSX Lion.
-meta_image: /shared/img/icons/totalspaces-128.png
+meta_image: /base/img/icons/totalspaces-128.png
 pray: finder tabs mac, total commander mac, dock plugin
 ogmeta: {
     site_name: "BinaryAge website",
@@ -22,7 +22,7 @@ ogmeta: {
     type: "product",
     title: "TotalSpaces",
     url: "http://totalspaces.binaryage.com",
-    image: "http://totalspaces.binaryage.com/shared/img/icons/totalspaces-256.png"
+    image: "http://totalspaces.binaryage.com/base/img/icons/totalspaces-256.png"
 }
 shots: [{
     title: "Overview grid",

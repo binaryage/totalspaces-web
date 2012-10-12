@@ -37,7 +37,7 @@ Check out [this page](/free-licenses) to see if you can get a free license.
 
 ## Buying a license
 
-<img src="/shared/img/totalspaces-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
+<img src="/base/img/totalspaces-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
 
 Please visit [the store](https://sites.fastspring.com/switchstep/instant/totalspaces) where you can purchase TotalSpaces. It is easy and safe (powered by [FastSpring](http://fastspring.com)).
 
