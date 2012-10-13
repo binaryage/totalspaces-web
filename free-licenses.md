@@ -26,7 +26,7 @@ I love to read articles about TotalSpaces and I will be happy to [give you a NFR
 
 For your articles you may grab any graphics assets you see around. You may also browse these public github projects:
 
-* [http://github.com/binaryage/base/tree/master/img/](http://github.com/binaryage/base/tree/master/img/)
+* [http://github.com/binaryage/shared/tree/master/img/](http://github.com/binaryage/shared/tree/master/img/)
 * [http://github.com/binaryage/totalspaces-web/tree/gh-pages/images/](http://github.com/binaryage/totalfinder-web/tree/gh-pages/images/)
 * [http://github.com/binaryage/blog/tree/gh-pages/images/](http://github.com/binaryage/blog/tree/gh-pages/images/)
 
