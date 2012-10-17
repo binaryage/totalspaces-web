@@ -1,23 +1,23 @@
 ---
 layout: ts-home
-title: TotalSpaces app brings back grid Spaces to OS X Lion and more!
+title: TotalSpaces brings grid spaces to your Mac and more!
 product_title: TotalSpaces
-product_subtitle: brings back grid Spaces to OS X Lion and more!
-subtitle: brings back grid Spaces to OS X Lion and more!
+product_subtitle: Brings grid spaces to your Mac and more!
+subtitle: TotalSpaces brings grid spaces to your Mac and more!
 download: http://downloads.binaryage.com/TotalSpaces-0.11.4.zip
 downloadtitle: Download v0.11.4
 facebook: 1
 retweet: 1
 buzz: 1
 fbsdk: 1
-meta_title: TotalSpaces app brings back Spaces to OS X Lion and more!
+meta_title: TotalSpaces brings grid spaces to you Mac and more!
 meta_keywords: totalspaces,mac,dock,spaces,respaceapp,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,binaryage
-meta_description: TotalSpaces aims to re-create the 2D 'spaces' grid functionality that was removed from OSX Lion.
+meta_description: TotalSpaces is a desktop manager aims to re-create the classic 2D 'spaces' grid functionality on OS X Mountain Lion and Lion.
 meta_image: /shared/img/icons/totalspaces-128.png
 pray: finder tabs mac, total commander mac, dock plugin
 ogmeta: {
     site_name: "BinaryAge website",
-    description: "TotalSpaces app brings back grid Spaces to OS X Lion and more!",
+    description: "TotalSpaces brings grid spaces to you Mac and more!",
     email: "support@binaryage.com",
     type: "product",
     title: "TotalSpaces",
