@@ -12,7 +12,7 @@ You select your desired layout using the selector in the preferences panel.
 
 <img src="/images/layout-preferences.png" class="prefs-screenshot">
 
-Just click on the grid to choose any dimensions you wish. Here, I have selected 4 columns x 2 rows.
+Just click on the grid to choose any dimensions you wish. Here, I have selected 3 columns x 3 rows.
 
 Notice also that you can select to have your Dashboard to the left of your grid, and any full screen apps to the right.
 With these options turned on, you can access those desktops using the left or right hotkeys as you would any other desktops in your grid.
