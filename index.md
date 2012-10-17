@@ -2,7 +2,7 @@
 layout: ts-home
 title: TotalSpaces brings grid spaces to your Mac and more!
 product_title: TotalSpaces
-product_subtitle: Brings grid spaces to your Mac and more!
+product_subtitle: the ultimate grid spaces manager for your Mac
 subtitle: TotalSpaces brings grid spaces to your Mac and more!
 download: http://downloads.binaryage.com/TotalSpaces-0.11.4.zip
 downloadtitle: Download v0.11.4
