@@ -17,7 +17,7 @@ meta_image: /shared/img/icons/totalspaces-128.png
 pray: finder tabs mac, total commander mac, dock plugin
 ogmeta: {
     site_name: "BinaryAge website",
-    description: "TotalSpaces brings grid spaces to you Mac and more!",
+    description: "TotalSpaces brings grid spaces to your Mac and more!",
     email: "support@binaryage.com",
     type: "product",
     title: "TotalSpaces",
