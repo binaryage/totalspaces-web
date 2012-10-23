@@ -6,7 +6,7 @@ subtitle: Grid Layout
 
 Instead of having a single row of desktops, TotalSpaces lets you define a grid that you can navigate using up, down, left and right shortcuts (by default mapped to crtl-shift-cursor keys).
 
-By using this grid, you can very quickly move between the desktops you commonly use, and using a [hotkey](/hotkeys "Hotkeys") or [hot corner](/hotcorners "Hot corners") you can get a birds-eye overview of all of your desktops.
+By using this grid, you can very quickly move between the desktops you commonly use, and using a [hotkey](/hotkeys "Hotkeys") or [hot corner](/hotcorners "Hot corners") you can get a [birds-eye overview](/overview) of all of your desktops.
 
 You select your desired layout using the selector in the preferences panel.
 
@@ -33,3 +33,11 @@ If you select a layout with fewer desktops than you actually have, TotalSpaces w
 When you click on Remove desktops, the highest numbered desktops will be removed.
 
 <img src="/images/layout-preferences3.png" class="prefs-screenshot">
+
+## Naming desktops
+
+Hold down the ctrl key and click on the blue buttons to name your spaces. The names show up in the notification when you change space, in the TotalSpaces menu, and in Mission Control.
+
+<img src="/images/layout-prefs-naming.png" class="prefs-screenshot">
+
+&raquo; Next [**Overview grid**](/overview)

@@ -11,3 +11,5 @@ This might be useful if you prefer to activate the grid from you Dock, or an ico
 <img src="/images/totalspaces-grid-app.png">
 
 You can download the app [here](http://downloads.binaryage.com/TotalSpacesGrid.app.zip).
+
+&raquo; Next [**FAQ**](/faq)

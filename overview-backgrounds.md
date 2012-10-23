@@ -3,7 +3,7 @@ layout: ts-doc
 title: TotalSpaces Overview Grid Backgrounds
 subtitle: Overview Grid Backgrounds
 ---
-TotalSpaces allows you to configure the kind of backgrounds that are shown in the [overview grid](/overview). Find the setting in general preferences.
+TotalSpaces allows you to configure the kind of desktop backgrounds that are shown in the [overview grid](/overview). Find the setting in general preferences.
 
 <img src="/images/background-preferences.png">
 
@@ -14,3 +14,5 @@ In those situations it is recommended to choose either the Blurred or None setti
 Also, you may find it easier to see your windows with one of these two settings.
 
 <img src="/images/background-settings-example.png">
+
+&raquo; Next [**Navigation**](/navigation)

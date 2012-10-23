@@ -13,3 +13,5 @@ You can also choose to use the center or 3rd button to trigger the grid if you h
 You can click inside the hotkey recorder to change the hotkey setting.
 
 Some hotkey combinations are already reserved - TotalSpaces will warn you about this if it's the case, and give you the option to try to force assignment of the hotkey, as some system hotkeys are still marked as reserved by the system even when they are not being used.
+
+&raquo; Next [**Swiping**](/swipe)

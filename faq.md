@@ -8,7 +8,6 @@ subtitle: Questions and answers
 0. [Where is TotalSpaces?](#finding-totalspaces)
 0. [Help, I can't see the menu bar icon!](#menubar-icon)
 0. [How can I make a particular app stay on a particular desktop in the grid?](#app-assignments)
-0. [How do I assign an app to all spaces?](#apps-on-all-spaces)
 0. [Why is there black blocking on the screen when you change desktop?](#black-blocking)
 0. [How can I uninstall TotalSpaces?](#uninstall)
 0. [Why are there no diagonal transitions?](#diagonal-transitions)
@@ -33,15 +32,7 @@ There is an option to hide the menu bar icon, and perhaps this is turned on for 
 
 ## <a id="app-assignments"></a>How can I make a particular app stay on a particular desktop in the grid?
 
-You can now do this from the new [Apps preferences](/apps)
-
-## <a id="apps-on-all-spaces"></a>How do I assign an app to all spaces?
-
-This is possible using Apple's own app assignment menus. You access them by ctrl-clicking the icons in your Dock. Then choose Options to see the Assign to menu.
-
-<img src="/images/assign-to-menu.png">
-
-Assign to all spaces will be added to TotalSpaces preferences later.
+You can now do this from the [Apps preferences](/apps)
 
 ## <a id="black-blocking"></a>Why is there black blocking on the screen when you change desktop?
 
@@ -58,7 +49,7 @@ TotalSpaces is a normal app that can be dragged to the Trash, except for one add
 The uninstaller will remove this file along with the app itself, as well as restarting Dock so that no trace of TotalSpaces remains running in the system.
 
 Note: TotalSpaces is built on top of Mission Control. Underneath TotalSpaces, the desktops are normal OSX desktops. The uninstaller will not remove any desktops you have created whilst running TotalSpaces, you must adjust your desktops how you like them in Mission Control once you have uninstalled TotalSpaces.
-TotalSpaces does not make any changes whatsoever to the system software or to OSX - once you have uninstalled it the system will be running only the original OSX software.
+**TotalSpaces does not make any changes whatsoever to the system software or to OSX - once you have uninstalled it the system will be running only the original OSX software.**
 
 Final note: If you wish to be super-clean you can also remove the preferences files in ~/Library/Preferences/com.binaryage.TotalSpaces.plist and ~/Library/Preferences/com.binaryage.totalspacescrashwatcher.plist
 
@@ -92,7 +83,7 @@ Note that there is a small built in delay after you press the hotkey that is una
 
 ## <a id="longer-notifications"></a>How can I make the notification graphic stay on the screen longer?
 
-Starting with version 0.11.5 you will use this command at the command line:
+Starting with version 1.0 you will use this command at the command line:
 
 defaults write com.binaryage.TotalSpaces notificationDuration 1.0
 

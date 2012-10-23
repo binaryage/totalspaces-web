@@ -23,3 +23,5 @@ In most cases everything should work as expected (and TotalSpaces will override 
 <img src="/images/trackpad-preferences.png">
 
 Note also that if you have chosen only one row of spaces in your layout, then you can still use 3 or 4 finger vertical swipes for Mission Control / Exposé.
+
+&raquo; Next [**Mouse navigation**](/mouse-edges)

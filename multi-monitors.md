@@ -12,3 +12,4 @@ Here there is a grid of 3 columns x 2 rows, and the larger monitor is arranged t
 
 Because the monitor screens are shown together on your main display, you can easily drag windows between each of your monitors.
 
+&raquo; Next [**Hotkeys**](/hotkeys)

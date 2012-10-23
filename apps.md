@@ -8,8 +8,10 @@ You can assign apps to always open on a particular desktop by using the Apps pre
 
 <img src="/images/apps-preferences.png">
 
-Press the + button to open a dialog and choose the application you want to assign. Then choose the desktop you want to assign it to from the dropdown list.
+Press the + button to open a dialog and choose the application you want to assign. Then choose the desktop you want to assign it to from the dropdown list. You can also choose **All spaces** if you would like an app to appear on all desktops.
 
 These assignments allow you to choose where apps start, but note that you may still move windows from desktop to desktop - for instance by dragging them in the [Overview Grid](/overview "Overview grid").
 
 You can delete an app assignment by highlighting it and pressing the - (minus) button.
+
+&raquo; Next [**Full screen desktops**](/full-screen-desktops)
