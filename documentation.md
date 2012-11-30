@@ -8,7 +8,7 @@ subtitle: Documentation
 
 <img src="/images/grid-view.png">
 
-An easy to use 2D grid of desktops. Navigate using the cursor keys, choose your [transitions](/transitions), and quickly access a [birds eye view](/overview) of your grid of spaces where you can manage your application windows. You can even give your spaces names.
+An easy to use 2D grid of desktops. Navigate using the cursor keys (by default together with SHIFT-ALT), choose your [transitions](/transitions), and quickly access a [birds eye view](/overview) of your grid of spaces where you can manage your application windows. You can even give your spaces names.
 
 Having a grid of spaces allows you to keep a mental picture of where each of your applications is, and to navigate easily and quickly between them.
 
