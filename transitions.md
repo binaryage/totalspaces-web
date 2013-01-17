@@ -10,7 +10,7 @@ Some people prefer to turn the transitions off altogether, and this provides the
 
 <img src="/images/transitions-preferences.png" class="prefs-screenshot">
 
-If you like the transitions (and I do), I recommend you use Slide or Cube transitions. But the Swap and Flip settings are useful too - try them out!
+If you like the transitions (and I do), I recommend you use Slide or Cube transitions. But the Reveal, Fade, Swap and Flip settings are useful too - try them out!
 
 The transitions will reinforce the impression that your desktops are in a grid, and help you to remember where each application is.
 

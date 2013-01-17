@@ -34,9 +34,9 @@ When you click on Remove desktops, the highest numbered desktops will be removed
 
 <img src="/images/layout-preferences3.png" class="prefs-screenshot">
 
-## Naming desktops
+## Naming desktops and direct hotkeys
 
-Hold down the ctrl key and click on the blue buttons to name your spaces. The names show up in the notification when you change space, in the TotalSpaces menu, and in Mission Control.
+Hold down the ctrl key and click on the blue buttons to name your spaces, and to set a hotkey. The names show up in the notification when you change space, in the TotalSpaces menu, and in Mission Control.
 
 <img src="/images/layout-prefs-naming.png" class="prefs-screenshot">
 

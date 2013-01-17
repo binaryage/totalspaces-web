@@ -17,6 +17,8 @@ You can also organise your windows by dragging them from desktop to desktop, and
 
 <img src="/images/drag-windows.png">
 
+## Exposing all the windows
+
 If you can't see the window you need, just press the space bar, and all the windows will move to visible positions.  You can [set a hotcorner](/hotcorners) for this too.
 
 <img src="/images/grid-exposed.png">

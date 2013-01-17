@@ -14,7 +14,7 @@ subtitle: Questions and answers
 0. [How can I turn on growl notifications?](#growl-notifications)
 0. [How can I make the transitions even faster than the slider allows?](#faster-transitions)
 0. [How can I make the notification graphic stay on the screen longer?](#longer-notifications)
-
+0. [How can I adjust the mouse-at-edge switch timing?](#mouse-edge-timings)
 
 ## <a id="system-requirements"></a>What systems will TotalSpaces run on?
 
@@ -61,7 +61,7 @@ In Lion, the core graphics routines we are using do not support diagonal transit
 
 Use this command at the command line:
 
-defaults write com.binaryage.TotalSpaces sendGrowlNotifications YES
+<code>defaults write com.binaryage.TotalSpaces sendGrowlNotifications YES</code>
 
 then restart TotalSpaces.
 
@@ -73,7 +73,7 @@ There are two types of notification, one on space change, and one on circulation
 
 Use this command at the command line:
 
-defaults write com.binaryage.TotalSpaces transitionSpeed 115
+<code>defaults write com.binaryage.TotalSpaces transitionSpeed 115</code>
 
 then restart TotalSpaces. 
 
@@ -85,8 +85,28 @@ Note that there is a small built in delay after you press the hotkey that is una
 
 Starting with version 1.0 you will use this command at the command line:
 
-defaults write com.binaryage.TotalSpaces notificationDuration 1.0
+<code>defaults write com.binaryage.TotalSpaces notificationDuration 1.0</code>
 
 then restart TotalSpaces. 
 
 The value is in seconds, and should be between 0.25 and 3.0. The default value is 0.85.
+
+## <a id="mouse-edge-timings"></a>How can I adjust the mouse-at-edge switch timing?
+
+Starting with version 1.1 you can adjust the dwell and repeat period for triggering [space changes by bringing your mouse to the edge of the screen](/mouse-edges).
+
+Here are the settings:
+
+<code>defaults write com.binaryage.TotalSpaces sideSwitchDelay 1.5</code>
+
+The range is 0.1 - 3.5, the default is 1.1 seconds.
+
+<code>defaults write com.binaryage.TotalSpaces sideSwitchDelayWithModkeys 0.5</code>
+
+The range is 0.1 - 3.5, the default is 0.3 seconds.
+
+<code>defaults write com.binaryage.TotalSpaces sideSwitchRepeatDelay 1.2</code>
+
+The range is 0.5 - 3.5, the default is 1.0 seconds.
+
+Don't forget to restart TotalSpaces after you have changed these settings.
