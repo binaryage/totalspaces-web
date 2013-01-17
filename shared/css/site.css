@@ -812,8 +812,10 @@ html.support #main *{width:100%;height:100%}
 #main-about .about-blog{font-weight:bold;margin-bottom:26px;margin-top:4px}
 #main-about .about-blog img{vertical-align:middle;border:0;position:relative;top:-1px}
 #main-about .about-side{text-align:right;position:relative}
-#main-about .about-side-photo{position:relative;height:480px}
-#main-about .about-side-photo img{display:block;position:absolute;right:0}
+#main-about .about-side-photo{position:relative;height:280px}
+#main-about .about-side-photo-stephen{position:relative;top:0}
+#main-about .about-side-photo img{display:block;position:absolute;right:0;height:280px}
+#main-about .about-side-photo-stephen img{height:240px}
 #page-store-template .topbar-testimonials{display:none !important}
 #store-variation-selection-body{width:300px !important}
 #main-store .container{text-align:center}
@@ -924,15 +926,15 @@ html.support #main *{width:100%;height:100%}
 #content-totalfinder .highlights .highlight .highlight-icon{float:left;margin-right:20px;padding:2px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;border-radius:5px;background-color:#fff;display:block;-webkit-transition:all .5s ease 0;-moz-transition:all .5s ease 0;-o-transition:all .5s ease 0;transition:all .5s ease 0;border:1px solid #ccc;opacity:.7;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);}
 #content-totalfinder .highlights .highlight .highlight-icon.hoverable:hover{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);border-color:#0f56b3}
 #content-totalfinder .highlights .highlight .highlight-icon div{width:60px;height:60px}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-tabs{background-image:url("http://static.binaryage.com/9901c3a1_images_thumb-tabs.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-dual{background-image:url("http://static.binaryage.com/b3feb0da_images_thumb-dual.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-fot{background-image:url("http://static.binaryage.com/cc8d5b4e_images_thumb-fot.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-ssf{background-image:url("http://static.binaryage.com/b20c5d0f_images_thumb-ssf.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-visor{background-image:url("http://static.binaryage.com/5507a48f_images_thumb-visor.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-asepsis{background-image:url("http://static.binaryage.com/9faf372a_images_thumb-asepsis.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("http://static.binaryage.com/00316c81_images_thumb-stabs.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-cut{background-image:url("http://static.binaryage.com/8adf69e8_images_thumb-cut.png")}
-#content-totalfinder .highlights .highlight .highlight-icon .thumb-term{background-image:url("http://static.binaryage.com/13770bbc_images_thumb-term.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-tabs{background-image:url("/images/thumb-tabs.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-dual{background-image:url("/images/thumb-dual.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-fot{background-image:url("/images/thumb-fot.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-ssf{background-image:url("/images/thumb-ssf.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-visor{background-image:url("/images/thumb-visor.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-asepsis{background-image:url("/images/thumb-asepsis.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("/images/thumb-stabs.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-cut{background-image:url("/images/thumb-cut.png")}
+#content-totalfinder .highlights .highlight .highlight-icon .thumb-term{background-image:url("/images/thumb-term.png")}
 #content-totalfinder .highlights .highlight .highlight-content h3{margin:0;margin-top:6px;margin-bottom:6px;font:bold 14px 'Play',arial,serif;color:#393d44;text-shadow:#fff 0 1px 1px;line-height:15px}
 #content-totalfinder .highlights .highlight .highlight-content p{margin:0;font:12px 'Play',arial,serif;color:#8d9198;text-shadow:#fff 0 1px 1px;line-height:17px}
 #content-totalfinder .highlights .highlight-separator{clear:both;height:30px}
@@ -969,9 +971,9 @@ html.support #main *{width:100%;height:100%}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-swipe{background-image:url("http://static.binaryage.com/094e0537_images_thumb-swipe.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-hotcorners{background-image:url("http://static.binaryage.com/311aab42_images_thumb-hotcorners.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-app-assignments{background-image:url("http://static.binaryage.com/85e0d9d2_images_thumb-app-assignments.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("http://static.binaryage.com/00316c81_images_thumb-stabs.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-cut{background-image:url("http://static.binaryage.com/8adf69e8_images_thumb-cut.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-term{background-image:url("http://static.binaryage.com/13770bbc_images_thumb-term.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("/images/thumb-stabs.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-cut{background-image:url("/images/thumb-cut.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-term{background-image:url("/images/thumb-term.png")}
 #content-totalspaces .highlights .highlight .highlight-content h3{margin:0;margin-top:6px;margin-bottom:6px;font:bold 14px 'Play',arial,serif;color:#393d44;text-shadow:#fff 0 1px 1px;line-height:15px}
 #content-totalspaces .highlights .highlight .highlight-content p{margin:0;font:12px 'Play',arial,serif;color:#8d9198;text-shadow:#fff 0 1px 1px;line-height:17px}
 #content-totalspaces .highlights .highlight-separator{clear:both;height:30px}

@@ -14,9 +14,9 @@
       setTimeout(function(){$("html").addClass("wf-fake-active")},2e3)
     </script>
     <style type="text/css">
-      .js .wf{opacity:0!important;filter:alpha(opacity=0)!important;-webkit-transition:opacity .5s ease 0s;-moz-transition:opacity .5s ease 0s;-o-transition:opacity .5s ease 0s;transition:opacity .5s ease 0s}.wf-active .wf,.wf-fake-active .wf{opacity:1!important;filter:alpha(opacity=100)!important}
+      .js .wf{opacity:0!important;filter:alpha(opacity=0)!important;-webkit-transition:opacity .5s ease 0s;-moz-transition:opacity .5s ease 0s;-o-transition:opacity .5s ease 0s;transition:opacity .5s ease 0s;font-smoothing:antialiased;-webkit-font-smoothing:antialiased}.wf-active .wf,.wf-fake-active .wf{opacity:1!important;filter:alpha(opacity=100)!important}
     </style>
-    <link rel="stylesheet" href="http://static.binaryage.com/cf095a8a_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="http://static.binaryage.com/4ea8cacb_shared_css_site.css" type="text/css"/>
     <script type="text/javascript" charset="utf-8">
       /*
       CSS Browser Selector v0.4.0 (Nov 02, 2010)
@@ -140,6 +140,7 @@
                 <li><a href="#growl-notifications">How can I turn on growl notifications?</a></li>
                 <li><a href="#faster-transitions">How can I make the transitions even faster than the slider allows?</a></li>
                 <li><a href="#longer-notifications">How can I make the notification graphic stay on the screen longer?</a></li>
+                <li><a href="#mouse-edge-timings">How can I adjust the mouse-at-edge switch timing?</a></li>
               </ol>
               <h2><a id="system-requirements"></a>What systems will TotalSpaces run on?</h2>
               <p>TotalSpaces is tested on <strong>OSX Lion 10.7.5</strong>, and <strong>OSX Mountain Lion 10.8.2</strong>, and should work on any mac that can run these operating systems. We also try to keep compatibility with earlier versions of Lion and Mountain Lion, and we add support for new versions as soon as the betas are available.</p>
@@ -164,21 +165,31 @@
               <p>In Lion, the core graphics routines we are using do not support diagonal transitions for both diagonal axes. However, we may experiment with making our own transitions in future.</p>
               <h2><a id="growl-notifications"></a>How can I turn on growl notifications?</h2>
               <p>Use this command at the command line:</p>
-              <p>defaults write com.binaryage.TotalSpaces sendGrowlNotifications YES</p>
+              <p><code>defaults write com.binaryage.TotalSpaces sendGrowlNotifications YES</code></p>
               <p>then restart TotalSpaces.</p>
               <p>Note that once you have turned on the notifications, then you can fully control them with the Growl app.</p>
               <p>There are two types of notification, one on space change, and one on circulation. They may be useful to play sound effects while navigating your grid.</p>
               <h2><a id="faster-transitions"></a>How can I make the transitions even faster than the slider allows?</h2>
               <p>Use this command at the command line:</p>
-              <p>defaults write com.binaryage.TotalSpaces transitionSpeed 115</p>
+              <p><code>defaults write com.binaryage.TotalSpaces transitionSpeed 115</code></p>
               <p>then restart TotalSpaces.</p>
               <p>The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed.</p>
               <p>Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.</p>
               <h2><a id="longer-notifications"></a>How can I make the notification graphic stay on the screen longer?</h2>
               <p>Starting with version 1.0 you will use this command at the command line:</p>
-              <p>defaults write com.binaryage.TotalSpaces notificationDuration 1.0</p>
+              <p><code>defaults write com.binaryage.TotalSpaces notificationDuration 1.0</code></p>
               <p>then restart TotalSpaces.</p>
               <p>The value is in seconds, and should be between 0.25 and 3.0. The default value is 0.85.</p>
+              <h2><a id="mouse-edge-timings"></a>How can I adjust the mouse-at-edge switch timing?</h2>
+              <p>Starting with version 1.1 you can adjust the dwell and repeat period for triggering <a href="/mouse-edges">space changes by bringing your mouse to the edge of the screen</a>.</p>
+              <p>Here are the settings:</p>
+              <p><code>defaults write com.binaryage.TotalSpaces sideSwitchDelay 1.5</code></p>
+              <p>The range is 0.1 - 3.5, the default is 1.1 seconds.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces sideSwitchDelayWithModkeys 0.5</code></p>
+              <p>The range is 0.1 - 3.5, the default is 0.3 seconds.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces sideSwitchRepeatDelay 1.2</code></p>
+              <p>The range is 0.5 - 3.5, the default is 1.0 seconds.</p>
+              <p>Don't forget to restart TotalSpaces after you have changed these settings.</p>
             </div>
           </div>
         </div>
