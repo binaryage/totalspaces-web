@@ -14,4 +14,11 @@ These assignments allow you to choose where apps start, but note that you may st
 
 You can delete an app assignment by highlighting it and pressing the - (minus) button.
 
+## Adding Finder
+
+Finder is not in the normal Applications folder. In order to add it you should navigate to /System/Library/CoreServices/Finder
+
+<img src="/images/apps-prefs-finder.png">
+
+
 &raquo; Next [**Full screen desktops**](/full-screen-desktops)

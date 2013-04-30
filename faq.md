@@ -15,10 +15,11 @@ subtitle: Questions and answers
 0. [How can I make the transitions even faster than the slider allows?](#faster-transitions)
 0. [How can I make the notification graphic stay on the screen longer?](#longer-notifications)
 0. [How can I adjust the mouse-at-edge switch timing?](#mouse-edge-timings)
+0. [How can I change window positioning when dragging windows in the overview grid](#place-window-as-dropped)
 
 ## <a id="system-requirements"></a>What systems will TotalSpaces run on?
 
-TotalSpaces is tested on **OSX Lion 10.7.5**, and **OSX Mountain Lion 10.8.2**, and should work on any mac that can run these operating systems. We also try to keep compatibility with earlier versions of Lion and Mountain Lion, and we add support for new versions as soon as the betas are available.
+TotalSpaces is tested on **OSX Lion 10.7.5**, and **OSX Mountain Lion 10.8.3**, and should work on any mac that can run these operating systems. We also try to keep compatibility with earlier versions of Lion and Mountain Lion, and we add support for new versions as soon as the betas are available.
 
 ## <a id="finding-totalspaces"></a>Where is TotalSpaces?
 
@@ -36,7 +37,7 @@ You can now do this from the [Apps preferences](/apps)
 
 ## <a id="black-blocking"></a>Why is there black blocking on the screen when you change desktop?
 
-Sometimes you see these blocks because OSX is not quick enough at redrawing the screen windows and desktop. We do hope to find a fix for this minor problem.
+Sometimes with OSX Lion you see these blocks because the system is not quick enough at redrawing the screen windows and desktop. We do hope to find a fix for this minor problem.
 
 Note that it doesn't happen if you have transitions turned off.
 
@@ -67,7 +68,7 @@ then restart TotalSpaces.
 
 Note that once you have turned on the notifications, then you can fully control them with the Growl app.
 
-There are two types of notification, one on space change, and one on circulation. They may be useful to play sound effects while navigating your grid.
+There are three types of notification, one on space change, one on circulation, and one for when you asked to change space but you were at the edge of the grid (and circulation was turned off). They may be useful to play sound effects while navigating your grid.
 
 ## <a id="faster-transitions"></a>How can I make the transitions even faster than the slider allows?
 
@@ -99,14 +100,22 @@ Here are the settings:
 
 <code>defaults write com.binaryage.TotalSpaces sideSwitchDelay 1.5</code>
 
-The range is 0.1 - 3.5, the default is 1.1 seconds.
+The range is 0.1 - 20.0, the default is 1.1 seconds. This setting also affects how quickly you can drag windows from desktop to desktop.
 
 <code>defaults write com.binaryage.TotalSpaces sideSwitchDelayWithModkeys 0.5</code>
 
-The range is 0.1 - 3.5, the default is 0.3 seconds.
+The range is 0.01 - 20.0, the default is 0.3 seconds.
 
 <code>defaults write com.binaryage.TotalSpaces sideSwitchRepeatDelay 1.2</code>
 
 The range is 0.5 - 3.5, the default is 1.0 seconds.
 
 Don't forget to restart TotalSpaces after you have changed these settings.
+
+## <a id="place-window-as-dropped"></a>How can I change window positioning when dragging windows in the overview grid
+
+Normally windows stay where you drop them in the overview grid, but pressing the ALT (option) key whilst dragging will cause the windows to retain their original position, so will be positioned as they were in the space the window came from.
+
+You can swap this behaviour so that keeping the position is the default, and pressing the ALT key will allow the to be dropped in an exact position by using this commend, then restarting TotalSpaces.
+
+<code>defaults write com.binaryage.TotalSpaces placeWindowsAsDroppedByDefault NO</code>

@@ -22,7 +22,7 @@ If you have those options enabled, you can see the full screen apps and the dash
 
 But note that the notification doesn't show on the dashboard.
 
-You can also navigate using the "Overview Grid", a birds eye view of each of your desktops.
+You can also navigate using the [Overview Grid](/overview), a birds eye view of each of your desktops.
 
 <img src="/images/grid-view-6.png">
 
