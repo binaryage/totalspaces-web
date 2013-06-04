@@ -21,7 +21,8 @@ subtitle: Credits
 * <a href="http://github.com/glebd/cocoafob">**CocoaFob**</a> by PixelEspresso
 * <a href="http://wafflesoftware.net/shortcut">**ShortcutRecorder**</a> by Waffle Software
 * <a href="https://github.com/davedelong/DDHotKey">**DDHotKey**</a> by Dave Delong
-
+* <a href="https://gist.github.com/rjw57/5495406">**CGSPrivate**</a> by Richard J Wareham
+* <a href="https://github.com/Smartling/ios-i18n">**Smartling.i18n.framework**</a> by Smartling, Inc.
 
 ## Thank you!
 
