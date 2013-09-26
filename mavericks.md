@@ -10,7 +10,7 @@ subtitle: Compatibility with OS X 10.9 (Mavericks)
 
 It won't be exactly the same, there are too many changes under the hood (and on the surface) in Mavericks. But it will be just as good, and you will still be able to enjoy your grid-based workflows.
 
-For those who have installed the Mavericks pre-release you can find [**the beta here**](/changes2ts)
+For those who have installed the Mavericks pre-release you can find [**the beta here**](/changes2)
 
 Please note, if you do install this that it's beta software. We use it every day on our development machines, so it should certainly be usable, but
 please report any bugs or problems to support@binarage.com
