@@ -13,6 +13,6 @@ It won't be exactly the same, there are too many changes under the hood (and on 
 For those who have installed the Mavericks pre-release you can find [**the beta here**](/changes2)
 
 Please note, if you do install this that it's beta software. We use it every day on our development machines, so it should certainly be usable, but
-please report any bugs or problems to support@binarage.com
+please report any bugs or problems to support@binaryage.com
 
 Finally, although we don't expect it, if the overview grid gets stuck and won't dismiss then putting your computer briefly to sleep with the power button should clear it. Please do let us know if this ever happens.
