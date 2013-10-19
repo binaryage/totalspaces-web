@@ -1,5 +1,5 @@
 ---
-layout: ts-doc
+layout: ts2-doc
 title: Recent changes in TotalSpaces2
 subtitle: Recent changes
 ---
