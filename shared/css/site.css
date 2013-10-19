@@ -955,7 +955,11 @@ div#gsfn_list_widget span.time{color:#999;margin-left:3px}
 .webkit #content-totalfinder .more-info .product-button-changes .trial-note,.gecko #content-totalfinder .more-info .product-button-changes .trial-note,.opera #content-totalfinder .more-info .product-button-changes .trial-note{display:block}
 #product-totalspaces .screenshot-box img{position:absolute;left:-24px;max-width:none}
 #product-totalspaces .screenshot-box .zoom-icon{position:absolute;top:40%;left:42%}
-#content-totalspaces{margin-top:100px;position:relative;}
+#ts2-notice{margin-top:30px;position:relative;font-size:20px}
+.upgrade-input{width:590px;height:30px;border:1px solid #999;padding:5px;font-size:24px}
+.upgrade-form{margin-top:-20px}
+.upgrade-submit{width:100px;font-size:24px}
+#content-totalspaces{margin-top:60px;position:relative;}
 #content-totalspaces .social-box{position:absolute;left:662px;top:260px}
 #content-totalspaces .features-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -430px !important;width:950px;height:30px;display:block;position:absolute;position:relative;}
 #content-totalspaces .highlights{margin-top:0;}
@@ -965,8 +969,10 @@ div#gsfn_list_widget span.time{color:#999;margin-left:3px}
 #content-totalspaces .highlights .highlight .highlight-icon.hoverable:hover{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);border-color:#0f56b3}
 #content-totalspaces .highlights .highlight .highlight-icon div{width:60px;height:60px}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-grid{background-image:url("http://static.binaryage.com/8bf907bb_images_thumb-grid.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-grid2{background-image:url("http://static.binaryage.com/f5428c94_images_thumb-grid2.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-overview{background-image:url("http://static.binaryage.com/472c1154_images_thumb-overview.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-transitions{background-image:url("http://static.binaryage.com/e513de6a_images_thumb-transitions.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-transitions2{background-image:url("http://static.binaryage.com/2079797f_images_thumb-transitions2.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-swipe{background-image:url("http://static.binaryage.com/094e0537_images_thumb-swipe.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-hotcorners{background-image:url("http://static.binaryage.com/311aab42_images_thumb-hotcorners.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-app-assignments{background-image:url("http://static.binaryage.com/85e0d9d2_images_thumb-app-assignments.png")}
