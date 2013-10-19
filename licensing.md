@@ -43,9 +43,10 @@ Please visit [the store](https://sites.fastspring.com/switchstep/instant/totalsp
 
 ## TotalSpaces updates
 
-When you buy a license you may freely update to all TotalSpaces versions within one major OS release. For example by buying TotalSpaces today you will get free updates for all versions compatible with Lion (OS X 10.7).  If there are not large changes to the operating system to prevent it, TotalSpaces will be updated to support Mountain Lion and the update will be free of charge.
+When you buy a license you may freely update to all TotalSpaces versions within one major OS release. For example by buying TotalSpaces you will get free updates for all versions compatible with Mountain Lion (OS X 10.8). 
 
-A new major OS release (after OS X Mountain Lion) may require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
+Buying TotalSpaces today also entitles you to a free upgrade for TotalSpaces2 for OSX Mavericks. And users who bought TotalSpaces before 10th June 2013 can upgrade to TotalSpaces2 for Mavericks for 60% of the new user price.
+
 
 ## TotalSpaces and your privacy
 
@@ -58,7 +59,7 @@ There are two cases in which TotalSpaces optionally sends data over the network:
 
 ## TotalSpaces reliability
 
-I have tested TotalSpaces with my system and I did my best to make it bug-free and stable. However it may still contain undiscovered bugs or issues.
+We have tested TotalSpaces with our systems and we did our best to make it bug-free and stable. However it may still contain undiscovered bugs or issues.
 
 <div class="license-warning">
 Also please note that I'm not in control of what Apple does with the operating system in the future. Although unlikely, it may happen that some future update makes it impossible for me to adapt TotalSpaces or some of its functionality to a new operating system version. By using this software you accept this risk.
