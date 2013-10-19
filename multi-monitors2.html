@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <title>Multi-monitors</title>
+    <link rel="canonical" href="http://totalspaces.binaryage.com/multi-monitors2"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <script type="text/javascript" charset="utf-8">
+      // give the custom font some time to load, otherwise enable simple font visibility
+      setTimeout(function(){$("html").addClass("wf-fake-active")},2e3)
+    </script>
+    <style type="text/css">
+      .js .wf{opacity:0!important;filter:alpha(opacity=0)!important;-webkit-transition:opacity .5s ease 0s;-moz-transition:opacity .5s ease 0s;-o-transition:opacity .5s ease 0s;transition:opacity .5s ease 0s;font-smoothing:antialiased;-webkit-font-smoothing:antialiased}.wf-active .wf,.wf-fake-active .wf{opacity:1!important;filter:alpha(opacity=100)!important}
+    </style>
+    <link rel="stylesheet" href="http://static.binaryage.com/0f8ac9e2_shared_css_site.css" type="text/css"/>
+    <script type="text/javascript" charset="utf-8">
+      /*
+      CSS Browser Selector v0.4.0 (Nov 02, 2010)
+      Rafael Lima (http://rafael.adm.br)
+      http://rafael.adm.br/css_browser_selector
+      License: http://creativecommons.org/licenses/by/2.5/
+      Contributors: http://rafael.adm.br/css_browser_selector#contributors
+      */
+      function css_browser_selector(e){var t=e.toLowerCase(),n=function(e){return t.indexOf(e)>-1},r="gecko",i="webkit",s="safari",o="opera",u="mobile",a=document.documentElement,f=[!/opera|webtv/i.test(t)&&/msie\s(\d)/.test(t)?"ie ie"+RegExp.$1:n("firefox/2")?r+" ff2":n("firefox/3.5")?r+" ff3 ff3_5":n("firefox/3.6")?r+" ff3 ff3_6":n("firefox/3")?r+" ff3":n("gecko/")?r:n("opera")?o+(/version\/(\d+)/.test(t)?" "+o+RegExp.$1:/opera(\s|\/)(\d+)/.test(t)?" "+o+RegExp.$2:""):n("konqueror")?"konqueror":n("blackberry")?u+" blackberry":n("android")?u+" android":n("chrome")?i+" chrome":n("iron")?i+" iron":n("applewebkit/")?i+" "+s+(/version\/(\d+)/.test(t)?" "+s+RegExp.$1:""):n("mozilla/")?r:"",n("j2me")?u+" j2me":n("iphone")?u+" iphone":n("ipod")?u+" ipod":n("ipad")?u+" ipad":n("mac")?"mac":n("darwin")?"mac":n("webtv")?"webtv":n("win")?"win"+(n("windows nt 6.0")?" vista":""):n("freebsd")?"freebsd":n("x11")||n("linux")?"linux":"","js"];c=f.join(" ");a.className+=" "+c;return c}css_browser_selector(navigator.userAgent)
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      if(!window.console){window.console={};function fn(){opera.postError(arguments)}["log","debug","info","warn","error","assert","dir","dirxml","group","groupEnd","time","timeEnd","count","trace","profile","profileEnd"].forEach(function(o){window.console[o]=fn})}!function(){var o=["log","debug","info","warn","error","assert","dir","dirxml","group","groupEnd","time","timeEnd","count","trace","profile","profileEnd"];if(!window.console){window.console={}}for(var n in o){window.console[o[n]]=window.console[o[n]]||function(){return}}}()
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      // https://github.com/carhartl/jquery-cookie
+      function bacookie(e,t,n){if(arguments.length>1&&String(t)!=="[object Object]"){n=n||{};if(t===null||t===undefined){n.expires=-1}if(typeof n.expires==="number"){var r=n.expires,i=n.expires=new Date;i.setDate(i.getDate()+r)}t=String(t);return document.cookie=[encodeURIComponent(e),"=",n.raw?t:encodeURIComponent(t),n.expires?"; expires="+n.expires.toUTCString():"",n.path?"; path="+n.path:"",n.domain?"; domain="+n.domain:"",n.secure?"; secure":""].join("")}n=t||{};var s,o=n.raw?function(e){return e}:decodeURIComponent;return(s=(new RegExp("(?:^|; )"+encodeURIComponent(e)+"=([^;]*)")).exec(document.cookie))?o(s[1]):null}
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      function parseUri(r){var e=parseUri.options,o=e.parser[e.strictMode?"strict":"loose"].exec(r),s={},t=14;while(t--)s[e.key[t]]=o[t]||"";s[e.q.name]={};s[e.key[12]].replace(e.q.parser,function(r,o,t){if(o)s[e.q.name][o]=t});return s}parseUri.options={strictMode:false,key:["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],q:{name:"queryKey",parser:/(?:^|&)([^&=]*)=?([^&]*)/g},parser:{strict:/^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,loose:/^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/}}
+    </script>
+    <script type="text/javascript">
+      WebFontConfig={google:{families:["Play:regular,bold"]}};!function(){var t=document.createElement("script");t.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";t.type="text/javascript";t.async="true";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}()
+    </script>
+    <script src="http://static.binaryage.com/c0e8173f_shared_js_code.js"></script>
+    <script type="text/javascript">
+      var _gaq=_gaq||[]
+    </script>
+    <script type="text/javascript">
+      _gaq.push(["_setAccount","UA-8404259-1"]);_gaq.push(["_addIgnoredRef",".binaryage.com"]);_gaq.push(["_setDomainName",".binaryage.com"]);_gaq.push(["_setAllowLinker",true]);_gaq.push(["_setAllowHash",false]);_gaq.push(["_trackPageview"]);!function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()
+    </script>
+  </head>
+  <body id="page-totalspaces-multi-monitors2">
+    <div id="topbar">
+      <div class="container topbar">
+        <div class="topbar-buttons">
+          <div class="topbar-labs wf">
+            labs
+          </div>
+          <div class="topbar-testimonials wf">
+            testimonials
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header" class="menu-products">
+      <div class="container header">
+        <a href="http://www.binaryage.com" title="BinaryAge Software">
+          <div class="header-logo">
+            <div class="header-logo-hover"></div>
+          </div>
+        </a>
+        <div class="header-motto arrow"></div>
+        <div class="header-selector"></div>
+        <ul class="header-menu">
+          <li class="menu-item-store wf"><a href="http://www.binaryage.com/store"><span>store</span></a></li>
+          <li class="menu-item-products wf"><a href="http://www.binaryage.com"><span>products</span></a></li>
+          <li class="menu-item-blog wf"><a href="http://blog.binaryage.com"><span>blog</span></a></li>
+          <li class="menu-item-hints wf"><a href="http://hints.binaryage.com"><span>hints</span></a></li>
+          <li class="menu-item-support wf"><a href="http://discuss.binaryage.com"><span>support</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="wf">
+        <div class="doc-content">
+          <div class="container">
+            <div class="sidebar">
+              <div class="header-sidebar">
+                <div class="back"><a class="back-button" href="/index2">« Back to Homepage</a></div>
+                <div class="hseparator"></div>
+              </div>
+              <h2>Release notes</h2>
+              <ul>
+                <li><a href="/changes2">Latest changes</a></li>
+              </ul>
+              <h2>About TotalSpaces2</h2>
+              <ul>
+                <li><a href="/documentation2">What is TotalSpaces2</a></li>
+                <li><a href="/layout2">Grid Layout</a></li>
+                <li><a href="/overview2">Overview grid</a></li>
+                <li><a href="/overview-backgrounds2">Overview grid backgrounds</a></li>
+                <li><a href="/navigation2">Navigation</a></li>
+                <li><a href="/multi-monitors2">Multi-monitors</a></li>
+                <li><a href="/hotkeys2">Hotkeys</a></li>
+                <li><a href="/swipe2">Swiping</a></li>
+                <li><a href="/mouse-edges2">Mouse navigation</a></li>
+                <li><a href="/transitions2">Transitions</a></li>
+                <li><a href="/hotcorners2">Hot corners</a></li>
+                <li><a href="/apps2">App assignments</a></li>
+                <li><a href="/full-screen-desktops2">Full screen desktops</a></li>
+                <li><a href="/overview-grid-app2">Overview grid app</a></li>
+                <li><a href="/faq2">FAQ</a></li>
+              </ul>
+              <h2>Articles</h2>
+              <ul>
+                <li><a href="/differences2">Differences from TotalSpaces</a></li>
+              </ul>
+              <h2>Licenses</h2>
+              <ul>
+                <li><a href="/upgrade">Upgrading your licence</a></li>
+                <li><a href="/licensing2">Licensing</a></li>
+                <li><a href="/registration2">Registration</a></li>
+              </ul>
+              <div class="vseparator-top"></div>
+              <div class="vseparator-body"></div>
+              <div class="vseparator-bottom"></div>
+            </div>
+            <div class="page-content doc-page">
+              <div class="header-content">
+                <h1 class="title">Multi-monitors</h1>
+                <div class="hseparator"></div>
+              </div>
+              <p>TotalSpaces2 helps you if you have multiple monitors connected.</p>
+              <p>In OSX Mavericks, there are two different modes, selected by "Displays have separate Spaces" in Mission Control preferenes.</p>
+              <p><img src="http://static.binaryage.com/252cb0c1_images_mavericks-mission-control.png"/></p>
+              <p><strong>When "Displays have separate Spaces" is checked</strong>, each display will have its own grid of spaces, and they operate independently.
+              You can set up each grid separately in Layout preferences by selecting the display.</p>
+              <p><img src="http://static.binaryage.com/c11f8206_images_layout-preferences-ts2.png"/></p>
+              <p>When you activate the <a href="/overview2" title="overview grid">overview grid</a>, each monitor will display its own grid. You can then easily drag windows between your spaces, and between monitors.</p>
+              <p>You navigate between spaces using your usual hotkeys, but which display the mouse cursor is on will determine which display's grid changes space.</p>
+              <p><strong>If you uncheck "Displays have separate Spaces"</strong> in Mission Control preferences, the grid and your spaces will behave the same as on OSX Mountain Lion and before. All displays share the same grid, and navigation happens simultaneously.</p>
+              <p>The layout of your monitors is shown in the <a href="/overview2" title="overview grid">overview grid</a>, and you can drag windows between them.</p>
+              <p><img src="http://static.binaryage.com/849f1978_images_multi-grid.png"/></p>
+              <p>Here there is a grid of 3 columns x 2 rows, and the larger monitor is arranged to the left.</p>
+              <p>Because the monitor screens are shown together on your main display, you can easily drag windows between each of your monitors.</p>
+              <p>&raquo; Next <a href="/hotkeys2"><strong>Hotkeys</strong></a></p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          $(function(){$(".hoverable-input").bind("click",function(e){this.select()});setTimeout(function(){var e=document.location.pathname+"";var t=$('.sidebar a[href*="'+e+'"]');t.parent().addClass("selected")},100)})
+        </script>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="tweets-section">
+      <div class="container" style="position: relative">
+        <ol id="tweets" class="statuses"></ol>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="footer-separator"></div>
+        <div class="footerbox">
+          <div class="copyright">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="http://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+          </div>
+          <div class="footer-links wf">
+            <a href="http://www.binaryage.com/about.html">contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){var e;$(".topbar-testimonials").bind("click",function(){if(window.SSTracker){SSTracker.pushState("praise")}if(!e){$("#tweets").tweet({user:"binaryage"});e=true}})})
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){setTimeout(function(){var e=location.hash.substring(1);if(e.substring(0,2)=="o-"){$("#"+e).trigger("click")}},500)})
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){var a=document.location.host;if(a.substring(a.length-3)=="org"){$("a").each(function(){var a=$(this);var r=a.attr("href");if(r){if(r.match("binaryage.com")){r=r.replace("binaryage.com","binaryage.org")}var t=document.location+"";a.attr("href",r)}})}})
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      !function(){var r=parseUri(document.location+"");var e=r.queryKey["referrer"];if(e){bacookie("bareferrer",e,{path:"/",expires:14})}}();$("a").live("click",function(){var r=$(this).attr("href")+"";var e=bacookie("bareferrer");if(e){r+=(r.indexOf("?")==-1?"?":"&")+"referrer="+encodeURIComponent(e)}var a=document.location+"";if(a.match(/fastspring\.com/)&&r.match(/binaryage\.com/)||a.match(/binaryage\.com/)&&r.match(/fastspring\.com/)){_gaq.push(["_link",r]);return false}})
+    </script>
+    <script type="text/javascript">
+      var _gauges=_gauges||[];(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.id="gauges-tracker";e.setAttribute("data-site-id","4f10d65d844d52139500000b");e.src="//secure.gaug.es/track.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+    </script>
+  </body>
+</html>
