@@ -1,28 +1,28 @@
 ---
-layout: ts-home
+layout: ts2-home
 title: TotalSpaces brings grid spaces to your Mac and more!
-product_title: TotalSpaces
+product_title: TotalSpaces2
 product_subtitle: the ultimate grid spaces manager for your Mac
-subtitle: TotalSpaces brings grid spaces to your Mac and more!
-download: http://downloads.binaryage.com/TotalSpaces-1.2.11.zip
-downloadtitle: Download v1.2.11
+subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
+download: http://downloads.binaryage.com/TotalSpaces2-2.0.0.zip
+downloadtitle: Download v2.0
 facebook: 1
 retweet: 1
 buzz: 1
 fbsdk: 1
-meta_title: TotalSpaces brings grid spaces to you Mac and more!
-meta_keywords: totalspaces,mac,dock,spaces,respaceapp,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,binaryage
-meta_description: TotalSpaces is a desktop manager aims to re-create the classic 2D 'spaces' grid functionality on OS X Mountain Lion and Lion.
+meta_title: TotalSpaces2 brings grid spaces to you Mac and more!
+meta_keywords: totalspaces,mac,dock,spaces,respaceapp,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,mavericks,binaryage
+meta_description: TotalSpaces2 is a desktop manager aims to re-create the classic 2D 'spaces' grid functionality on OS X Mavericks.
 meta_image: /shared/img/icons/totalspaces-128.png
 pray: finder tabs mac, total commander mac, dock plugin
 ogmeta: {
     site_name: "BinaryAge website",
-    description: "TotalSpaces brings grid spaces to your Mac and more!",
+    description: "TotalSpaces2 brings grid spaces to your Mac and more!",
     email: "support@binaryage.com",
     type: "product",
-    title: "TotalSpaces",
+    title: "TotalSpaces2",
     url: "http://totalspaces.binaryage.com",
-    image: "http://totalspaces.binaryage.com/shared/img/icons/totalspaces-256.png"
+    image: "http://totalspaces.binaryage.com/shared/img/icons/totalspaces2-256.png"
 }
 shots: [{
     title: "Overview grid",
@@ -30,8 +30,8 @@ shots: [{
     full: "/images/showcase/showcase-overview-grid.png"
 },    {
     title: "Customizable layouts",
-    thumb: "/images/showcase/thumb-showcase-layout-preferences.png",
-    full: "/images/showcase/showcase-layout-preferences.png"
+    thumb: "/images/showcase/thumb-showcase-layout-preferences-2.png",
+    full: "/images/showcase/showcase-layout-preferences-2.png"
 }]
 ---
  
@@ -40,8 +40,8 @@ shots: [{
     <div class="highlights">
         <div class="highlight" data-showcase="2">
             <div class="highlight-icon hoverable" title="read more about the grid of desktops">
-                <a href="/layout">
-                    <div class="thumb-grid"></div>
+                <a href="/layout2">
+                    <div class="thumb-grid2"></div>
                 </a>
             </div>
             <div class="highlight-content wf">
@@ -51,7 +51,7 @@ shots: [{
         </div>
         <div class="highlight" data-showcase="1">
             <div class="highlight-icon hoverable" title="read more about the overview">
-                <a href="/overview">
+                <a href="/overview2">
                     <div class="thumb-overview"></div>
                 </a>
             </div>
@@ -62,8 +62,8 @@ shots: [{
         </div>
         <div class="highlight last" data-showcase="3">
             <div class="highlight-icon hoverable" title="read more about transitions">
-                <a href="/transitions">
-                    <div class="thumb-transitions"></div>
+                <a href="/transitions2">
+                    <div class="thumb-transitions2"></div>
                 </a>
             </div>
             <div class="highlight-content wf">
@@ -74,7 +74,7 @@ shots: [{
         <div class="highlight-separator"></div>
         <div class="highlight" data-showcase="4">
             <div class="highlight-icon hoverable" title="swipe between desktops">
-                <a href="/swipe">
+                <a href="/swipe2">
                     <div class="thumb-swipe"></div>
                 </a>
             </div>
@@ -85,7 +85,7 @@ shots: [{
         </div>
         <div class="highlight" data-showcase="5">
             <div class="highlight-icon hoverable" title="read more about Hotcorners">
-                <a href="/hotcorners">
+                <a href="/hotcorners2">
                     <div class="thumb-hotcorners"></div>
                 </a>
             </div>
@@ -96,7 +96,7 @@ shots: [{
         </div>
         <div class="highlight last">
             <div class="highlight-icon hoverable" title="read more about app assignments">
-              <a href="/apps">
+              <a href="/apps2">
                 <div class="thumb-app-assignments"></div>
               </a>
             </div>
@@ -110,10 +110,10 @@ shots: [{
 
     <div class="generic-separator"></div>
     <div class="more-info">
-        <a href="/documentation" class="button product-button-doc wf">
+        <a href="/documentation2" class="button product-button-doc wf">
             <div><div>Read the documentation</div></div>
         </a>
-        <a href="/changes" class="button product-button-changes wf">
+        <a href="/changes2" class="button product-button-changes wf">
             <div><div>View recent changes</div></div>
         </a>
     </div>
