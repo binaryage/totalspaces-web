@@ -4,7 +4,7 @@ title: Upgrading TotalSpaces to TotalSpaces2
 subtitle: Upgrade to TotalSpaces2
 ---
 
-## Download [TotalSpaces2 for Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.0.0.zip)
+## Download [TotalSpaces2 for Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.0.2.zip)
 
 TotalSpaces2 for Mavericks is a paid upgrade from TotalSpaces. **Please download it and test it before upgrading your licence.**
 
