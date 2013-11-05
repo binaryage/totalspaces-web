@@ -6,17 +6,17 @@ subtitle: Upgrade to TotalSpaces2
 
 ## Download [TotalSpaces2 for Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.0.6.zip)
 
-TotalSpaces2 for Mavericks is a paid upgrade from TotalSpaces. **Please download it and test it before upgrading your licence.**
+TotalSpaces2 for Mavericks is a paid upgrade from TotalSpaces. **Please download it and test it before upgrading your license.**
 
 Existing TotalSpaces users get a **40% Discount**. Upgrades for recent purchases (since 10th June 2013) are **FREE**.
 
-Use the Upgrade licence button from TotalSpaces2:
+Use the Upgrade license button from TotalSpaces2:
 
 <img src="/images/totalspaces-upgrade-dialog.png" width="445" height="327">
 
-If you do not see the Upgrade button, you may use this form.
+If you do not see the Upgrade button, you may use this form to get your TotalSpaces2 license.
 
-**Paste your licence code here**
+**Paste your TotalSpaces license code here**
 <form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2">
   <input class="upgrade-input" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
   <input type="submit" class="upgrade-submit" value="Upgrade">
