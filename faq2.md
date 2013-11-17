@@ -7,6 +7,7 @@ subtitle: Questions and answers
 0. [What systems will TotalSpaces run on?](#system-requirements)
 0. [Where is TotalSpaces?](#finding-totalspaces)
 0. [Help, I can't see the menu bar icon!](#menubar-icon)
+0. [How can I get rid of the Dashboard?](#no-dashboard)
 0. [How can I make a particular app stay on a particular desktop in the grid?](#app-assignments)
 0. [How can I uninstall TotalSpaces?](#uninstall)
 0. [Why are there no diagonal transitions?](#diagonal-transitions)
@@ -29,6 +30,12 @@ TotalSpaces2 runs without an icon in the Dock, but instead an icon like this sho
 ## <a id="menubar-icon"></a>Help, I can't see the menu bar icon!
 
 There is an option to hide the menu bar icon, and perhaps this is turned on for some reason. In order to re-show the menu bar icon, double click on TotalSpaces2 in your Applications folder (as if to launch the app). This should tell the app to show the menu bar icon again.
+
+## <a id="no-dashboard"></a>How can I get rid of the Dashboard?
+
+The dashboard can be removed from your grid by unchecking "Show dashboard as a space" in Mission Control preferences.
+
+<img src="/images/show-dashboard-as-a-space.png">
 
 ## <a id="app-assignments"></a>How can I make a particular app stay on a particular desktop in the grid?
 
