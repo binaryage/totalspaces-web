@@ -2,8 +2,8 @@
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
-    <title>TotalSpaces2 Full screen desktops</title>
-    <link rel="canonical" href="http://totalspaces.binaryage.com/full-screen-desktops2"/>
+    <title>TotalSpaces2 Defaults settings</title>
+    <link rel="canonical" href="http://totalspaces.binaryage.com/defaults-settings2"/>
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
@@ -49,7 +49,7 @@
       _gaq.push(["_setAccount","UA-8404259-1"]);_gaq.push(["_addIgnoredRef",".binaryage.com"]);_gaq.push(["_setDomainName",".binaryage.com"]);_gaq.push(["_setAllowLinker",true]);_gaq.push(["_setAllowHash",false]);_gaq.push(["_trackPageview"]);!function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()
     </script>
   </head>
-  <body id="page-totalspaces-full-screen-desktops2">
+  <body id="page-totalspaces-defaults-settings2">
     <div id="topbar">
       <div class="container topbar">
         <div class="topbar-buttons">
@@ -128,13 +128,38 @@
             </div>
             <div class="page-content doc-page">
               <div class="header-content">
-                <h1 class="title">Full screen desktops</h1>
+                <h1 class="title">Defaults settings</h1>
                 <div class="hseparator"></div>
               </div>
-              <p>TotalSpaces2 fully supports full screen apps, and they will appear in your <a href="/overview2">overview grid</a>. When you make an app fullscreen, it will be added as a new item in your grid, making a new row at the bottom if needed.</p>
-              <p>You can drag your fullscreen desktops to the position you want them in the <a href="/overview2">overview grid</a>.</p>
-              <p><img src="http://static.binaryage.com/0d666a5c_images_overview-grid-with-fullscreen-ts2.png"/></p>
-              <p>&raquo; Next <a href="/overview-grid-app2"><strong>Overview grid app</strong></a></p>
+              <p>This is a list of the user accessible defaults settings that you can adjust using the 'defaults' command line program in Terminal.app.</p>
+              <h2><a id="faster-transitions"></a>Transition speed</h2>
+              <p><code>defaults write com.binaryage.TotalSpaces2 transitionSpeed 115</code></p>
+              <p>The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed.</p>
+              <p>Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.</p>
+              <h2><a id="longer-notifications"></a>Notification graphic period</h2>
+              <p><code>defaults write com.binaryage.TotalSpaces2 notificationDuration 1.0</code></p>
+              <p>The notification graphic remains on the screen for this period, unless the transition was triggered by hotkeys in which case it stays on screen for as long as you hold the modifier keys down.</p>
+              <p>The value is in seconds, and should be between 0.25 and 3.0. The default value is 0.85.</p>
+              <h2><a id="mouse-edge-timings"></a>Mouse-at-edge switch timing</h2>
+              <p>These adjust the dwell and repeat period for triggering <a href="/mouse-edges2">space changes by bringing your mouse to the edge of the screen</a>.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelay 1.5</code></p>
+              <p>The range is 0.1 - 20.0, the default is 1.1 seconds. This setting also affects how quickly you can drag windows from desktop to desktop.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelayWithModkeys 0.5</code></p>
+              <p>The range is 0.01 - 20.0, the default is 0.3 seconds.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchRepeatDelay 1.2</code></p>
+              <p>The range is 0.5 - 3.5, the default is 1.0 seconds.</p>
+              <h2><a id="place-window-as-dropped"></a>Window positioning when dragging windows in the overview grid</h2>
+              <p>Normally windows stay where you drop them in the overview grid, but pressing the ALT (option) key whilst dragging will cause the windows to retain their original position, so will be positioned as they were in the space the window came from.</p>
+              <p>You can swap this behaviour so that keeping the position is the default, and pressing the ALT key will allow the to be dropped in an exact position.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault NO</code></p>
+              <h2><a id="lower-memory-usage"></a>Less caching/lower memory usage</h2>
+              <p>In some isolated cases we found that the caching that makes the overview grid faster to bring up was causing Mail.app to slow down unacceptably. In order to work around the problem in these cases, there is a command line setting to turn off this caching. It is not recommended unless you have this problem, it will slow down the performance of the overview grid.</p>
+              <p><code>defaults write com.binaryage.TotalSpaces2 lowerMemoryUsage YES</code></p>
+              <h2><a id="menu-bar-icon-color"></a>Menu bar icon color</h2>
+              <p><code>defaults write com.binaryage.TotalSpaces2 menuBarIconColor "094be5"</code></p>
+              <p>The color is in RGB hex, same as used in HTML/CSS markup. Only the dark background can be changed; the color of the number and the cross are fixed. The default value is 444444.</p>
+              <p>The setting is cached for a period - after you have set this setting you will need to move around your grid a few times for it to take effect.</p>
+              <p>&raquo; Next <a href="/faq2"><strong>FAQ</strong></a></p>
             </div>
           </div>
         </div>
