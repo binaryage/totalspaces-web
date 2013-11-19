@@ -4,8 +4,8 @@ title: TotalSpaces brings grid spaces to your Mac and more!
 product_title: TotalSpaces2
 product_subtitle: the ultimate grid spaces manager for Mavericks
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
-download: http://downloads.binaryage.com/TotalSpaces2-2.0.10.zip
-downloadtitle: Download v2.0.10
+download: http://downloads.binaryage.com/TotalSpaces2-2.0.11.zip
+downloadtitle: Download v2.0.11
 facebook: 1
 retweet: 1
 buzz: 1
