@@ -46,6 +46,14 @@ You can swap this behaviour so that keeping the position is the default, and pre
 
 <code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault NO</code>
 
+## <a id="right-modkeys-only"></a>Use only right side modkeys when changing space
+
+If you are using key combinations such as ALT with the arrow keys to change space, it can be useful to differentiate between the keys on each side of the keyboard so that the left side ones can be used for the usual functions, and the right side ones for changing space.
+
+Turning this setting on means TotalSpaces2 will only recognise space change hotkeys if the modifier keys on the right side of the keyboard are used.
+
+<code>defaults write com.binaryage.TotalSpaces2 rightSideDirectionModifierKeysOnly YES</code>
+
 ## <a id="lower-memory-usage"></a>Less caching/lower memory usage
 
 In some isolated cases we found that the caching that makes the overview grid faster to bring up was causing Mail.app to slow down unacceptably. In order to work around the problem in these cases, there is a command line setting to turn off this caching. It is not recommended unless you have this problem, it will slow down the performance of the overview grid.
