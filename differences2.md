@@ -19,7 +19,7 @@ Here is a brief list of changes so you can review whether TotalSpaces2 will do e
 * New whole grid zoom transition to the overview grid.
 * New hotkey setting for taking the current window with you when moving to an adjacent space.
 * Dragging an item to another space via a hotcorner and the overview grid can be done in TotalSpaces2 (just hover over the destination space).
-* No API at the present time, the API is being redesigned to support Mavericks.
+* The API interface has changed, but the functions supported are similar to those in TotalSpaces.
 * For single row users, if you define just one row of spaces you can add additional empty columns, and they will be filled by fullscreen apps.
 * Notification graphic now smoothly floats above desktop transition.
 * TotalSpaces2 does not support dragging windows up and down to a vertically adjacent space. Use the new hotkey setting to move a window with you to a new space.
