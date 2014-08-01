@@ -16,7 +16,7 @@ Use the Upgrade license button from TotalSpaces2:
 
 If you do not see the Upgrade button, you may use this form to get your TotalSpaces2 license.
 
-**Paste your TotalSpaces license code here**
+**Paste your TotalSpaces (1) license code here**
 <form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2">
   <input class="upgrade-input" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
   <input type="submit" class="upgrade-submit" value="Upgrade">

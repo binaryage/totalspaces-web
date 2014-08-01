@@ -68,4 +68,16 @@ The color is in RGB hex, same as used in HTML/CSS markup. Only the dark backgrou
 
 The setting is cached for a period - after you have set this setting you will need to move around your grid a few times for it to take effect.
 
+## <a id="active-screen-switching"></a>Use active screen for switching
+
+<code>defaults write com.binaryage.TotalSpaces2 useActiveScreenForSwitching YES</code>
+
+When using multiple monitors, TotalSpaces2 will normally choose which display to switch for hotkey or swipe activations by checking the location of the mouse. So the screen containing the mouse will be the one to switch. This setting uses instead the active screen, so the one containing the active menu bar will be the one to switch.
+
+## <a id="grid-icons-off"></a>Turn icons off in the overview grid
+
+<code>defaults write com.binaryage.TotalSpaces2 hideSpaceIcons YES</code>
+
+Normally TotalSpaces2 will display icons for full screen apps when showing the overview grid so you can easily see which app is where. This setting hides those icons.
+
 &raquo; Next [**FAQ**](/faq2)
