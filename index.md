@@ -3,7 +3,7 @@ layout: product-home
 title: TotalSpaces brings grid spaces to your Mac and more!
 product: totalspaces
 product_title: TotalSpaces2
-product_subtitle: the ultimate grid spaces manager for Mavericks
+product_subtitle: the ultimate grid spaces manager for your Mac
 product_icon: /shared/img/icons/totalspaces2-256.png
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
 download: http://downloads.binaryage.com/TotalSpaces2-2.1.10.zip
