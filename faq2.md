@@ -62,7 +62,7 @@ As we have rewritten the system transitions for TotalSpaces2, it may be that we 
 
 Use this command at the command line:
 
-<code>defaults write com.binaryage.TotalSpaces2 sendGrowlNotifications YES</code>
+<code>defaults write com.binaryage.TotalSpaces2 sendGrowlNotifications -bool YES</code>
 
 then restart TotalSpaces2.
 
@@ -74,9 +74,9 @@ There are three types of notification, one on space change, one on circulation, 
 
 Use this command at the command line:
 
-<code>defaults write com.binaryage.TotalSpaces2 transitionSpeed 115</code>
+<code>defaults write com.binaryage.TotalSpaces2 transitionSpeed -float 115</code>
 
-then restart TotalSpaces2. 
+then restart TotalSpaces2.
 
 The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed. 
 
@@ -86,7 +86,7 @@ Note that there is a small built in delay after you press the hotkey that is una
 
 You can use this command at the command line:
 
-<code>defaults write com.binaryage.TotalSpaces2 notificationDuration 1.0</code>
+<code>defaults write com.binaryage.TotalSpaces2 notificationDuration -float 1.0</code>
 
 then restart TotalSpaces2. 
 
@@ -98,15 +98,15 @@ You can adjust the dwell and repeat period for triggering [space changes by brin
 
 Here are the settings:
 
-<code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelay 1.5</code>
+<code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelay -float 1.5</code>
 
 The range is 0.1 - 20.0, the default is 1.1 seconds. This setting also affects how quickly you can drag windows from desktop to desktop.
 
-<code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelayWithModkeys 0.5</code>
+<code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelayWithModkeys -float 0.5</code>
 
 The range is 0.01 - 20.0, the default is 0.3 seconds.
 
-<code>defaults write com.binaryage.TotalSpaces2 sideSwitchRepeatDelay 1.2</code>
+<code>defaults write com.binaryage.TotalSpaces2 sideSwitchRepeatDelay -float 1.2</code>
 
 The range is 0.5 - 3.5, the default is 1.0 seconds.
 
@@ -118,4 +118,4 @@ Normally windows stay where you drop them in the overview grid, but pressing the
 
 You can swap this behaviour so that keeping the position is the default, and pressing the ALT key will allow the to be dropped in an exact position by using this commend, then restarting TotalSpaces.
 
-<code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault NO</code>
+<code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault -bool NO</code>
