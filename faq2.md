@@ -11,7 +11,6 @@ subtitle: Questions and answers
 0. [How can I make a particular app stay on a particular desktop in the grid?](#app-assignments)
 0. [How can I uninstall TotalSpaces?](#uninstall)
 0. [Why are there no diagonal transitions?](#diagonal-transitions)
-0. [How can I turn on growl notifications?](#growl-notifications)
 0. [How can I make the transitions even faster than the slider allows?](#faster-transitions)
 0. [How can I make the notification graphic stay on the screen longer?](#longer-notifications)
 0. [How can I adjust the mouse-at-edge switch timing?](#mouse-edge-timings)
@@ -57,18 +56,6 @@ Final note: If you wish to be super-clean you can also remove the preferences fi
 ## <a id="diagonal-transitions"></a>Why are there no diagonal transitions?
 
 As we have rewritten the system transitions for TotalSpaces2, it may be that we can support diagonal transitions for some of the animations in the future.
-
-## <a id="growl-notifications"></a>How can I turn on growl notifications?
-
-Use this command at the command line:
-
-<code>defaults write com.binaryage.TotalSpaces2 sendGrowlNotifications -bool YES</code>
-
-then restart TotalSpaces2.
-
-Note that once you have turned on the notifications, then you can fully control them with the Growl app.
-
-There are three types of notification, one on space change, one on circulation, and one for when you asked to change space but you were at the edge of the grid (and circulation was turned off). They may be useful to play sound effects while navigating your grid.
 
 ## <a id="faster-transitions"></a>How can I make the transitions even faster than the slider allows?
 
