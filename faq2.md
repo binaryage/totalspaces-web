@@ -18,7 +18,7 @@ subtitle: Questions and answers
 
 ## <a id="system-requirements"></a>What systems will TotalSpaces2 run on?
 
-TotalSpaces2 is tested on **OSX Mavericks 10.9** and should work on any mac that can run this operating system. We also try to add support for new versions as soon as the betas are available.
+TotalSpaces2 is tested on **OSX Mavericks 10.9** and **OSX Yosemite 10.10** and should work on any mac that can run these operating systems. We also try to add support for new versions as soon as the betas are available.
 
 ## <a id="finding-totalspaces"></a>Where is TotalSpaces2?
 
@@ -32,7 +32,7 @@ There is an option to hide the menu bar icon, and perhaps this is turned on for 
 
 ## <a id="no-dashboard"></a>How can I get rid of the Dashboard?
 
-The dashboard can be removed from your grid by unchecking "Show dashboard as a space" in Mission Control preferences.
+The dashboard can be removed from your grid by unchecking "Show dashboard as a space" in Mission Control preferences, or setting Dashboard to "None" (in Yosemite).
 
 <img src="/images/show-dashboard-as-a-space.png">
 
