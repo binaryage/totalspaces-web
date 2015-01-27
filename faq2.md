@@ -32,7 +32,7 @@ There is an option to hide the menu bar icon, and perhaps this is turned on for 
 
 ## <a id="no-dashboard"></a>How can I get rid of the Dashboard?
 
-The dashboard can be removed from your grid by unchecking "Show dashboard as a space" in Mission Control preferences, or setting Dashboard to "None" (in Yosemite).
+The dashboard can be removed from your grid by unchecking "Show dashboard as a space" in Mission Control preferences, or setting Dashboard to "Off" (in Yosemite).
 
 <img src="/images/show-dashboard-as-a-space.png">
 
