@@ -8,9 +8,9 @@ As you navigate between your desktops, you will notice that on each movement the
 
 <img src="/images/navigation-notification.png">
 
-This shows you which desktop you came from, and which you are now on. (You can turn this off in General preferences if you don't like it.)
+The highlight animates to show you which desktop you came from, and which you are now on. (You can turn this off in General preferences if you don't like it.)
 
-If you have named your spaces, it might look something like this
+If you have named your spaces, and have full screen apps, it might look something like this
 
 <img src="/images/navigation-notification-with-names.png">
 
