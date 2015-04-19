@@ -9,7 +9,7 @@ subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
 download: http://downloads.binaryage.com/TotalSpaces2-2.2.20.dmg
 downloadtitle: Download v2.2.20
 fbsdk: 1
-plusone: 1
+plusone: 0
 product-fblike: 1
 product-plusone: 0
 product-tweet: 1
