@@ -4,7 +4,7 @@ title: Upgrading TotalSpaces to TotalSpaces2
 subtitle: Upgrade to TotalSpaces2
 ---
 
-## Download [TotalSpaces2 for Yosemite/Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.2.9.dmg)
+## Download [TotalSpaces2 for Yosemite/Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.2.20.dmg)
 
 TotalSpaces2 for Yosemite/Mavericks is a paid upgrade from TotalSpaces. **Please download it and test it before upgrading your license.**
 
