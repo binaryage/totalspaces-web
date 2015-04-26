@@ -41,4 +41,4 @@ When you move windows within one desktop, they will always stay where you put th
 
 Note that there are some places where windows cannot be placed - for instance where the title bar of the window is not on the screen.
 
-&raquo; Next [**Overview grid backgrounds**](/overview-backgrounds2)
+&raquo; Next [**Single desktop exposé**](/single-desktop-expose)
