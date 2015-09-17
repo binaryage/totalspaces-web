@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" class="ba">
   <head>
-    <title>TotalSpaces2 Defaults settings</title>
-    <link rel="canonical" href="http://totalspaces.binaryage.com/defaults-settings2"/>
+    <title>Running TotalSpaces2 on El Capitan</title>
+    <link rel="canonical" href="http://totalspaces.binaryage.com/elcapitan"/>
     <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="http://static.binaryage.com/f915472e_shared_css_site.css" type="text/css"/>
@@ -18,7 +18,7 @@
     <script type="text/javascript">window["ga"]=function(){}</script>
     <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
   </head>
-  <body id="page-totalspaces-defaults-settings2">
+  <body id="page-totalspaces-elcapitan">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -120,52 +120,29 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">Defaults settings</h1>
+                  <h1 class="title">How to run TotalSpaces2 on El Capitan</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>This is a list of the user accessible defaults settings that you can adjust using the 'defaults' command line program in Terminal.app.</p>
-                  <h2><a id="faster-transitions"></a>Transition speed</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 transitionSpeed -float 115</code></p>
-                  <p>The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed.</p>
-                  <p>Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.</p>
-                  <h2><a id="longer-notifications"></a>Notification graphic period</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 notificationDuration -float 1.0</code></p>
-                  <p>The notification graphic remains on the screen for this period, unless the transition was triggered by hotkeys in which case it stays on screen for as long as you hold the modifier keys down.</p>
-                  <p>The value is in seconds, and should be between 0.25 and 3.0. The default value is 0.85.</p>
-                  <h2><a id="mouse-edge-timings"></a>Mouse-at-edge switch timing</h2>
-                  <p>These adjust the dwell and repeat period for triggering <a href="/mouse-edges2">space changes by bringing your mouse to the edge of the screen</a>.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelay -float 1.5</code></p>
-                  <p>The range is 0.1 - 20.0, the default is 1.1 seconds. This setting also affects how quickly you can drag windows from desktop to desktop.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelayWithModkeys -float 0.5</code></p>
-                  <p>The range is 0.01 - 20.0, the default is 0.3 seconds.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchRepeatDelay -float 1.2</code></p>
-                  <p>The range is 0.5 - 3.5, the default is 1.0 seconds.</p>
-                  <h2><a id="place-window-as-dropped"></a>Window positioning when dragging windows in the overview grid</h2>
-                  <p>Normally windows stay where you drop them in the overview grid, but pressing the ALT (option) key whilst dragging will cause the windows to retain their original position, so will be positioned as they were in the space the window came from.</p>
-                  <p>You can swap this behaviour so that keeping the position is the default, and pressing the ALT key will allow the to be dropped in an exact position.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault -bool NO</code></p>
-                  <h2><a id="right-modkeys-only"></a>Use only right side modkeys when changing space</h2>
-                  <p>If you are using key combinations such as ALT with the arrow keys to change space, it can be useful to differentiate between the keys on each side of the keyboard so that the left side ones can be used for the usual functions, and the right side ones for changing space.</p>
-                  <p>Turning this setting on means TotalSpaces2 will only recognise space change hotkeys if the modifier keys on the right side of the keyboard are used.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 rightSideDirectionModifierKeysOnly -bool YES</code></p>
-                  <h2><a id="lower-memory-usage"></a>Less caching/lower memory usage</h2>
-                  <p>In some isolated cases we found that the caching that makes the overview grid faster to bring up was causing Mail.app to slow down unacceptably. In order to work around the problem in these cases, there is a command line setting to turn off this caching. It is not recommended unless you have this problem, it will slow down the performance of the overview grid.</p>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 lowerMemoryUsage -bool YES</code></p>
-                  <h2><a id="menu-bar-icon-color"></a>Menu bar icon color</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 menuBarIconColor "094be5"</code></p>
-                  <p>The color is in RGB hex, same as used in HTML/CSS markup. Only the dark background can be changed; the color of the number and the cross are fixed. The default value is 444444.</p>
-                  <p>The setting is cached for a period - after you have set this setting you will need to move around your grid a few times for it to take effect.</p>
-                  <h2><a id="active-screen-switching"></a>Use active screen for switching</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 useActiveScreenForSwitching -bool YES</code></p>
-                  <p>When using multiple monitors, TotalSpaces2 will normally choose which display to switch for hotkey or swipe activations by checking the location of the mouse. So the screen containing the mouse will be the one to switch. This setting uses instead the active screen, so the one containing the active menu bar will be the one to switch.</p>
-                  <h2><a id="grid-icons-off"></a>Turn icons off in the overview grid</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 hideSpaceIcons -bool YES</code></p>
-                  <p>Normally TotalSpaces2 will display icons for full screen apps when showing the overview grid so you can easily see which app is where. This setting hides those icons.</p>
-                  <h2><a id="old-notification"></a>Old style notification graphic</h2>
-                  <p><code>defaults write com.binaryage.TotalSpaces2 oldStyleNotification -bool YES</code></p>
-                  <p>Use the old, less flat notification graphic for showing the grid during space changes.</p>
-                  <p>&raquo; Next <a href="/faq2"><strong>FAQ</strong></a></p>
+                  <p>TotalSpaces2 versions 2.3.5 and above have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.</p>
+                  <p>This article will tell you how to configure your machine without the new setting, so that you can run TotalSpaces2.</p>
+                  <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. <strong>We are not encouraging you to turn it off; indeed your machine may be less secure with it off. It is entirely your decision</strong>.</p>
+                  <p>If you decide to turn if off, you will be able to install and run TotalSpaces2 normally.</p>
+                  <h2>How to turn off System Integrity Protection</h2>
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="http://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears.</p>
+                  <p>Then select Terminal from the Utilities menu. It looks like this:</p>
+                  <p><img src="http://static.binaryage.com/d50fc915_images_recovery-1.png"/></p>
+                  <p>In the window that opens, type
+                    <code>csrutil disable</code>
+                  and press return.</p>
+                  <p><img src="http://static.binaryage.com/8d245373_images_recovery-2.png"/></p>
+                  <p>Reboot your machine and you may install the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
+                  <h2>Technical details</h2>
+                  <p>TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
+                  <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
+                  <p>However, in El Capitan the OSX developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It also disallows other kinds of modifications (such as replacing parts of the system on disk).</p>
+                  <p>In order for TotalSpaces2 to work, this new feature must be disabled. And we don't recommend you do this unless you know what you are doing.</p>
+                  <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update/">in our blog</a>.</p>
                   <script>$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})</script>
                 </div>
               </div>
