@@ -80,4 +80,11 @@ When using multiple monitors, TotalSpaces2 will normally choose which display to
 
 Normally TotalSpaces2 will display icons for full screen apps when showing the overview grid so you can easily see which app is where. This setting hides those icons.
 
+## <a id="old-notification"></a>Old style notification graphic
+
+<code>defaults write com.binaryage.TotalSpaces2 oldStyleNotification -bool YES</code>
+
+Use the old, less flat notification graphic for showing the grid during space changes.
+
+
 &raquo; Next [**FAQ**](/faq2)

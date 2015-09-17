@@ -26,7 +26,7 @@ and press return.
 
 <img src="/images/recovery-2.png">
 
-Reboot your machine and you may install the latest version of TotalSpaces2.
+Reboot your machine and you may install the [latest version of TotalSpaces2](/changes-beta).
 
 ## Technical details
 
