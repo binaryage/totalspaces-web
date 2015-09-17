@@ -4,7 +4,7 @@ title: Running TotalSpaces2 on El Capitan
 subtitle: How to run TotalSpaces2 on El Capitan
 ---
 
-TotalSpaces2 versions 2.3.5 and above have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.
+TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.
 
 This article will tell you how to configure your machine without the new setting, so that you can run TotalSpaces2.
 
@@ -36,7 +36,7 @@ In order to change some features inside Dock, we use a technique called _code in
 
 However, in El Capitan the OSX developers added a feature that disallows this kind of modification _even if you have administrator access_. It also disallows other kinds of modifications (such as replacing parts of the system on disk).
 
-In order for TotalSpaces2 to work, this new feature must be disabled. And we don't recommend you do this unless you know what you are doing.
+In order for TotalSpaces2 to work, this new feature must be disabled. And __we don't recommend you do this unless you know what you are doing.__
 
 You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update/).
 
