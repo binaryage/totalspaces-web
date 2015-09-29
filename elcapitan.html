@@ -127,8 +127,11 @@
                 <div class="page-content">
                   <p>TotalSpaces2 <a href="/changes-beta">versions 2.3.5 and above</a> have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.</p>
                   <p>This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalSpaces2.</p>
-                  <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">Apple also provide some information here</a>. <strong>We are not encouraging you to turn it off; indeed your machine may be less secure with it off. It is entirely your decision</strong>.</p>
-                  <p>If you decide to modify the setting, you will be able to install and run TotalSpaces2 normally.</p>
+                  <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
+                  <p>Anyway, if you decide to modify the setting under El Capitan, you will be able to install and run TotalSpaces2 as before. Just to be clear...</p>
+                  <div class="license-desk exclamation">
+                    I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
+                  </div>
                   <h2>How to modify System Integrity Protection</h2>
                   <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="http://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
@@ -140,7 +143,7 @@
                   <p>Reboot your machine and you may install the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
                   <h2>Technical details</h2>
                   <p>TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
-                  <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
+                  <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
                   <p>However, in El Capitan the OSX developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It can also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
                   <p>In order for TotalSpaces2 to work, part of this new feature must be disabled. And <strong>we don't recommend you do this unless you know what you are doing.</strong></p>
                   <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update/">in our blog</a>.</p>
