@@ -140,7 +140,8 @@
                     <code>csrutil enable --without debug</code>
                   and press return. This turns off the part of System Integrity Protection that TotalSpaces2 needs to run, and OSX complains that it is an unsupported configuration.</p>
                   <p><img src="http://static.binaryage.com/23fdcdaf_images_recovery-2.png"/></p>
-                  <p>Reboot your machine and you may install the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
+                  <p>Reboot your machine and you may install or run the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
+                  <p>Note, you can also use the <code>csrutil disable</code> command to completely disable System Integrity Protection. This has the advantage that there is no scary warning about an unsupported configuration, but the disadvantage that the whole of SIP (rather than just part) is disabled.</p>
                   <h2>Technical details</h2>
                   <p>TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
                   <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
