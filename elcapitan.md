@@ -8,9 +8,13 @@ TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.1
 
 This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalSpaces2.
 
-Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). [Apple also provide some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). __We are not encouraging you to turn it off; indeed your machine may be less secure with it off. It is entirely your decision__.
+Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
-If you decide to modify the setting, you will be able to install and run TotalSpaces2 normally.
+Anyway, if you decide to modify the setting under El Capitan, you will be able to install and run TotalSpaces2 as before. Just to be clear...
+
+<div class="license-desk exclamation">
+I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
+</div>
 
 ## How to modify System Integrity Protection
 
@@ -32,7 +36,7 @@ Reboot your machine and you may install the [latest version of TotalSpaces2](/ch
 
 TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.
 
-In order to change some features inside Dock, we use a technique called _code injection_. This means we add some additional code to the Dock program whilst it is running to do what we need. This is safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.
+In order to change some features inside Dock, we use a technique called _code injection_. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.
 
 However, in El Capitan the OSX developers added a feature that disallows this kind of modification _even if you have administrator access_. It can also disallow other kinds of modifications (such as replacing parts of the system on disk).
 
