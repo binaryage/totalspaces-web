@@ -30,7 +30,9 @@ and press return. This turns off the part of System Integrity Protection that To
 
 <img src="/images/recovery-2.png">
 
-Reboot your machine and you may install the [latest version of TotalSpaces2](/changes-beta).
+Reboot your machine and you may install or run the [latest version of TotalSpaces2](/changes-beta).
+
+Note, you can also use the <code>csrutil disable</code> command to completely disable System Integrity Protection. This has the advantage that there is no scary warning about an unsupported configuration, but the disadvantage that the whole of SIP (rather than just part) is disabled.
 
 ## Technical details
 
