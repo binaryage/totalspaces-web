@@ -55,7 +55,7 @@ These should be straightforward (I'm assuming you are technically minded).
 
 ### STEP 4: mount your main system disk
 
-If you don't use FileVault, your main disk may have be mounted automatically, or if not you can easily use Disk Utility to mount it. In case of FileVault you have to use ``disktutil corestorage unlockVolume`` command.
+If you don't use FileVault, your main disk may have been mounted automatically, or if not you can easily use Disk Utility to mount it. In case of FileVault you have to use ``disktutil corestorage unlockVolume`` command.
 
 In either case you should end up with your main system disk mounted at ``/Volumes/[NAME]`` where [NAME] is some name you gave to your disk during formatting (potentially includes spaces - mine is 'Macintosh HD').
 
