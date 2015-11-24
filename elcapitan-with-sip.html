@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" class="ba">
+  <head>
+    <title>Running TotalSpaces2 on El Capitan with SIP fully enabled</title>
+    <link rel="canonical" href="http://totalspaces.binaryage.com/elcapitan-with-sip"/>
+    <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="http://static.binaryage.com/f915472e_shared_css_site.css" type="text/css"/>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <script type="text/javascript" charset="utf-8">function parseUri(r){var e=parseUri.options,o=e.parser[e.strictMode?"strict":"loose"].exec(r),s={},t=14;while(t--)s[e.key[t]]=o[t]||"";s[e.q.name]={};s[e.key[12]].replace(e.q.parser,function(r,o,t){if(o)s[e.q.name][o]=t});return s}parseUri.options={strictMode:false,key:["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],q:{name:"queryKey",parser:/(?:^|&)([^&=]*)=?([^&]*)/g},parser:{strict:/^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,loose:/^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/}}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
+    <script src="http://static.binaryage.com/cd89ca2f_shared_js_code.js"></script>
+    <script type="text/javascript">window["ga"]=function(){}</script>
+    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
+  </head>
+  <body id="page-totalspaces-elcapitan-with-sip">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="relativize">
+              <a href="http://www.binaryage.com" title="BinaryAge Software">
+                <div class="binaryage-logo">
+                  <svg class="logo">
+                    <g class="logo-badge">
+                      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+                      <path class="logo-letter-b" d=" M6,47 L6,17 12,17 12,25 29,25 29,47 Z M12,42 L12,30 23,30 23,42 Z"/>
+                      <path class="logo-letter-a" d=" M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z M37,42 L37,39 49,39 49,42 Z"/>
+                    </g>
+                    <g class="logo-label" transform="translate(71, 22)">
+                      <g class="logo-word-binary">
+                        <path class="logo-label-letter-b" transform="translate(0, 0)" d=" M0,25 L0,0 5,0 5,7 20,7 20,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-i" transform="translate(22, 0)" d=" M0,25 L0,7 5,7 5,25 Z M0,3 L5,3 5,0 0,0 Z"/>
+                        <path class="logo-label-letter-n" transform="translate(29, 0)" d=" M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-a" transform="translate(51, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-r" transform="translate(73, 0)" d=" M0,25 L0,7 20,7 20,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-y" transform="translate(95, 0)" d=" M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z"/>
+                      </g>
+                      <g class="logo-word-age" transform="translate(118, 0)">
+                        <path class="logo-label-letter-a" transform="translate(0, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-g" transform="translate(22, 0)" d=" M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-e" transform="translate(44, 0)" d=" M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z M5,14 L5,11 15,11 15,14 Z"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div class="relativize">
+              <ul class="header-menu menu-selected-products">
+                <li class="menu-item-store"><a href="http://www.binaryage.com/store"><i class="fa fa-shopping-cart"></i><span>store</span></a></li>
+                <li class="menu-item-products"><a href="http://www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+                <li class="menu-item-blog"><a href="http://blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+                <li class="menu-item-support"><a href="http://discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main" class="cf">
+      <div class="doc-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <div class="header-sidebar">
+                  <a class="back-button" href="/">« Back to Homepage</a>
+                </div>
+                <div class="content-sidebar">
+                  <h2>Change log</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/changes2">Recent changes</a></li>
+                  </ul>
+                  <h2>About TotalSpaces2</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/documentation2">What is TotalSpaces2</a></li>
+                    <li><a href="/layout2">Grid Layout</a></li>
+                    <li><a href="/overview2">Overview grid</a></li>
+                    <li><a href="/single-desktop-expose">Single desktop exposé</a></li>
+                    <li><a href="/overview-backgrounds2">Overview grid backgrounds</a></li>
+                    <li><a href="/navigation2">Navigation</a></li>
+                    <li><a href="/multi-monitors2">Multi-monitors</a></li>
+                    <li><a href="/hotkeys2">Hotkeys</a></li>
+                    <li><a href="/swipe2">Swiping</a></li>
+                    <li><a href="/mouse-edges2">Mouse navigation</a></li>
+                    <li><a href="/transitions2">Transitions</a></li>
+                    <li><a href="/hotcorners2">Hot corners</a></li>
+                    <li><a href="/apps2">App assignments</a></li>
+                    <li><a href="/full-screen-desktops2">Full screen desktops</a></li>
+                    <li><a href="/overview-grid-app2">Overview grid app</a></li>
+                    <li><a href="/defaults-settings2">Defaults settings</a></li>
+                    <li><a href="/faq2">FAQ</a></li>
+                  </ul>
+                  <h2>Articles</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/differences2">Differences from TotalSpaces</a></li>
+                    <li><a href="/elcapitan">TotalSpaces2 on El Capitan</a></li>
+                  </ul>
+                  <h2>Other versions</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/changes-beta">Pre-releases</a></li>
+                    <li><a href="/older-versions">TotalSpaces for OSX 10.7/10.8</a></li>
+                  </ul>
+                  <h2>Licenses</h2>
+                  <p></p>
+                  <ul class="fa-ul">
+                    <li><a href="/upgrade">Upgrading your licence</a></li>
+                    <li><a href="/licensing2">Licensing</a></li>
+                    <li><a href="/registration2">Registration</a></li>
+                  </ul>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="doc-page">
+                <div class="header-content">
+                  <h1 class="title">TotalSpaces2 with SIP fully enabled</h1>
+                </div>
+                <div class="generic-separator"></div>
+                <div class="page-content">
+                  <p>Under OS X 10.11 (El Capitan), TotalSpaces2 cannot install itself on a normally configured machine due to System Integrity Protection.</p>
+                  <p>You can <a href="/elcapitan">find details here</a> of how to partially disable System Integrity Protection to install and run TotalSpaces2 under El Capitan and higher.</p>
+                  <h2>What if you need to keep SIP fully enabled?</h2>
+                  <p>There is a way, but it has some major drawbacks. This article is for technical users who need to run TotalSpaces2 with fully enabled SIP.</p>
+                  <p>This technique does not require you to disable SIP, but it requires you to modify system files in Recovery OS.</p>
+                  <p>It requires technical knowledge how to mount file-systems and manipulate files using command-line.
+                    With any TotalSpaces2 update, you will have to repeat this installation.
+                  With any system update, TotalSpaces2 files are likely to be removed from system folders and you would have to repeat this installation.</p>
+                  <h2>Technical details</h2>
+                  <p>TotalSpaces2 needs to inject code into Dock.app. It uses mechanism called Scripting Additions. A Scripting Addition is a special code bundle which can be injected into running applications.</p>
+                  <p>Scripting Additions have 'osax' file extension. Historically there are three places where scripting addtions can be placed:</p>
+                  <ul>
+                    <li><code>~/Library/ScriptingAdditions</code></li>
+                    <li><code>/Library/ScriptingAdditions</code></li>
+                    <li><code>/System/Library/ScriptingAdditions</code></li>
+                  </ul>
+                  <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple's own system additions in the third location. There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions. El Capitan is the most strict and it does not allow Scripting Additions placed in <code>/Library/ScriptingAdditions</code> to inject into system processes (processes with Apple's code signature).</p>
+                  <p>However it is possible to put an addition into <code>/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes. The problem is that <code>/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
+                  <p>By default TotalSpaces2 installs its scripting addition into <code>/Library/ScriptingAddtions</code>. But you can manually install it in <code>/System/Library/ScriptingAdditions</code>. TotalSpaces2 is aware of this setup since version 2.3.9.</p>
+                  <p>But you should be aware of the drawbacks:</p>
+                  <p><code>/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</p>
+                  <p><code>/System/Library/ScriptingAdditions</code> is under SIP protection, which means that TotalSpaces2 updates cannot modify TotalSpaces.osax located there. Any TotalSpaces2 update will refuse to run until you have booted into Recovery OS and copied the new osax into place.</p>
+                  <h2>Installation steps</h2>
+                  <ol>
+                    <li>Install TotalSpaces2 (or update TotalSpaces2)</li>
+                    <li>Reboot into Recovery OS (reboot and hold cmd-R)</li>
+                    <li>Open Terminal from Utilities menu</li>
+                    <li>Mount your main system disk if needed - this depends on your setup, see explanation below</li>
+                    <li>Move TotalSpaces.osax from inside <code>/Applications/TotalSpaced2.app</code> to <code>/System/Library/ScriptingAdditions</code> on your system disk</li>
+                    <li>Fix rights on the newly moved folder</li>
+                  </ol>
+                  <h3>STEPS 1-3</h3>
+                  <p>These should be straightforward (I'm assuming you are technically minded).</p>
+                  <h3>STEP 4: mount your main system disk</h3>
+                  <p>If you don't use FileVault, your main disk may have be mounted automatically, or if not you can easily use Disk Utility to mount it. In case of FileVault you have to use <code>disktutil corestorage unlockVolume</code> command.</p>
+                  <p>In either case you should end up with your main system disk mounted at <code>/Volumes/[NAME]</code> where [NAME] is some name you gave to your disk during formatting (potentially includes spaces - mine is 'Macintosh HD').</p>
+                  <h3>STEPS 5-6: copy and fix rights</h3>
+                  <p>My system disk was mounted as <code>/Volumes/Macintosh HD</code>, so here are commands relevant to my situation:</p>
+                  <pre><code>cd "/Volumes/Macintosh HD/System/Library/ScriptingAdditions"
+cp -R "../../../Applications/TotalSpaces2.app/Contents/Resources/TotalSpaces.osax" .
+chown -R root:wheel TotalSpaces.osax
+</code></pre>
+                  <h2>Final words</h2>
+                  <p>As you can see, it's not that difficult if you know what you are doing. The main problems are TotalSpaces2 and system updates. You may have to repeat this installation over and over again.</p>
+                  <p>And lastly, thanks to the SIMBL developers for <a href="https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426">investigating this mechanism</a>.</p>
+                  <script>$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})</script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})</script>
+    <p></div></p>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box-right">
+              <div class="footer-copyright">
+                <div class="footer-license">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="http://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                </div>
+                <a href="http://www.binaryage.com/about">BinaryAge Limited</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">if(window.jQuery){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})}</script>
+    <script type="text/javascript">var _gauges=_gauges||[];(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.id="gauges-tracker";e.setAttribute("data-site-id","4f10d65d844d52139500000b");e.src="//secure.gaug.es/track.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()</script>
+  </body>
+</html>
