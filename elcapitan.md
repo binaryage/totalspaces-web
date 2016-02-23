@@ -44,5 +44,5 @@ However, in El Capitan the OSX developers added a feature that disallows this ki
 
 In order for TotalSpaces2 to work, part of this new feature must be disabled. And __we don't recommend you do this unless you know what you are doing.__
 
-You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update/).
+You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update).
 
