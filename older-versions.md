@@ -8,7 +8,7 @@ You can download the most recent version <a href="http://downloads.binaryage.com
 
 Licenses for TotalSpaces are still available ($18), and you can purchase one here:
 
-<form action="https://sites.fastspring.com/switchstep/instant/totalspaces" class="buy-ts1-form">
+<form action="https://sites.fastspring.com/binaryage-store/instant/totalspaces" class="buy-ts1-form">
     <input type="submit" value="Buy TotalSpaces">
 </form>
 

@@ -117,8 +117,8 @@ highlights: [{
     </div>
   </div>
   <div class="button-container">
-    <a id="o-buy-ts2" class="button product-button-buy-ts2" href="https://sites.fastspring.com/switchstep/instant/totalspaces2">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$9</span>
+    <a id="o-buy-ts2" class="button product-button-buy-ts2" href="https://sites.fastspring.com/binaryage-store/instant/totalspaces2">
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$11.99</span>
     </a>
   </div>
 </div>

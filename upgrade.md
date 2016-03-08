@@ -4,22 +4,6 @@ title: Upgrading TotalSpaces to TotalSpaces2
 subtitle: Upgrade to TotalSpaces2
 ---
 
-## Download [TotalSpaces2 for Yosemite/Mavericks here.](http://downloads.binaryage.com/TotalSpaces2-2.3.9.dmg)
+TotalSpaces2 is a paid upgrade from TotalSpaces. Please [download](http://downloads.binaryage.com/TotalSpaces2-2.3.9.dmg) and test it before upgrading your license.
 
-TotalSpaces2 for Yosemite/Mavericks is a paid upgrade from TotalSpaces. **Please download it and test it before upgrading your license.**
-
-Existing TotalSpaces users get a **40% Discount**. Upgrades for recent purchases (since 10th June 2013) are **FREE**.
-
-Use the Upgrade license button from TotalSpaces2:
-
-<img src="/images/totalspaces-upgrade-dialog.png" width="445" height="327">
-
-If you do not see the Upgrade button, you may use this form to get your TotalSpaces2 license.
-
-**Paste your TotalSpaces (1) license code here**
-<form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2">
-  <input class="upgrade-input" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
-  <input type="submit" class="upgrade-submit" value="Upgrade">
-</form>
-
-If you encounter any problem feel free to email us [support@binaryage.com](mailto:support@binaryage.com)
+Existing TotalSpaces users can get a **40% Discount** when purchasing TotalSpaces2.  Please email [support@binaryage.com](mailto:support@binaryage.com?subject=TotalSpaces%20Upgrade) for a coupon code.

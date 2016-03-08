@@ -38,7 +38,7 @@ Check out [this page](/free-licenses2) to see if you can get a free license.
 
 <img src="/shared/img/totalspaces2-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
 
-Please visit [the store](https://sites.fastspring.com/switchstep/instant/totalspaces2) where you can purchase TotalSpaces2. It is easy and safe (powered by [FastSpring](http://fastspring.com)).
+Please visit [the store](https://sites.fastspring.com/binaryage-store/instant/totalspaces2) where you can purchase TotalSpaces2. It is easy and safe (powered by [FastSpring](http://fastspring.com)).
 
 ## TotalSpaces2 updates
 
