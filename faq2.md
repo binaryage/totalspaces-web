@@ -38,7 +38,7 @@ The dashboard can be removed from your grid by unchecking "Show dashboard as a s
 
 ## <a id="app-assignments"></a>How can I make a particular app stay on a particular desktop in the grid?
 
-You can now do this from the [Apps preferences](/apps)
+You can now do this from the [Apps preferences](/apps2)
 
 ## <a id="uninstall"></a>How can I uninstall TotalSpaces2?
 

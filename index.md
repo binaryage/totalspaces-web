@@ -112,7 +112,7 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with OSX 10.9 &amp; 10.10<br>
+      <i class="fa fa-laptop"></i> Compatible with OS X 10.9, 10.10, &amp; <a href="/system-integrity-protection" target="_blank">10.11<br>
       <a href="/older-versions">Looking for an older version?</a><br>
     </div>
   </div>
