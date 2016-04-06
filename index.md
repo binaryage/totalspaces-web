@@ -98,7 +98,7 @@ highlights: [{
   </div>
   <div class="col-md-7">
     <div class="teaser-button-box">
-      <a href="http://cdn.binaryage.com/totalspaces2-intro.mp4" id="o-teaser" rel="#teaser" class="button product-button-teaser">
+      <a href="https://player.vimeo.com/video/161810791" id="o-teaser" rel="#teaser" class="button product-button-teaser">
         <div><i class="fa fa-play-circle"></i> Watch video preview</div>
       </a>
     </div>
@@ -126,11 +126,7 @@ highlights: [{
 
 {% contentfor overlays %}
 <div id="totalspaces-teaser" class="overlay" style="display:none">
-  <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="864" height="560" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
-    <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalspaces2-intro.mp4">
-    <PARAM name="AUTOPLAY" VALUE="true">
-    <EMBED SRC="http://cdn.binaryage.com/totalspaces2-intro.mp4" width="864" height="560" AUTOPLAY="true" PLUGINSPAGE="http://www.apple.com/quicktime/download/"></EMBED>
-  </OBJECT>
+  <iframe src="https://player.vimeo.com/video/161810791" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 {% endcontentfor %}
