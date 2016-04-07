@@ -126,7 +126,7 @@ highlights: [{
 
 {% contentfor overlays %}
 <div id="totalspaces-teaser" class="overlay" style="display:none">
-  <iframe src="https://player.vimeo.com/video/161810791" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/161810791" width="864" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 {% endcontentfor %}
