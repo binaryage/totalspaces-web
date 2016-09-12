@@ -1,16 +1,16 @@
 ---
 layout: ts2-doc
-title: Running TotalSpaces2 on El Capitan
-subtitle: How to run TotalSpaces2 on El Capitan
+title: Running TotalSpaces2 on El Capitan or Sierra
+subtitle: How to run TotalSpaces2 on El Capitan or Sierra
 ---
 
-TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.
+TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot run on a normally configured machine due to system integrity protection, a new security feature in El Capitan.
 
 This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalSpaces2.
 
 Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
-Anyway, if you decide to modify the setting under El Capitan, you will be able to install and run TotalSpaces2 as before. Just to be clear...
+Anyway, if you decide to modify the setting under El Capitan/Sierra, you will be able to install and run TotalSpaces2 as before. Just to be clear...
 
 <div class="license-desk exclamation">
 I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
