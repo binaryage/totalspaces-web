@@ -1,17 +1,18 @@
 ---
 layout: ts2-doc
 title: Older versions of TotalSpaces
-subtitle: TotalSpaces for Lion and Mountain Lion
+subtitle: Older Versions
 ---
 
-You can download the most recent version <a href="http://downloads.binaryage.com/TotalSpaces-1.2.11.zip">TotalSpaces for Lion and Mountain Lion here</a>. The recent changes are <a href="/changes">listed here</a>.
+* <a href="/changes2">Older versions of TotalSpace2</a> (Mac OS X 10.9 and later)
+* <a href="/changes">Older versions of TotalSpaces</a> (Mac OS X 10.7 and 10.8)
 
-Licenses for TotalSpaces are still available ($18), and you can purchase one here:
+Licenses for TotalSpaces can still be purchased here:
 
 <form action="https://sites.fastspring.com/binaryage-store/instant/totalspaces" class="buy-ts1-form">
     <input type="submit" value="Buy TotalSpaces">
 </form>
 
-Upgrading this TotalSpaces license to a TotalSpaces2 license is free of charge when you are ready to upgrade you computer  (<a href="/upgrade">see conditions here</a>).
+More information on upgrading from TotalSpaces to TotalSpaces2 can be found (<a href="/upgrade">here</a>.
 
 See also <a href="/differences2">TotalSpaces2 differences from TotalSpaces</a>.
