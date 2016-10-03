@@ -22,13 +22,13 @@ You must boot into the Recovery OS. You do this by restarting your machine, and 
 
 Then select Terminal from the Utilities menu. It looks like this:
 
-<img src="/images/recovery-1.png">
+<img src="/shared/img/recovery-utilities-terminal.png">
 
 In the window that opens, type
 <code>csrutil enable --without debug</code>
 and press return. This turns off the part of System Integrity Protection that TotalSpaces2 needs to run, and OSX complains that it is an unsupported configuration.
 
-<img src="/images/recovery-2.png">
+<img src="/shared/img/recovery-terminal-csrutil-enable-without-debug.png">
 
 Reboot your machine and you may install or run the [latest version of TotalSpaces2](/changes-beta).
 

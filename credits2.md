@@ -31,4 +31,4 @@ Anyone who contributed to these projects can [grab a free copy](http://totalspac
 
 ---
 
-<div style="color: #666; font-size: 10px">Please <a href="mailto:stephen@binaryage.com">send me an email</a> if you think I forgot to mention someone. Thank you.</div>
+<div style="color: #666; font-size: 10px">Please <a href="mailto:support@binaryage.com">send me an email</a> if you think I forgot to mention someone. Thank you.</div>
