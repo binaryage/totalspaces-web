@@ -70,7 +70,7 @@
             <div class="col-md-3">
               <div class="sidebar">
                 <div class="header-sidebar">
-                  <a class="back-button" href="/"></a>
+                  <a class="back-button" href="/">« Back to Homepage</a>
                 </div>
                 <div class="content-sidebar">
                   <h2>Change log</h2>
@@ -100,7 +100,7 @@
                   <h2>Articles</h2>
                   <ul class="fa-ul">
                     <li><a href="/differences2">Differences from TotalSpaces</a></li>
-                    <li><a href="/elcapitan">TotalSpaces2 on El Capitan</a></li>
+                    <li><a href="/elcapitan">TotalSpaces2 on OSX 10.11/10.12</a></li>
                   </ul>
                   <h2>Other versions</h2>
                   <ul class="fa-ul">
@@ -135,11 +135,11 @@
                   <h2>How to modify System Integrity Protection</h2>
                   <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="http://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
-                  <p><img src="/shared/img/recovery-utilities-terminal.png"/></p>
+                  <p><img src="http://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
                   <p>In the window that opens, type
                     <code>csrutil enable --without debug</code>
                   and press return. This turns off the part of System Integrity Protection that TotalSpaces2 needs to run, and OSX complains that it is an unsupported configuration.</p>
-                  <p><img src="/shared/img/recovery-terminal-csrutil-enable-without-debug.png"/></p>
+                  <p><img src="http://static.binaryage.com/a96af7ca_shared_img_recovery-terminal-csrutil-enable-without-debug.png"/></p>
                   <p>Reboot your machine and you may install or run the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
                   <p>Note, you can also use the <code>csrutil disable</code> command to completely disable System Integrity Protection. This has the advantage that there is no scary warning about an unsupported configuration, but the disadvantage that the whole of SIP (rather than just part) is disabled.</p>
                   <h2>Technical details</h2>
