@@ -1,5 +1,5 @@
 ---
-layout: product-home
+layout: product
 title: TotalSpaces brings grid spaces to your Mac and more!
 product: totalspaces
 product_title: TotalSpaces2
