@@ -132,21 +132,23 @@ highlights: [{
 {% endcontentfor %}
 
 <script>
-  $(function() {
-    $("#o-teaser").fancybox({
-      "href": "#totalspaces-teaser",
-      "autoScale": false,
+  defer$(function() {
+    $(function() {
+      $("#o-teaser").fancybox({
+        "href": "#totalspaces-teaser",
+        "autoScale": false,
+      });
+      $("#o-buy").fancybox({
+        href: "#totalspaces-buy"
+      });
+      $("#o-download-button").bind('click', function(e) {
+        ga('send', 'pageview', '/overlays/o-download');
+      });
+      $('.screenshot').fancybox();
+      $('.screenshot-box').navigen({
+        target: $(".navi")
+      });
+      $('.highlight').showcase();
     });
-    $("#o-buy").fancybox({
-      href: "#totalspaces-buy"
-    });
-    $("#o-download-button").bind('click', function(e) {
-      ga('send', 'pageview', '/overlays/o-download');
-    });
-    $('.screenshot').fancybox();
-    $('.screenshot-box').navigen({
-      target: $(".navi")
-    });
-    $('.highlight').showcase();
   });
 </script>

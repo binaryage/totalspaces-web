@@ -9,7 +9,9 @@ subtitle: TotalSpaces for Lion and Mountain Lion
 <div class="changelogx"></div>
 
 <script type="text/javascript" charset="utf-8">
+  defer$(function() {
     $(function() {
-        $('.changelogx').load('changelog.html?x='+((Math.random()+"").substring(2))+' #page');
+      $('.changelogx').load('changelog.html?x='+((Math.random()+"").substring(2))+' #page');
     });
+  });
 </script>
