@@ -113,7 +113,8 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible OS X 10.9&ndash;10 &amp; <a href="/elcapitan" target="_blank">10.11&ndash;12 <i class="fa fa-info-circle"></i></a><br>
+      <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/elcapitan" target="_blank">Requires a system tweak for macOS 10.11&dash;10.12</a></span><br>
+      <i class="fa fa-laptop"></i> Compatible with macOS 10.9&dash;10.12<br>
       <a href="/older-versions">Looking for an older version?</a><br>
     </div>
   </div>
