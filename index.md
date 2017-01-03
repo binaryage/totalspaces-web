@@ -120,7 +120,7 @@ highlights: [{
   </div>
   <div class="button-container">
     <a id="o-buy-ts2" class="button product-button-buy-ts2" href="{{page.store_link}}">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$11.99</span>
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$12</span>
     </a>
   </div>
 </div>
