@@ -7,7 +7,8 @@ product_subtitle: the ultimate grid spaces manager for your Mac
 product_icon: /shared/img/icons/totalspaces2-256.png
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
 download: http://downloads.binaryage.com/TotalSpaces2-2.4.9.dmg
-downloadtitle: Download v2.4.9
+download_title: Download v2.4.9
+store_link: https://sites.fastspring.com/binaryage/instant/totalspaces2
 meta_title: TotalSpaces2 brings grid spaces to you Mac and more!
 meta_keywords: totalspaces,mac,dock,spaces,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,yosemite,binaryage
 meta_description: TotalSpaces2 is a desktop manager aims to re-create the classic 2D 'spaces' grid functionality on OS X Mavericks and Yosemite.
@@ -109,7 +110,7 @@ highlights: [{
 <div class="product-buttons">
   <div class="button-container">
     <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
-      <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
+      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible OS X 10.9&ndash;10 &amp; <a href="/elcapitan" target="_blank">10.11&ndash;12 <i class="fa fa-info-circle"></i></a><br>
@@ -117,7 +118,7 @@ highlights: [{
     </div>
   </div>
   <div class="button-container">
-    <a id="o-buy-ts2" class="button product-button-buy-ts2" href="https://sites.fastspring.com/binaryage-store/instant/totalspaces2">
+    <a id="o-buy-ts2" class="button product-button-buy-ts2" href="{{page.store_link}}">
       <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$11.99</span>
     </a>
   </div>
