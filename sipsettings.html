@@ -128,7 +128,7 @@
                   <p>Here is some information about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
                   <p>If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalSpaces2. Just to be clear...</p>
                   <div class="license-desk exclamation">
-                    Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the setings.
+                    Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
                   </div>
                   <h2>How to install TotalSpaces2 by turning off System Integrity Protection</h2>
                   <p>We now recommend turning off SIP to install TotalSpaces2, and to turn it back on again after it has been installed.</p>
@@ -145,15 +145,15 @@
                     <code>csrutil enable</code>
                   and press return. Reboot, and you are done.</p>
                   <h2>Technical details</h2>
-                  <p>TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
+                  <p>TotalSpaces2 works by changing the way the Dock program handles spaces. macOS does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
                   <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of macOS on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
                   <p>However, in El Capitan and later the macOS developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
-                  <p>In order for TotalSpaces2 to be installed, this new feature must be disabled. When you disable SIP and run TotalSpaces2, it installs its plugin component in the location /System/Library/ScriptingAdditions. This component usually does not change between TotalSpaces2 versions, and even when you turn SIP back on it will continue to allow TotalSpaces2 to load.</p>
+                  <p>In order for TotalSpaces2 to be installed, this new feature must be disabled. When you disable SIP and run TotalSpaces2, it installs its plugin component in the location <code>/System/Library/ScriptingAdditions</code>. This component usually does not change between TotalSpaces2 versions, and even when you turn SIP back on it will continue to allow TotalSpaces2 to load.</p>
                   <h2>Uninstallation and SIP</h2>
                   <p>To remove TotalSpaces2 from your system, run the uninstaller found on the [latest dmg download of TotalSpaces2(/changes-beta).</p>
-                  <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the file in /System/Library/ScriptingAdditions. This is not harmful (it won't ever be loaded if you do not run TotalSpaces2), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
+                  <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the file in <code>/System/Library/ScriptingAdditions</code>. This is not harmful (it won't ever be loaded if you do not run TotalSpaces2), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
                   <h2>Upgrading from earlier versions</h2>
-                  <p>If you had an installtion of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (csrutil enable --without-debug), then you can still upgrade to versions 2.5.3 and above without changing your SIP settings. Everything will continue to work.</p>
+                  <p>If you had an installation of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (<code>csrutil enable --without-debug</code>), then you can still upgrade to versions 2.5.3 and above without changing your SIP settings. Everything will continue to work.</p>
                   <p>However, if you wish to run with SIP enabled, first disable SIP completely as described above, reboot and then install and run TotalSpaces2 2.5.3 or above. After this version of TotalSpaces2 has been run with SIP completely disabled, then you should be able to fully re-enable SIP.</p>
                   <h2>Further information</h2>
                   <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our original blog post</a>.</p>
