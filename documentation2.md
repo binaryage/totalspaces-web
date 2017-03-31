@@ -3,7 +3,7 @@ layout: ts2-doc
 title: TotalSpaces2 Documentation
 subtitle: Documentation
 ---
-<h2><mark><a href="/elcapitan">See here</a> for information about running TotalSpaces2 on OSX 10.11 El Capitan and macOS Sierra</mark></h2>
+<h2><mark><a href="/sipsettings">See here</a> for information about running TotalSpaces2 on OSX 10.11 El Capitan and macOS Sierra</mark></h2>
 
 ## TotalSpaces2 provides a grid of spaces on your Mac
 

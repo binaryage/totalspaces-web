@@ -8,7 +8,7 @@ TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.1
 
 This article will tell you how to configure your machine to allow installation by modifying the SIP setting.
 
-__Starting with version 2.5.3 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.__
+__Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.__
 
 Here is some information about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
@@ -20,7 +20,7 @@ Your machine may be less secure when System Integrity Protection is not running.
 
 ## How to install TotalSpaces2 by turning off System Integrity Protection
 
-We now recommend turning off SIP to install TotalSpaces2, and to turn it back on again after it has been installed.
+We now recommend turning off SIP to install TotalSpaces2, and to turn it back on again after it has been installed. For instructions for TotalSpaces2 versions earlier than 2.5.4, [see here](/elcapitan).
 
 You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="/images/cmd-r.png" title="cmd-r"> &nbsp;&nbsp;until the Apple logo appears.
 

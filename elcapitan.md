@@ -8,6 +8,8 @@ TotalSpaces2 [versions 2.3.5 and above](/changes-beta) have support for OSX 10.1
 
 This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalSpaces2.
 
+__Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish. [See here for information.](/sipsettings)__
+
 Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
 Anyway, if you decide to modify the setting under El Capitan/Sierra, you will be able to install and run TotalSpaces2 as before. Just to be clear...
