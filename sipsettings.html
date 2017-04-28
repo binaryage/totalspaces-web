@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>Running TotalSpaces2 on El Capitan or Sierra</title>
+    <title>Installing TotalSpaces2 v2.5.4 and above</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/sipsettings"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://static.binaryage.com/26f8d85b_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/4c2ce89c_shared_css_site.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
@@ -118,45 +118,48 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">How to run TotalSpaces2 on El Capitan or Sierra</h1>
+                  <h1 class="title">How to install TotalSpaces2</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>TotalSpaces2 <a href="/changes-beta">versions 2.3.5 and above</a> have support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature in El Capitan.</p>
-                  <p>This article will tell you how to configure your machine to allow installation by modifying the SIP setting.</p>
-                  <p><strong>Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.</strong></p>
-                  <p>Here is some information about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
-                  <p>If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalSpaces2. Just to be clear...</p>
-                  <div class="license-desk exclamation">
-                    Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
-                  </div>
-                  <h2>How to install TotalSpaces2 by turning off System Integrity Protection</h2>
-                  <p>We now recommend turning off SIP to install TotalSpaces2, and to turn it back on again after it has been installed. For instructions for TotalSpaces2 versions earlier than 2.5.4, <a href="/elcapitan">see here</a>.</p>
-                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears.</p>
+                  <p>These instructions apply to <a href="/changes-beta">TotalSpaces2 v.2.5.4 and above</a> on OSX 10.11 El Capitan and macOS 10.12 Sierra.</p>
+                  <p>TotalSpaces2 requires temporary changes to your security settings to be installed. <a href="/sip-details">Read more about it here.</a></p>
+                  <ul class="steps-list">
+                    <li><a href="#step1">Step 1 &mdash; Turn off System Integrity Protection</a></li>
+                    <li><a href="#step2">Step 2 &mdash; Install and run TotalSpaces2</a></li>
+                    <li><a href="#step3">Step 3 &mdash; Turn System Integrity Protection back on</a></li>
+                  </ul>
+                  <p><a id="step1"></a></p>
+                  <h1>Step 1</h1>
+                  <h2>Turn off System Integrity Protection (SIP)</h2>
+                  <p>This requires rebooting your maching into recovery mode.</p>
+                  <p>Restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
                   <p>In the window that opens, type
                     <code>csrutil disable</code>
                   and press return. This turns off System Integrity Protection so that TotalSpaces2 can be installed.</p>
                   <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg"/></p>
-                  <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
-                  <p>Once TotalSpaces2 is installed and you have run it for the first time (so it has a chance to install its plugin component), then you may turn SIP back on.</p>
-                  <p>To do this, reboot and hold&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears once more. Go to Utilities->Terminal and type
+                  <p>Choose restart from apple menu (top left).</p>
+                  <p><a id="step2"></a></p>
+                  <h1>Step 2</h1>
+                  <h2>Install and run TotalSpaces2</h2>
+                  <p>Double click on the DMG file you downloaded with TotalSpace2 in it. Drag TotalSpaces2 into your Applications folder.</p>
+                  <p><img src="https://static.binaryage.com/a1f810dc_images_install-from-dmg.png"/></p>
+                  <p>Run TotalSpaces2 from your Applications folder. It will ask for your password in order to install its plugin component.</p>
+                  <p><img src=/images/install-plugin.png/></p>
+                  <p>When the plugin has been installed successfully, TotalSpaces2 will tell you that you can turn SIP back on.</p>
+                  <p><img src=/images/plugin-installed.png/></p>
+                  <p><a id="step3"></a></p>
+                  <h1>Step 3 (optional)</h1>
+                  <h2>Turn System Integrity Protection back on</h2>
+                  <p>Once again restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
+                  <p>Then select Terminal from the Utilities menu.</p>
+                  <p>In the window that opens, type
                     <code>csrutil enable</code>
-                  and press return. Reboot, and you are done.</p>
-                  <h2>Technical details</h2>
-                  <p>TotalSpaces2 works by changing the way the Dock program handles spaces. macOS does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
-                  <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of macOS on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
-                  <p>However, in El Capitan and later the macOS developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
-                  <p>In order for TotalSpaces2 to be installed, this new feature must be disabled. When you disable SIP and run TotalSpaces2, it installs its plugin component in the location <code>/System/Library/ScriptingAdditions</code>. This component usually does not change between TotalSpaces2 versions, and even when you turn SIP back on it will continue to allow TotalSpaces2 to load.</p>
-                  <h2>Uninstallation and SIP</h2>
-                  <p>To remove TotalSpaces2 from your system, run the uninstaller found on the [latest dmg download of TotalSpaces2(/changes-beta).</p>
-                  <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the file in <code>/System/Library/ScriptingAdditions</code>. This is not harmful (it won't ever be loaded if you do not run TotalSpaces2), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
-                  <h2>Upgrading from earlier versions</h2>
-                  <p>If you had an installation of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (<code>csrutil enable --without-debug</code>), then you can still upgrade to versions 2.5.3 and above without changing your SIP settings. Everything will continue to work.</p>
-                  <p>However, if you wish to run with SIP enabled, first disable SIP completely as described above, reboot and then install and run TotalSpaces2 2.5.3 or above. After this version of TotalSpaces2 has been run with SIP completely disabled, then you should be able to fully re-enable SIP.</p>
-                  <h2>Further information</h2>
-                  <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our original blog post</a>.</p>
+                  and press return. This turns on System Integrity Protection so your machine is fully protected.</p>
+                  <p><img src="https://static.binaryage.com/47ea560c_images_csrutil-enable.jpg"/></p>
+                  <p>Choose restart from apple menu to complete.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>

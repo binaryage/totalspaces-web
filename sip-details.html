@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>TotalSpaces2 Navigation</title>
-    <link rel="canonical" href="https://totalspaces.binaryage.com/navigation2"/>
+    <title>What is System Integrity Protection?</title>
+    <link rel="canonical" href="https://totalspaces.binaryage.com/sip-details"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/4c2ce89c_shared_css_site.css" type="text/css"/>
@@ -15,7 +15,7 @@
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
     <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
   </head>
-  <body id="page-totalspaces-navigation2">
+  <body id="page-totalspaces-sip-details">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -118,30 +118,31 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">Navigation</h1>
+                  <h1 class="title">What is System Integrity Protection?</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>As you navigate between your desktops, you will notice that on each movement there appears a notification graphic.</p>
-                  <p><img src="https://static.binaryage.com/4d6bf5f6_images_navigation-notification.png"/></p>
-                  <p>The highlight animates to show you which desktop you came from, and which you are now on. (You can turn this off in General preferences if you don't like it.)</p>
-                  <p>If you have named your spaces, and have full screen apps, it might look something like this</p>
-                  <p><img src="https://static.binaryage.com/a0497936_images_navigation-notification-with-names.png"/></p>
-                  <p>If you attempt to navigate off the edge of the grid, and you have circulation turned off (so you cannot go that direction), then the notification will show to remind you of your current position.</p>
-                  <p>But note that the notification doesn't show over the Dashboard.</p>
-                  <p>You can also navigate using the <a href="/overview2">Overview Grid</a>, a birds eye view of each of your desktops.</p>
-                  <p><img src="https://static.binaryage.com/458936a0_images_grid-view-6.png"/></p>
-                  <p>The currently active desktop is highlighted with a light border. You can either click on the desktop you wish to go to, or you can navigate using the cursor keys to move the border and hit enter to change to the desktop you want.</p>
-                  <p>You can dismiss the overview grid by pressing the hotkey again, clicking outside of it, or pressing esc.</p>
-                  <p>You can also use a hotcorner to access the overview grid, this can be set up in Hotcorner preferences. Hotcorners are placed in all the appropriate corners when multi monitor setups are used.</p>
-                  <p><img src="https://static.binaryage.com/6462956e_images_hotcorners-preferences-ts2.png" class="prefs-screenshot"/></p>
-                  <h2><a id="circulation"></a>Circulation</h2>
-                  <p>Circulation allows you to join one edge of your grid to the opposite edge.</p>
-                  <p><img src="https://static.binaryage.com/2845a82c_images_circulation-preferences-ts2.png" class="prefs-screenshot"/></p>
-                  <p>If you enable circulation, going left from the left side of your grid will move you to the right side, and vice-versa.</p>
-                  <p>There are two modes for horizontal circulation - when set to join to "Next row", going right from the end of a row of desktops takes you to the left most desktop on the next row below. If it's the bottom row you are going from, you end up on the left most space on the top row.</p>
-                  <p>When set to "Same row", the change of row behaviour does not occur, and the right end of the rows join to the left ends of the same rows.</p>
-                  <p>&raquo; Next <a href="/multi-monitors2"><strong>Multi-monitors</strong></a></p>
+                  <p>Find <a href="/sipsettings">instructions for installing TotalSpaces2 here.</a></p>
+                  <p>TotalSpaces2 versions 2.3.5 and above have support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.</p>
+                  <p><strong>Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.</strong></p>
+                  <p>Here is some information about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
+                  <p>If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalSpaces2. Just to be clear...</p>
+                  <div class="license-desk exclamation">
+                    Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
+                  </div>
+                  <h2>Technical details</h2>
+                  <p>TotalSpaces2 works by changing the way the Dock program handles spaces. macOS does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
+                  <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of macOS on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
+                  <p>However, in El Capitan and later the macOS developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
+                  <p>In order for TotalSpaces2 to be installed, this new feature must be disabled. When you disable SIP and run TotalSpaces2, it installs its plugin component in the location <code>/System/Library/ScriptingAdditions</code>. This component usually does not change between TotalSpaces2 versions, and even when you turn SIP back on it will continue to allow TotalSpaces2 to load.</p>
+                  <h2>Uninstallation and SIP</h2>
+                  <p>To remove TotalSpaces2 from your system, run the uninstaller found on the [latest dmg download of TotalSpaces2(/changes-beta).</p>
+                  <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the file in <code>/System/Library/ScriptingAdditions</code>. This is not harmful (it won't ever be loaded if you do not run TotalSpaces2), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
+                  <h2>Upgrading from earlier versions</h2>
+                  <p>If you had an installation of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (<code>csrutil enable --without-debug</code>), then you can still upgrade to versions 2.5.4 and above without changing your SIP settings. Everything will continue to work.</p>
+                  <p>However, if you wish to run with SIP enabled, first disable SIP completely as described above, reboot and then install and run TotalSpaces2 2.5.3 or above. After this version of TotalSpaces2 has been run with SIP completely disabled, then you should be able to fully re-enable SIP.</p>
+                  <h2>Further information</h2>
+                  <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our original blog post</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
