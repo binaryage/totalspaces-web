@@ -68,4 +68,3 @@ and press return. This turns on System Integrity Protection so your machine is f
 <img src="/images/csrutil-enable.jpg">
 
 Choose restart from apple menu to complete.
-
