@@ -46,11 +46,11 @@ Double click on the DMG file you downloaded with TotalSpace2 in it. Drag TotalSp
 
 Run TotalSpaces2 from your Applications folder. It will ask for your password in order to install its plugin component.
 
-<img src=/images/install-plugin.png>
+<img src="/images/install-plugin.png">
 
 When the plugin has been installed successfully, TotalSpaces2 will tell you that you can turn SIP back on.
 
-<img src=/images/plugin-installed.png>
+<img src="/images/plugin-installed.png">
 
 <a id="step3"></a>
 # Step 3 (optional)
