@@ -8,6 +8,8 @@ These instructions apply to [TotalSpaces2 v.2.6.1 and above](/changes-beta) on O
 
 TotalSpaces2 requires temporary changes to your security settings to be upgraded. [Read more about the settings here.](/sip-details)
 
+<b>NOTE: If you already have SIP disabled, please just upgrade as normal, this process is not required.</b>
+
 Note you should only need to do this once to allow running the 2.6 series of TotalSpaces2, future upgrades should not need this process.
 
 <ul class="steps-list">
