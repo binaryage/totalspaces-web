@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="ba">
+  <head>
+    <title>Upgrading to TotalSpaces2 v2.6.1 and above</title>
+    <link rel="canonical" href="https://totalspaces.binaryage.com/sipupgrade"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/4c2ce89c_shared_css_site.css" type="text/css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+  </head>
+  <body id="page-totalspaces-sipupgrade">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="relativize">
+              <a href="//www.binaryage.com" title="BinaryAge Software">
+                <div class="binaryage-logo">
+                  <svg class="logo">
+                    <g class="logo-badge">
+                      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+                      <path class="logo-letter-b" d=" M6,47 L6,17 12,17 12,25 29,25 29,47 Z M12,42 L12,30 23,30 23,42 Z"/>
+                      <path class="logo-letter-a" d=" M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z M37,42 L37,39 49,39 49,42 Z"/>
+                    </g>
+                    <g class="logo-label" transform="translate(71, 22)">
+                      <g class="logo-word-binary">
+                        <path class="logo-label-letter-b" transform="translate(0, 0)" d=" M0,25 L0,0 5,0 5,7 20,7 20,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-i" transform="translate(22, 0)" d=" M0,25 L0,7 5,7 5,25 Z M0,3 L5,3 5,0 0,0 Z"/>
+                        <path class="logo-label-letter-n" transform="translate(29, 0)" d=" M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-a" transform="translate(51, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-r" transform="translate(73, 0)" d=" M0,25 L0,7 20,7 20,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-y" transform="translate(95, 0)" d=" M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z"/>
+                      </g>
+                      <g class="logo-word-age" transform="translate(118, 0)">
+                        <path class="logo-label-letter-a" transform="translate(0, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-g" transform="translate(22, 0)" d=" M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-e" transform="translate(44, 0)" d=" M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z M5,14 L5,11 15,11 15,14 Z"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div class="relativize">
+              <ul class="header-menu menu-selected-products">
+                <li class="menu-item-store"><a href="https://sites.fastspring.com/binaryage/product/store"><i class="fa fa-shopping-cart"></i><span>store</span></a></li>
+                <li class="menu-item-products"><a href="//www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+                <li class="menu-item-blog"><a href="//blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+                <li class="menu-item-support"><a href="//discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main" class="cf">
+      <div class="doc-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <div class="header-sidebar">
+                  <a class="back-button" href="/">« Back to Homepage</a>
+                </div>
+                <div class="content-sidebar">
+                  <h2>Change log</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/changes2">Recent changes</a></li>
+                  </ul>
+                  <h2>About TotalSpaces2</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/documentation2">What is TotalSpaces2</a></li>
+                    <li><a href="/layout2">Grid Layout</a></li>
+                    <li><a href="/overview2">Overview grid</a></li>
+                    <li><a href="/single-desktop-expose">Single desktop exposé</a></li>
+                    <li><a href="/overview-backgrounds2">Overview grid backgrounds</a></li>
+                    <li><a href="/navigation2">Navigation</a></li>
+                    <li><a href="/multi-monitors2">Multi-monitors</a></li>
+                    <li><a href="/hotkeys2">Hotkeys</a></li>
+                    <li><a href="/swipe2">Swiping</a></li>
+                    <li><a href="/mouse-edges2">Mouse navigation</a></li>
+                    <li><a href="/transitions2">Transitions</a></li>
+                    <li><a href="/hotcorners2">Hot corners</a></li>
+                    <li><a href="/apps2">App assignments</a></li>
+                    <li><a href="/full-screen-desktops2">Full screen desktops</a></li>
+                    <li><a href="/overview-grid-app2">Overview grid app</a></li>
+                    <li><a href="/defaults-settings2">Defaults settings</a></li>
+                    <li><a href="/faq2">FAQ</a></li>
+                  </ul>
+                  <h2>Articles</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/sipsettings">Installing TotalSpaces2 (v2.5.4+)</a></li>
+                    <li><a href="/elcapitan">Installing TotalSpaces2 (v2.3.5+)</a></li>
+                  </ul>
+                  <h2>Other versions</h2>
+                  <ul class="fa-ul">
+                    <li><a href="/changes-beta">Pre-releases</a></li>
+                    <li><a href="/older-versions">TotalSpaces for OSX 10.7/10.8</a></li>
+                  </ul>
+                  <h2>Licenses</h2>
+                  <p></p>
+                  <ul class="fa-ul">
+                    <li><a href="/upgrade">Upgrading your licence</a></li>
+                    <li><a href="/licensing2">Licensing</a></li>
+                    <li><a href="/registration2">Registration</a></li>
+                  </ul>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="doc-page">
+                <div class="header-content">
+                  <h1 class="title">How to upgrade TotalSpaces2</h1>
+                </div>
+                <div class="generic-separator"></div>
+                <div class="page-content">
+                  <p>These instructions apply to <a href="/changes-beta">TotalSpaces2 v.2.6.1 and above</a> on OSX 10.11 and above.</p>
+                  <p>TotalSpaces2 requires temporary changes to your security settings to be upgraded. <a href="/sip-details">Read more about the settings here.</a></p>
+                  <p>Note you should only need to do this once to allow running the 2.6 series of TotalSpaces2, future upgrades should not need this process.</p>
+                  <ul class="steps-list">
+                    <li><a href="#step1">Step 1 &mdash; Upgrade TotalSpaces2</a></li>
+                    <li><a href="#step2">Step 2 &mdash; Turn off System Integrity Protection</a></li>
+                    <li><a href="#step3">Step 3 &mdash; Run TotalSpaces2</a></li>
+                    <li><a href="#step4">Step 4 &mdash; Turn System Integrity Protection back on</a></li>
+                  </ul>
+                  <p><a id="step1"></a></p>
+                  <h1>Step 1</h1>
+                  <p>Upgrade TotalSpaces2 to the latest version as prompted by the upgrade dialog.</p>
+                  <p>After you have upgraded, TotalSpaces2 will warn you that it needs to upgrade its system component, which requires the next step.</p>
+                  <p><img src="https://static.binaryage.com/ef3a45de_images_upg-sip-required.png"/></p>
+                  <p><a id="step2"></a></p>
+                  <h1>Step 2</h1>
+                  <h2>Turn off System Integrity Protection (SIP)</h2>
+                  <p>This requires rebooting your maching into recovery mode.</p>
+                  <p>Restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
+                  <p>Then select Terminal from the Utilities menu. It looks like this:</p>
+                  <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
+                  <p>In the window that opens, type
+                    <code>csrutil disable</code>
+                  and press return. This turns off System Integrity Protection so that TotalSpaces2 can be installed.</p>
+                  <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg"/></p>
+                  <p>Choose restart from apple menu (top left).</p>
+                  <p><a id="step3"></a></p>
+                  <h1>Step 3</h1>
+                  <h2>Run TotalSpaces2</h2>
+                  <p>Run TotalSpaces2 from your Applications folder. It will ask for your password in order to install its plugin component.</p>
+                  <p><img src="https://static.binaryage.com/9c9f9b34_images_install-plugin.png"/></p>
+                  <p>When the plugin has been installed successfully, TotalSpaces2 will tell you that you can turn SIP back on.</p>
+                  <p><img src="https://static.binaryage.com/75ba4600_images_plugin-installed.png"/></p>
+                  <p><a id="step4"></a></p>
+                  <h1>Step 4 (optional)</h1>
+                  <h2>Turn System Integrity Protection back on</h2>
+                  <p>Once again restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
+                  <p>Then select Terminal from the Utilities menu.</p>
+                  <p>In the window that opens, type
+                    <code>csrutil enable</code>
+                  and press return. This turns on System Integrity Protection so your machine is fully protected.</p>
+                  <p><img src="https://static.binaryage.com/47ea560c_images_csrutil-enable.jpg"/></p>
+                  <p>Choose restart from apple menu to complete.</p>
+                  <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
+    <p></div></p>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box-right">
+              <div class="footer-copyright">
+                <div class="footer-license">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                </div>
+                <a href="https://www.binaryage.com/about">BinaryAge</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
+    <script type="text/javascript">window["ga"]=function(){}</script>
+    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
+    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
+  </body>
+</html>
