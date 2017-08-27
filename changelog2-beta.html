@@ -41,6 +41,7 @@
             .changelog .removed b { background-color: #BC0E00; }
             .changelog .improved b { background-color: #0486BC; }
             .changelog .note b { background-color: #AEAEAE; }
+            .changelog .alert b { background-color: #AE5555; }
             .changelog .known_bug b { background-color: #f98d02; }
             .changelog .info { display: table; padding-left: 6px; }
         </style>
@@ -50,27 +51,42 @@
         <div class="release">
     				<div class="titlebox">
     					<h4>
-    						<a href="https://downloads.binaryage.com/TotalSpaces2-2.5.4.dmg">2.5.4</a>
+    						<a href="https://downloads.binaryage.com/TotalSpaces2-2.6.12.dmg">2.6.12</a>
     					</h4>
     					<h5>
-    						20 March 2017
+    						27 August 2017
     					</h5>
     			  </div>
     				<div class="infobox">
               <ul class="changes">
-					<li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalSpaces2 can be newly launched <a href="https://blog.binaryage.com/sip-and-installing-total-apps">with System Integrity Protection fully enabled</a>.</span></li>
-					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">SUFeedURL related crash.</span></li>
-					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Black screen issues during transitions in Sierra 10.12.4.</span></li>
-					<li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved updater version and security.</span></li>
-					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Background image rendering in the overview grid when using the Lo res setting.</span></li>					
-					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">You can no longer accidentally activate mission control or desktop expose by gestures or hotcorners when using the overview grid.</span></li>
-					<li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Much better launch time of TotalSpaces2.app after mac has been rebooted.</span></li>
-					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder windows can now be dragged correctly in the overview grid.</span></li>
-			  </ul>
-    		</div>
-    	</div>
-			  
-
+					<li><span class="sticker alert blink"><b style="text-decoration: blink;">ALERT</b></span><span class="info">This upgrade requires SIP to be temporarily disabled, <a href="https://totalspaces.binaryage.com/sipupgrade">see here</a>. <b class="blink">TotalSpaces2 cannot run without being able to upgrade its system component. Please make sure you have time to do this before accepting this upgrade. NOTE: If you already have SIP disabled, please just upgrade as normal, this process is not required.</b></span></li>
+					<li><span class="sticker new"><b>NEW</b></span> <span class="info">Added beta support for MacOS 10.13 High Sierra.</span></li>
+					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevented changing space when Mission Control is active which caused display issues.</span></li>
+        			</ul>
+    		    </div>
+    	  </div>
+          <div class="release">
+      				<div class="titlebox">
+      					<h4>
+      						<a href="https://downloads.binaryage.com/TotalSpaces2-2.5.4.dmg">2.5.4</a>
+      					</h4>
+      					<h5>
+      						20 March 2017
+      					</h5>
+      			  </div>
+      				<div class="infobox">
+                <ul class="changes">
+  					<li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalSpaces2 can be newly launched <a href="https://blog.binaryage.com/sip-and-installing-total-apps">with System Integrity Protection fully enabled</a>.</span></li>
+  					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">SUFeedURL related crash.</span></li>
+  					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Black screen issues during transitions in Sierra 10.12.4.</span></li>
+  					<li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved updater version and security.</span></li>
+  					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Background image rendering in the overview grid when using the Lo res setting.</span></li>					
+  					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">You can no longer accidentally activate mission control or desktop expose by gestures or hotcorners when using the overview grid.</span></li>
+  					<li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Much better launch time of TotalSpaces2.app after mac has been rebooted.</span></li>
+  					<li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">TotalFinder windows can now be dragged correctly in the overview grid.</span></li>
+  			  </ul>
+      		</div>
+      	</div>
         <div class="release">
     				<div class="titlebox">
     					<h4>
@@ -677,5 +693,16 @@
     	  </div>
         
 		  </div>
+          
+          <script>
+              document.querySelectorAll(".blink").forEach(function(elem) {
+                  setTimeout(function() {elem.style.opacity = 0;}, 1000);
+                  setTimeout(function() {elem.style.opacity = 100;}, 1400);
+                  setTimeout(function() {elem.style.opacity = 0;}, 2400);
+                  setTimeout(function() {elem.style.opacity = 100;}, 2800);
+                  setTimeout(function() {elem.style.opacity = 0;}, 3800);
+                  setTimeout(function() {elem.style.opacity = 100;}, 4200);
+              });
+          </script>
     </body>
 </html>
