@@ -6,8 +6,8 @@ product_title: TotalSpaces2
 product_subtitle: the ultimate grid spaces manager for your Mac
 product_icon: /shared/img/icons/totalspaces2-256.png
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
-download: http://downloads.binaryage.com/TotalSpaces2-2.6.15.dmg
-download_title: Download v2.6.15
+download: http://downloads.binaryage.com/TotalSpaces2-2.6.21.dmg
+download_title: Download v2.6.21
 store_link: https://sites.fastspring.com/binaryage/instant/totalspaces2
 meta_title: TotalSpaces2 brings grid spaces to you Mac and more!
 meta_keywords: totalspaces,mac,dock,spaces,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,yosemite,binaryage
