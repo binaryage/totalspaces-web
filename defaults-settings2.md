@@ -86,5 +86,12 @@ Normally TotalSpaces2 will display icons for full screen apps when showing the o
 
 Use the old, less flat notification graphic for showing the grid during space changes.
 
+## <a id="space-dragging"></a>Space dragging behaviour in the overview grid
+
+<code>defaults write com.binaryage.TotalSpaces2 dragSwapsSpacesInGrid -bool NO</code>
+
+Use the old behavour, where dragging a space in the overview grid would reorder the other spaces. 
+
+The default behaviour as of version 2.6.16 is to swap the space at the destination position with the space being dragged.
 
 &raquo; Next [**FAQ**](/faq2)
