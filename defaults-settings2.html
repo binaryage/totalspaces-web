@@ -164,6 +164,10 @@
                   <h2><a id="old-notification"></a>Old style notification graphic</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 oldStyleNotification -bool YES</code></p>
                   <p>Use the old, less flat notification graphic for showing the grid during space changes.</p>
+                  <h2><a id="space-dragging"></a>Space dragging behaviour in the overview grid</h2>
+                  <p><code>defaults write com.binaryage.TotalSpaces2 dragSwapsSpacesInGrid -bool NO</code></p>
+                  <p>Use the old behavour, where dragging a space in the overview grid would reorder the other spaces.</p>
+                  <p>The default behaviour as of version 2.6.16 is to swap the space at the destination position with the space being dragged.</p>
                   <p>&raquo; Next <a href="/faq2"><strong>FAQ</strong></a></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
