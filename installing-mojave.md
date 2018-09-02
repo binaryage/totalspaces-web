@@ -1,17 +1,18 @@
 ---
 layout: ts2-doc
-title: Installing TotalSpaces2 v2.5.4 and above
+title: Installing TotalSpaces2 v2.7.2 and above
 subtitle: How to install TotalSpaces2
 ---
 
-These instructions apply to [TotalSpaces2 v.2.5.4 and above](/changes-beta) on macOS 10.11 and above. If you are installing on macOS 10.14 Mojave [see here](/installing-mojave).
+These instructions apply to [TotalSpaces2 v.2.7.2 and above](/changes-beta) on macOS 10.14 and above. If you are upgrading from High Sierra to Mojave, note that __TotalSpaces2 can no longer work with SIP turned on due to changes made by Apple__. 
 
-TotalSpaces2 requires temporary changes to your security settings to be installed. [Read more about it here.](/sip-details)
+These instructions are for macOS 10.14 Mojave - [see here if you are running High Sierra or earlier.](/sipsettings)
+
+TotalSpaces2 requires changes to your security settings to be installed. [Carefully read more about it here.](/sip-details)
 
 <ul class="steps-list">
 <li><a href="#step1">Step 1 &mdash; Turn off System Integrity Protection</a></li>
 <li><a href="#step2">Step 2 &mdash; Install and run TotalSpaces2</a></li>
-<li><a href="#step3">Step 3 &mdash; Turn System Integrity Protection back on</a></li>
 </ul>
 
 <a id="step1"></a>
@@ -35,6 +36,10 @@ and press return. This turns off System Integrity Protection so that TotalSpaces
 
 Choose restart from apple menu (top left).
 
+Note: Advanced users who want to only partially disable SIP may use the command
+<code>csrutil enable --without debug --without fs</code>
+However, csrutil will warn that this configuration is unsupported.
+
 <a id="step2"></a>
 # Step 2
 
@@ -53,18 +58,11 @@ When the plugin has been installed successfully, TotalSpaces2 will tell you that
 <img src="/images/plugin-installed.png">
 
 <a id="step3"></a>
-# Step 3 (optional)
+# Step 3
 
-## Turn System Integrity Protection back on
+## There is no step 3
 
-Once again restart your machine, holding&nbsp;&nbsp; <img src="/images/cmd-r.png" title="cmd-r"> &nbsp;&nbsp;down until the Apple logo appears.
+If you are installing on macOS 10.14 Mojave or later then unfortunately SIP must remain disabled or partially disabled for TotalSpaces2 to work.
 
-Then select Terminal from the Utilities menu.
+Note that if you are installing on versions of macOS prior to 10.14 Mojave then there is an optional step 3 to turn SIP back on, [see here.](/sipsettings)
 
-In the window that opens, type
-<code>csrutil enable</code>
-and press return. This turns on System Integrity Protection so your machine is fully protected.
-
-<img src="/images/csrutil-enable.jpg">
-
-Choose restart from apple menu to complete.

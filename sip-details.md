@@ -6,13 +6,13 @@ subtitle: What is System Integrity Protection?
 
 Find [instructions for installing TotalSpaces2 here.](/sipsettings)
 
-TotalSpaces2 versions 2.3.5 and above have support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.
+TotalSpaces2 versions 2.3.5 and above (for OSX 10.11 El Capitan and later) cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.
 
-__Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.__
+__In macOS versions up to 10.13 High Sierra, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish. This does not apply to 10.14 Mojave and later.__
 
 Here is some information about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
-If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalSpaces2. Just to be clear...
+If you decide to modify the setting, you will be able to install TotalSpaces2. Just to be clear...
 
 <div class="license-desk exclamation">
 Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
@@ -36,9 +36,7 @@ Note that if you have SIP turned on, then the uninstaller will not be able to re
 
 ## Upgrading from earlier versions
 
-If you had an installation of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (`csrutil enable --without-debug`), then you can still upgrade to versions 2.5.4 and above without changing your SIP settings. Everything will continue to work.
-
-However, if you wish to run with SIP enabled, first disable SIP completely as described above, reboot and then install and run TotalSpaces2 2.5.3 or above. After this version of TotalSpaces2 has been run with SIP completely disabled, then you should be able to fully re-enable SIP.
+If you are upgrading your machine to macOS 10.14 Mojave and have SIP turned on, TotalSpaces2 will warn you about not being able to load, and you should [follow the instructions here.](/installing-mojave)
 
 ## Further information
 
