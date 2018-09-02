@@ -5,7 +5,7 @@
     <link rel="canonical" href="https://totalspaces.binaryage.com/sip-details"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://static.binaryage.com/0385d5ea_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
@@ -99,6 +99,7 @@
                   </ul>
                   <h2>Articles</h2>
                   <ul>
+                    <li><a href="/installing-mojave">Installing TotalSpaces2 (v2.7.2+)</a></li>
                     <li><a href="/sipsettings">Installing TotalSpaces2 (v2.5.4+)</a></li>
                     <li><a href="/elcapitan">Installing TotalSpaces2 (v2.3.5+)</a></li>
                   </ul>
@@ -124,10 +125,10 @@
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p>Find <a href="/sipsettings">instructions for installing TotalSpaces2 here.</a></p>
-                  <p>TotalSpaces2 versions 2.3.5 and above have support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.</p>
-                  <p><strong>Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish.</strong></p>
+                  <p>TotalSpaces2 versions 2.3.5 and above (for OSX 10.11 El Capitan and later) cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.</p>
+                  <p><strong>In macOS versions up to 10.13 High Sierra, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish. This does not apply to 10.14 Mojave and later.</strong></p>
                   <p>Here is some information about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
-                  <p>If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalSpaces2. Just to be clear...</p>
+                  <p>If you decide to modify the setting, you will be able to install TotalSpaces2. Just to be clear...</p>
                   <div class="license-desk exclamation">
                     Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
                   </div>
@@ -140,8 +141,7 @@
                   <p>To remove TotalSpaces2 from your system, run the uninstaller found on the [latest dmg download of TotalSpaces2(/changes-beta).</p>
                   <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the file in <code>/System/Library/ScriptingAdditions</code>. This is not harmful (it won't ever be loaded if you do not run TotalSpaces2), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
                   <h2>Upgrading from earlier versions</h2>
-                  <p>If you had an installation of TotalSpaces2 using the partially disabled SIP setting that we earlier recommended (<code>csrutil enable --without-debug</code>), then you can still upgrade to versions 2.5.4 and above without changing your SIP settings. Everything will continue to work.</p>
-                  <p>However, if you wish to run with SIP enabled, first disable SIP completely as described above, reboot and then install and run TotalSpaces2 2.5.3 or above. After this version of TotalSpaces2 has been run with SIP completely disabled, then you should be able to fully re-enable SIP.</p>
+                  <p>If you are upgrading your machine to macOS 10.14 Mojave and have SIP turned on, TotalSpaces2 will warn you about not being able to load, and you should <a href="/installing-mojave">follow the instructions here.</a></p>
                   <h2>Further information</h2>
                   <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our original blog post</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>

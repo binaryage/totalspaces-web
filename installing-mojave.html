@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>TotalSpaces2 App Assignments</title>
-    <link rel="canonical" href="https://totalspaces.binaryage.com/apps2"/>
+    <title>Installing TotalSpaces2 v2.7.2 and above</title>
+    <link rel="canonical" href="https://totalspaces.binaryage.com/installing-mojave"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
@@ -16,7 +16,7 @@
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
     <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
   </head>
-  <body id="page-totalspaces-apps2" class="site-totalspaces">
+  <body id="page-totalspaces-installing-mojave" class="site-totalspaces">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -120,19 +120,46 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">App Assignments</h1>
+                  <h1 class="title">How to install TotalSpaces2</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>You can assign apps to always open on a particular desktop by using the Apps preferences.</p>
-                  <p><img src="https://static.binaryage.com/2468cacd_images_apps-preferences-ts2.png"/></p>
-                  <p>Press the + button to open a dialog and choose the application you want to assign. Then choose the desktop you want to assign it to from the dropdown list. You can also choose <strong>All spaces</strong> if you would like an app to appear on all desktops.</p>
-                  <p>These assignments allow you to choose where apps start, but note that you may still move windows from desktop to desktop - for instance by dragging them in the <a href="/overview2" title="Overview grid">Overview Grid</a>.</p>
-                  <p>You can delete an app assignment by highlighting it and pressing the - (minus) button.</p>
-                  <h2>Adding Finder</h2>
-                  <p>Finder is not in the normal Applications folder. In order to add it you should navigate to /System/Library/CoreServices/Finder</p>
-                  <p><img src="https://static.binaryage.com/15134c78_images_apps-prefs-finder.png"/></p>
-                  <p>&raquo; Next <a href="/full-screen-desktops2"><strong>Full screen desktops</strong></a></p>
+                  <p>These instructions apply to <a href="/changes-beta">TotalSpaces2 v.2.7.2 and above</a> on macOS 10.14 and above. If you are upgrading from High Sierra to Mojave, note that <strong>TotalSpaces2 can no longer work with SIP turned on due to changes made by Apple</strong>.</p>
+                  <p>These instructions are for macOS 10.14 Mojave - <a href="/sipsettings">see here if you are running High Sierra or earlier.</a></p>
+                  <p>TotalSpaces2 requires changes to your security settings to be installed. <a href="/sip-details">Carefully read more about it here.</a></p>
+                  <ul class="steps-list">
+                    <li><a href="#step1">Step 1 &mdash; Turn off System Integrity Protection</a></li>
+                    <li><a href="#step2">Step 2 &mdash; Install and run TotalSpaces2</a></li>
+                  </ul>
+                  <p><a id="step1"></a></p>
+                  <h1>Step 1</h1>
+                  <h2>Turn off System Integrity Protection (SIP)</h2>
+                  <p>This requires rebooting your maching into recovery mode.</p>
+                  <p>Restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
+                  <p>Then select Terminal from the Utilities menu. It looks like this:</p>
+                  <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
+                  <p>In the window that opens, type
+                    <code>csrutil disable</code>
+                  and press return. This turns off System Integrity Protection so that TotalSpaces2 can be installed.</p>
+                  <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg"/></p>
+                  <p>Choose restart from apple menu (top left).</p>
+                  <p>Note: Advanced users who want to only partially disable SIP may use the command
+                    <code>csrutil enable --without debug --without fs</code>
+                  However, csrutil will warn that this configuration is unsupported.</p>
+                  <p><a id="step2"></a></p>
+                  <h1>Step 2</h1>
+                  <h2>Install and run TotalSpaces2</h2>
+                  <p>Double click on the DMG file you downloaded with TotalSpace2 in it. Drag TotalSpaces2 into your Applications folder.</p>
+                  <p><img src="https://static.binaryage.com/a1f810dc_images_install-from-dmg.png"/></p>
+                  <p>Run TotalSpaces2 from your Applications folder. It will ask for your password in order to install its plugin component.</p>
+                  <p><img src="https://static.binaryage.com/9c9f9b34_images_install-plugin.png"/></p>
+                  <p>When the plugin has been installed successfully, TotalSpaces2 will tell you that you can turn SIP back on.</p>
+                  <p><img src="https://static.binaryage.com/75ba4600_images_plugin-installed.png"/></p>
+                  <p><a id="step3"></a></p>
+                  <h1>Step 3</h1>
+                  <h2>There is no step 3</h2>
+                  <p>If you are installing on macOS 10.14 Mojave or later then unfortunately SIP must remain disabled or partially disabled for TotalSpaces2 to work.</p>
+                  <p>Note that if you are installing on versions of macOS prior to 10.14 Mojave then there is an optional step 3 to turn SIP back on, <a href="/sipsettings">see here.</a></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
