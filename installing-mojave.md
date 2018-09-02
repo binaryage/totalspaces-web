@@ -53,9 +53,7 @@ Run TotalSpaces2 from your Applications folder. It will ask for your password in
 
 <img src="/images/install-plugin.png">
 
-When the plugin has been installed successfully, TotalSpaces2 will tell you that you can turn SIP back on.
-
-<img src="/images/plugin-installed.png">
+TotalSpaces2 will notify you when the plugin has been successfully installed.
 
 <a id="step3"></a>
 # Step 3
