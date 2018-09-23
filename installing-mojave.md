@@ -10,6 +10,10 @@ These instructions are for macOS 10.14 Mojave - [see here if you are running Hig
 
 TotalSpaces2 requires changes to your security settings to be installed. [Carefully read more about it here.](/sip-details)
 
+<div class="license-desk exclamation">
+Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify the settings.
+</div>
+
 <ul class="steps-list">
 <li><a href="#step1">Step 1 &mdash; Turn off System Integrity Protection</a></li>
 <li><a href="#step2">Step 2 &mdash; Install and run TotalSpaces2</a></li>

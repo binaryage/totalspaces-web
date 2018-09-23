@@ -4,7 +4,7 @@ title: What is System Integrity Protection?
 subtitle: What is System Integrity Protection?
 ---
 
-Find [instructions for installing TotalSpaces2 here.](/sipsettings)
+Find [instructions for installing TotalSpaces2 here.](/installing-mojave)
 
 TotalSpaces2 versions 2.3.5 and above (for OSX 10.11 El Capitan and later) cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature introduced in El Capitan. It must be disabled.
 
