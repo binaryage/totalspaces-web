@@ -6,7 +6,7 @@ product_title: TotalSpaces2
 product_subtitle: the ultimate grid spaces manager for your Mac
 product_icon: /shared/img/icons/totalspaces2-256.png
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
-download: http://downloads.binaryage.com/TotalSpaces2-2.7.11.dmg
+download: https://downloads.binaryage.com/TotalSpaces2-2.7.11.dmg
 download_title: Download v2.7.11
 store_link: https://sites.fastspring.com/binaryage/instant/totalspaces2
 meta_title: TotalSpaces2 brings grid spaces to you Mac and more!
@@ -113,7 +113,7 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/sipsettings" target="_blank">Requires a system tweak for macOS 10.11&dash;10.14</a></span><br>
+      <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/installing-mojave" target="_blank">Requires a system tweak for macOS 10.11&dash;10.14</a></span><br>
       <i class="fa fa-laptop"></i> Compatible with macOS 10.9&dash;10.14<br>
       <a href="/older-versions">Looking for an older version?</a><br>
     </div>
