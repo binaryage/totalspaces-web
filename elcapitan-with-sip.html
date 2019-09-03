@@ -3,8 +3,8 @@
   <head>
     <title>Running TotalSpaces2 on El Capitan with SIP fully enabled</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/elcapitan-with-sip"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -126,48 +126,48 @@
                 <div class="page-content">
                   <p>Under OS X 10.11 (El Capitan), TotalSpaces2 cannot install itself on a normally configured machine due to System Integrity Protection.</p>
                   <p>You can <a href="/elcapitan">find details here</a> of how to partially disable System Integrity Protection to install and run TotalSpaces2 under El Capitan and higher.</p>
-                  <h2>What if you need to keep SIP fully enabled?</h2>
+                  <h2 id="what-if-you-need-to-keep-sip-fully-enabled">What if you need to keep SIP fully enabled?</h2>
                   <p>There is a way, but it has some major drawbacks. This article is for technical users who need to run TotalSpaces2 with fully enabled SIP.</p>
                   <p>This technique does not require you to disable SIP, but it requires you to modify system files in Recovery OS.</p>
                   <p>It requires technical knowledge how to mount file-systems and manipulate files using command-line.
                     With any TotalSpaces2 update, you will have to repeat this installation.
                   With any system update, TotalSpaces2 files are likely to be removed from system folders and you would have to repeat this installation.</p>
-                  <h2>Technical details</h2>
+                  <h2 id="technical-details">Technical details</h2>
                   <p>TotalSpaces2 needs to inject code into Dock.app. It uses mechanism called Scripting Additions. A Scripting Addition is a special code bundle which can be injected into running applications.</p>
-                  <p>Scripting Additions have 'osax' file extension. Historically there are three places where scripting addtions can be placed:</p>
+                  <p>Scripting Additions have ‘osax’ file extension. Historically there are three places where scripting addtions can be placed:</p>
                   <ul>
-                    <li><code>~/Library/ScriptingAdditions</code></li>
-                    <li><code>/Library/ScriptingAdditions</code></li>
-                    <li><code>/System/Library/ScriptingAdditions</code></li>
+                    <li><code class="highlighter-rouge">~/Library/ScriptingAdditions</code></li>
+                    <li><code class="highlighter-rouge">/Library/ScriptingAdditions</code></li>
+                    <li><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code></li>
                   </ul>
-                  <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple's own system additions in the third location. There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions. El Capitan is the most strict and it does not allow Scripting Additions placed in <code>/Library/ScriptingAdditions</code> to inject into system processes (processes with Apple's code signature).</p>
-                  <p>However it is possible to put an addition into <code>/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes. The problem is that <code>/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
-                  <p>By default TotalSpaces2 installs its scripting addition into <code>/Library/ScriptingAddtions</code>. But you can manually install it in <code>/System/Library/ScriptingAdditions</code>. TotalSpaces2 is aware of this setup since version 2.3.9.</p>
+                  <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple’s own system additions in the third location. There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions. El Capitan is the most strict and it does not allow Scripting Additions placed in <code class="highlighter-rouge">/Library/ScriptingAdditions</code> to inject into system processes (processes with Apple’s code signature).</p>
+                  <p>However it is possible to put an addition into <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes. The problem is that <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
+                  <p>By default TotalSpaces2 installs its scripting addition into <code class="highlighter-rouge">/Library/ScriptingAddtions</code>. But you can manually install it in <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code>. TotalSpaces2 is aware of this setup since version 2.3.9.</p>
                   <p>But you should be aware of the drawbacks:</p>
-                  <p><code>/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</p>
-                  <p><code>/System/Library/ScriptingAdditions</code> is under SIP protection, which means that TotalSpaces2 updates cannot modify TotalSpaces.osax located there. Any TotalSpaces2 update will refuse to run until you have booted into Recovery OS and copied the new osax into place.</p>
-                  <h2>Installation steps</h2>
+                  <p><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</p>
+                  <p><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is under SIP protection, which means that TotalSpaces2 updates cannot modify TotalSpaces.osax located there. Any TotalSpaces2 update will refuse to run until you have booted into Recovery OS and copied the new osax into place.</p>
+                  <h2 id="installation-steps">Installation steps</h2>
                   <ol>
                     <li>Install TotalSpaces2 (or update TotalSpaces2)</li>
                     <li>Reboot into Recovery OS (reboot and hold cmd-R)</li>
                     <li>Open Terminal from Utilities menu</li>
                     <li>Mount your main system disk if needed - this depends on your setup, see explanation below</li>
-                    <li>Move TotalSpaces.osax from inside <code>/Applications/TotalSpaced2.app</code> to <code>/System/Library/ScriptingAdditions</code> on your system disk</li>
+                    <li>Move TotalSpaces.osax from inside <code class="highlighter-rouge">/Applications/TotalSpaced2.app</code> to <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> on your system disk</li>
                     <li>Fix rights on the newly moved folder</li>
                   </ol>
-                  <h3>STEPS 1-3</h3>
-                  <p>These should be straightforward (I'm assuming you are technically minded).</p>
-                  <h3>STEP 4: mount your main system disk</h3>
-                  <p>If you don't use FileVault, your main disk may have been mounted automatically, or if not you can easily use Disk Utility to mount it. In case of FileVault you have to use <code>disktutil corestorage unlockVolume</code> command.</p>
-                  <p>In either case you should end up with your main system disk mounted at <code>/Volumes/[NAME]</code> where [NAME] is some name you gave to your disk during formatting (potentially includes spaces - mine is 'Macintosh HD').</p>
-                  <h3>STEPS 5-6: copy and fix rights</h3>
-                  <p>My system disk was mounted as <code>/Volumes/Macintosh HD</code>, so here are commands relevant to my situation:</p>
-                  <pre><code>cd "/Volumes/Macintosh HD/System/Library/ScriptingAdditions"
+                  <h3 id="steps-1-3">STEPS 1-3</h3>
+                  <p>These should be straightforward (I’m assuming you are technically minded).</p>
+                  <h3 id="step-4-mount-your-main-system-disk">STEP 4: mount your main system disk</h3>
+                  <p>If you don’t use FileVault, your main disk may have been mounted automatically, or if not you can easily use Disk Utility to mount it. In case of FileVault you have to use <code class="highlighter-rouge">disktutil corestorage unlockVolume</code> command.</p>
+                  <p>In either case you should end up with your main system disk mounted at <code class="highlighter-rouge">/Volumes/[NAME]</code> where [NAME] is some name you gave to your disk during formatting (potentially includes spaces - mine is ‘Macintosh HD’).</p>
+                  <h3 id="steps-5-6-copy-and-fix-rights">STEPS 5-6: copy and fix rights</h3>
+                  <p>My system disk was mounted as <code class="highlighter-rouge">/Volumes/Macintosh HD</code>, so here are commands relevant to my situation:</p>
+                  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd "/Volumes/Macintosh HD/System/Library/ScriptingAdditions"
 cp -R "../../../Applications/TotalSpaces2.app/Contents/Resources/TotalSpaces.osax" .
 chown -R root:wheel TotalSpaces.osax
-</code></pre>
-                  <h2>Final words</h2>
-                  <p>As you can see, it's not that difficult if you know what you are doing. The main problems are TotalSpaces2 and system updates. You may have to repeat this installation over and over again.</p>
+</code></pre></div></div>
+                  <h2 id="final-words">Final words</h2>
+                  <p>As you can see, it’s not that difficult if you know what you are doing. The main problems are TotalSpaces2 and system updates. You may have to repeat this installation over and over again.</p>
                   <p>And lastly, thanks to the SIMBL developers for <a href="https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426">investigating this mechanism</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
@@ -177,7 +177,7 @@ chown -R root:wheel TotalSpaces.osax
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">

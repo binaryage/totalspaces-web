@@ -3,8 +3,8 @@
   <head>
     <title>Running TotalSpaces2 on El Capitan or Sierra</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/elcapitan"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -128,12 +128,12 @@
                   <p>This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalSpaces2.</p>
                   <p><strong>Starting with version 2.5.4 of TotalSpaces2, you can turn System Integrity Protection back on after you have installed TotalSpaces2 if you wish. <a href="/sipsettings">See here for information.</a></strong></p>
                   <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
-                  <p>Anyway, if you decide to modify the setting under El Capitan/Sierra, you will be able to install and run TotalSpaces2 as before. Just to be clear...</p>
+                  <p>Anyway, if you decide to modify the setting under El Capitan/Sierra, you will be able to install and run TotalSpaces2 as before. Just to be clear…</p>
                   <div class="license-desk exclamation">
                     I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
                   </div>
-                  <h2>How to modify System Integrity Protection</h2>
-                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;until the Apple logo appears.</p>
+                  <h2 id="how-to-modify-system-integrity-protection">How to modify System Integrity Protection</h2>
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding   <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/>   until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
                   <p>In the window that opens, type
@@ -142,11 +142,11 @@
                   <p><img src="https://static.binaryage.com/a96af7ca_shared_img_recovery-terminal-csrutil-enable-without-debug.png"/></p>
                   <p>Reboot your machine and you may install or run the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
                   <p>Note, you can also use the <code>csrutil disable</code> command to completely disable System Integrity Protection. This has the advantage that there is no scary warning about an unsupported configuration, but the disadvantage that the whole of SIP (rather than just part) is disabled.</p>
-                  <h2>Technical details</h2>
+                  <h2 id="technical-details">Technical details</h2>
                   <p>TotalSpaces2 works by changing the way the Dock program handles spaces. OSX does not provide any other way to control spaces, this is the only way the functionality of TotalSpaces2 can be achieved.</p>
                   <p>In order to change some features inside Dock, we use a technique called <em>code injection</em>. This means we add some additional code to the Dock program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OSX on the disk. You only have to quit TotalSpaces2, and the Dock program will restart and everything will be as if TotalSpaces2 was never running.</p>
                   <p>However, in El Capitan the OSX developers added a feature that disallows this kind of modification <em>even if you have administrator access</em>. It can also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
-                  <p>In order for TotalSpaces2 to work, part of this new feature must be disabled. And <strong>we don't recommend you do this unless you know what you are doing.</strong></p>
+                  <p>In order for TotalSpaces2 to work, part of this new feature must be disabled. And <strong>we don’t recommend you do this unless you know what you are doing.</strong></p>
                   <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our blog</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
@@ -156,7 +156,7 @@
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">

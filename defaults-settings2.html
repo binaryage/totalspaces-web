@@ -3,8 +3,8 @@
   <head>
     <title>TotalSpaces2 Defaults settings</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/defaults-settings2"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -124,16 +124,16 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>This is a list of the user accessible defaults settings that you can adjust using the 'defaults' command line program in Terminal.app.</p>
-                  <h2><a id="faster-transitions"></a>Transition speed</h2>
+                  <p>This is a list of the user accessible defaults settings that you can adjust using the ‘defaults’ command line program in Terminal.app.</p>
+                  <h2 id="transition-speed"><a id="faster-transitions"></a>Transition speed</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 transitionSpeed -float 115</code></p>
-                  <p>The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won't even see the transitions at that speed.</p>
+                  <p>The normal preferences slider goes to 110, but 130 is the hard limit; do not set it higher - anyway you won’t even see the transitions at that speed.</p>
                   <p>Note that there is a small built in delay after you press the hotkey that is unavoidable with transitions - they take a little time to set up.</p>
-                  <h2><a id="longer-notifications"></a>Notification graphic period</h2>
+                  <h2 id="notification-graphic-period"><a id="longer-notifications"></a>Notification graphic period</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 notificationDuration -float 1.0</code></p>
                   <p>The notification graphic remains on the screen for this period, unless the transition was triggered by hotkeys in which case it stays on screen for as long as you hold the modifier keys down.</p>
                   <p>The value is in seconds, and should be between 0.25 and 3.0. The default value is 0.85.</p>
-                  <h2><a id="mouse-edge-timings"></a>Mouse-at-edge switch timing</h2>
+                  <h2 id="mouse-at-edge-switch-timing"><a id="mouse-edge-timings"></a>Mouse-at-edge switch timing</h2>
                   <p>These adjust the dwell and repeat period for triggering <a href="/mouse-edges2">space changes by bringing your mouse to the edge of the screen</a>.</p>
                   <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchDelay -float 1.5</code></p>
                   <p>The range is 0.1 - 20.0, the default is 1.1 seconds. This setting also affects how quickly you can drag windows from desktop to desktop.</p>
@@ -141,35 +141,35 @@
                   <p>The range is 0.01 - 20.0, the default is 0.3 seconds.</p>
                   <p><code>defaults write com.binaryage.TotalSpaces2 sideSwitchRepeatDelay -float 1.2</code></p>
                   <p>The range is 0.5 - 3.5, the default is 1.0 seconds.</p>
-                  <h2><a id="place-window-as-dropped"></a>Window positioning when dragging windows in the overview grid</h2>
+                  <h2 id="window-positioning-when-dragging-windows-in-the-overview-grid"><a id="place-window-as-dropped"></a>Window positioning when dragging windows in the overview grid</h2>
                   <p>Normally windows stay where you drop them in the overview grid, but pressing the ALT (option) key whilst dragging will cause the windows to retain their original position, so will be positioned as they were in the space the window came from.</p>
                   <p>You can swap this behaviour so that keeping the position is the default, and pressing the ALT key will allow the to be dropped in an exact position.</p>
                   <p><code>defaults write com.binaryage.TotalSpaces2 placeWindowsAsDroppedByDefault -bool NO</code></p>
-                  <h2><a id="right-modkeys-only"></a>Use only right side modkeys when changing space</h2>
+                  <h2 id="use-only-right-side-modkeys-when-changing-space"><a id="right-modkeys-only"></a>Use only right side modkeys when changing space</h2>
                   <p>If you are using key combinations such as ALT with the arrow keys to change space, it can be useful to differentiate between the keys on each side of the keyboard so that the left side ones can be used for the usual functions, and the right side ones for changing space.</p>
                   <p>Turning this setting on means TotalSpaces2 will only recognise space change hotkeys if the modifier keys on the right side of the keyboard are used.</p>
                   <p><code>defaults write com.binaryage.TotalSpaces2 rightSideDirectionModifierKeysOnly -bool YES</code></p>
-                  <h2><a id="lower-memory-usage"></a>Less caching/lower memory usage</h2>
+                  <h2 id="less-cachinglower-memory-usage"><a id="lower-memory-usage"></a>Less caching/lower memory usage</h2>
                   <p>In some isolated cases we found that the caching that makes the overview grid faster to bring up was causing Mail.app to slow down unacceptably. In order to work around the problem in these cases, there is a command line setting to turn off this caching. It is not recommended unless you have this problem, it will slow down the performance of the overview grid.</p>
                   <p><code>defaults write com.binaryage.TotalSpaces2 lowerMemoryUsage -bool YES</code></p>
-                  <h2><a id="menu-bar-icon-color"></a>Menu bar icon color</h2>
+                  <h2 id="menu-bar-icon-color"><a id="menu-bar-icon-color"></a>Menu bar icon color</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 menuBarIconColor "094be5"</code></p>
                   <p>The color is in RGB hex, same as used in HTML/CSS markup. Only the dark background can be changed; the color of the number and the cross are fixed. The default value is 444444.</p>
                   <p>The setting is cached for a period - after you have set this setting you will need to move around your grid a few times for it to take effect.</p>
-                  <h2><a id="active-screen-switching"></a>Use active screen for switching</h2>
+                  <h2 id="use-active-screen-for-switching"><a id="active-screen-switching"></a>Use active screen for switching</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 useActiveScreenForSwitching -bool YES</code></p>
                   <p>When using multiple monitors, TotalSpaces2 will normally choose which display to switch for hotkey or swipe activations by checking the location of the mouse. So the screen containing the mouse will be the one to switch. This setting uses instead the active screen, so the one containing the active menu bar will be the one to switch.</p>
-                  <h2><a id="grid-icons-off"></a>Turn icons off in the overview grid</h2>
+                  <h2 id="turn-icons-off-in-the-overview-grid"><a id="grid-icons-off"></a>Turn icons off in the overview grid</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 hideSpaceIcons -bool YES</code></p>
                   <p>Normally TotalSpaces2 will display icons for full screen apps when showing the overview grid so you can easily see which app is where. This setting hides those icons.</p>
-                  <h2><a id="old-notification"></a>Old style notification graphic</h2>
+                  <h2 id="old-style-notification-graphic"><a id="old-notification"></a>Old style notification graphic</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 oldStyleNotification -bool YES</code></p>
                   <p>Use the old, less flat notification graphic for showing the grid during space changes.</p>
-                  <h2><a id="space-dragging"></a>Space dragging behaviour in the overview grid</h2>
+                  <h2 id="space-dragging-behaviour-in-the-overview-grid"><a id="space-dragging"></a>Space dragging behaviour in the overview grid</h2>
                   <p><code>defaults write com.binaryage.TotalSpaces2 dragSwapsSpacesInGrid -bool NO</code></p>
                   <p>Use the old behavour, where dragging a space in the overview grid would reorder the other spaces.</p>
                   <p>The default behaviour as of version 2.6.16 is to swap the space at the destination position with the space being dragged.</p>
-                  <p>&raquo; Next <a href="/faq2"><strong>FAQ</strong></a></p>
+                  <p>» Next <a href="/faq2"><strong>FAQ</strong></a></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
@@ -178,7 +178,7 @@
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">

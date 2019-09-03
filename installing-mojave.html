@@ -3,8 +3,8 @@
   <head>
     <title>Installing TotalSpaces2 v2.7.2 and above</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/installing-mojave"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -135,10 +135,10 @@
                     <li><a href="#step2">Step 2 &mdash; Install and run TotalSpaces2</a></li>
                   </ul>
                   <p><a id="step1"></a></p>
-                  <h1>Step 1</h1>
-                  <h2>Turn off System Integrity Protection (SIP)</h2>
+                  <h1 id="step-1">Step 1</h1>
+                  <p>##Turn off System Integrity Protection (SIP)</p>
                   <p>This requires rebooting your maching into recovery mode.</p>
-                  <p>Restart your machine, holding&nbsp;&nbsp; <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/> &nbsp;&nbsp;down until the Apple logo appears.</p>
+                  <p>Restart your machine, holding   <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/>   down until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
                   <p>In the window that opens, type
@@ -150,16 +150,16 @@
                     <code>csrutil enable --without debug --without fs</code>
                   However, csrutil will warn that this configuration is unsupported.</p>
                   <p><a id="step2"></a></p>
-                  <h1>Step 2</h1>
-                  <h2>Install and run TotalSpaces2</h2>
+                  <h1 id="step-2">Step 2</h1>
+                  <h2 id="install-and-run-totalspaces2">Install and run TotalSpaces2</h2>
                   <p>Double click on the DMG file you downloaded with TotalSpace2 in it. Drag TotalSpaces2 into your Applications folder.</p>
                   <p><img src="https://static.binaryage.com/a1f810dc_images_install-from-dmg.png"/></p>
                   <p>Run TotalSpaces2 from your Applications folder. It will ask for your password in order to install its plugin component.</p>
                   <p><img src="https://static.binaryage.com/9c9f9b34_images_install-plugin.png"/></p>
                   <p>TotalSpaces2 will notify you when the plugin has been successfully installed.</p>
                   <p><a id="step3"></a></p>
-                  <h1>Step 3</h1>
-                  <h2>There is no step 3</h2>
+                  <h1 id="step-3">Step 3</h1>
+                  <h2 id="there-is-no-step-3">There is no step 3</h2>
                   <p>If you are installing on macOS 10.14 Mojave or later then unfortunately SIP must remain disabled or partially disabled for TotalSpaces2 to work.</p>
                   <p>Note that if you are installing on versions of macOS prior to 10.14 Mojave then there is an optional step 3 to turn SIP back on, <a href="/sipsettings">see here.</a></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
@@ -170,7 +170,7 @@
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">
