@@ -3,7 +3,7 @@ layout: ts2-doc
 title: TotalSpaces2 Documentation
 subtitle: Documentation
 ---
-<h2><mark><a href="/installing-mojave">See here</a> for instructions for running TotalSpaces2 on macOS Mojave. <a href="/sipsettings">See here</a> for information about running TotalSpaces2 on macOS High Sierra and earlier.</mark></h2>
+<h2><mark><a href="/installing-mojave">See here</a> for instructions for running TotalSpaces2 on macOS Mojave or Catalina. <a href="/sipsettings">See here</a> for information about running TotalSpaces2 on macOS High Sierra and earlier.</mark></h2>
 
 ## TotalSpaces2 provides a grid of spaces on your Mac
 

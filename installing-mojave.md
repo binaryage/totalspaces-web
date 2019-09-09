@@ -4,9 +4,9 @@ title: Installing TotalSpaces2 v2.7.2 and above
 subtitle: How to install TotalSpaces2
 ---
 
-These instructions apply to [TotalSpaces2 v.2.7.2 and above](/changes-beta) on macOS 10.14 and above. If you are upgrading from High Sierra to Mojave, note that __TotalSpaces2 can no longer work with SIP turned on due to changes made by Apple__. 
+These instructions apply to [TotalSpaces2 v.2.7.2 and above](/changes-beta) on macOS 10.14 and above. If you are upgrading from High Sierra to Mojave (or Catalina), note that __TotalSpaces2 can no longer work with SIP turned on due to changes made by Apple__. 
 
-These instructions are for macOS 10.14 Mojave - [see here if you are running High Sierra or earlier.](/sipsettings)
+These instructions are for macOS Mojave or Catalina - [see here if you are running High Sierra or earlier.](/sipsettings)
 
 TotalSpaces2 requires changes to your security settings to be installed. [Carefully read more about it here.](/sip-details)
 

@@ -36,7 +36,7 @@ Note that if you have SIP turned on, then the uninstaller will not be able to re
 
 ## Upgrading from earlier versions
 
-If you are upgrading your machine to macOS 10.14 Mojave and have SIP turned on, TotalSpaces2 will warn you about not being able to load, and you should [follow the instructions here.](/installing-mojave)
+If you are upgrading your machine to macOS 10.14 Mojave or Catalina and have SIP turned on, TotalSpaces2 will warn you about not being able to load, and you should [follow the instructions here.](/installing-mojave)
 
 ## Further information
 

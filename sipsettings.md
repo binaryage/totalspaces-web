@@ -4,7 +4,7 @@ title: Installing TotalSpaces2 v2.5.4 and above
 subtitle: How to install TotalSpaces2
 ---
 
-These instructions apply to [TotalSpaces2 v.2.5.4 and above](/changes-beta) on macOS 10.11 and above. If you are installing on macOS 10.14 Mojave [see here](/installing-mojave).
+These instructions apply to [TotalSpaces2 v.2.5.4 and above](/changes-beta) on macOS 10.11 and above. If you are installing on macOS 10.14 Mojave or later [see here](/installing-mojave).
 
 TotalSpaces2 requires temporary changes to your security settings to be installed. [Read more about it here.](/sip-details)
 
