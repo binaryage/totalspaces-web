@@ -3,11 +3,11 @@ layout: ts2-doc
 title: TotalSpaces2 Documentation
 subtitle: Documentation
 ---
-<h2><mark><a href="/installing-mojave">See here</a> for instructions for running TotalSpaces2 on macOS Big Sur, Catalina or Mojave.<mark></h2> 
+<h2><mark><a href="/installing-mojave">See here</a> for instructions for running TotalSpaces2 on macOS Big Sur, Catalina or Mojave.</mark></h2>
 
 <a href="/sipsettings">See here</a> for information about running TotalSpaces2 on macOS High Sierra and earlier.
-
-<h2>TotalSpaces2 is not compatible with Apple Silicon Macs.</h2>
+<br><br>
+<b>TotalSpaces2 is not compatible with Apple Silicon Macs.</b>
 
 ## TotalSpaces2 provides a grid of spaces on your Mac
 
