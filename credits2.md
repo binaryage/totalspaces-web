@@ -12,6 +12,7 @@ subtitle: Credits
 * **Harry Grover** - contributed the initial code for the notification grid graphics
 * **atoxx** - helped with debugging test builds of ReSpaceApp
 * **Daniel Unterberger** - helped with overview grid transitions and debugging
+* **Steve Audette**
 
 ## TotalSpaces2 leveraged these open-source projects and tools
 
@@ -23,7 +24,9 @@ subtitle: Credits
 * <a href="https://gist.github.com/rjw57/5495406">**CGSPrivate**</a> by Richard J Wareham
 * <a href="https://github.com/Smartling/ios-i18n">**Smartling.i18n.framework**</a> by Smartling, Inc.
 * <a href="https://github.com/kwbock/KBButton">**KBButton**</a> by Kyle Bock
-* <a href="https://github.com/shpakovski/MASShortcut">**MASShortcut**</a> by Vadim Shpakovski  
+* <a href="https://github.com/shpakovski/MASShortcut">**MASShortcut**</a> by Vadim Shpakovski
+* <a href="https://github.com/koekeishiya/yabai">**Yabai**</a> by Åsmund Vikane
+
 
 ## Thank you!
 
