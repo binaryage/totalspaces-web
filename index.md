@@ -8,7 +8,6 @@ product_icon: /shared/img/icons/totalspaces2-256.png
 subtitle: TotalSpaces2 brings grid spaces to your Mac and more!
 download: https://downloads.binaryage.com/TotalSpaces2-2.9.9.dmg
 download_title: Download v2.9.9
-store_link: https://sites.fastspring.com/binaryage/instant/totalspaces2
 meta_title: TotalSpaces2 brings grid spaces to you Mac and more!
 meta_keywords: totalspaces,mac,dock,spaces,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,binaryage
 meta_description: TotalSpaces2 is a desktop manager aims to re-create the classic 2D 'spaces' grid functionality on macOS.
@@ -110,18 +109,13 @@ highlights: [{
 <div class="product-buttons">
   <div class="button-container">
     <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
-      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
+      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span>
     </a>
     <div class="button-note">
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/installing-mojave" target="_blank">Requires a system tweak for macOS 10.11&dash;11.0</a></span><br>
       <i class="fa fa-laptop"></i> Compatible with macOS 10.9&dash;11.0 (Intel only)<br>
       <a href="/older-versions">Looking for an older version?</a><br>
     </div>
-  </div>
-  <div class="button-container">
-    <a id="o-buy-ts2" class="button product-button-buy-ts2" href="{{page.store_link}}">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalSpaces2</span><span class="price-note">$12</span>
-    </a>
   </div>
 </div>
 {% endcontentfor %}
