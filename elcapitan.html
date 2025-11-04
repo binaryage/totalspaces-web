@@ -3,10 +3,10 @@
   <head>
     <title>Running TotalSpaces2 on El Capitan or Sierra</title>
     <link rel="canonical" href="https://totalspaces.binaryage.com/elcapitan"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://static.binaryage.com/493de12c_shared_css_site.css" type="text/css"/>
-    <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/shared/css/site.css" type="text/css"/>
+    <link rel="stylesheet" href="shared/css/github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
@@ -65,7 +65,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/384ebd54_shared_img_icons_totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="/shared/img/icons/totalspaces2-64.png"/><span>TotalSpaces homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -132,13 +132,13 @@
                     I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
                   </div>
                   <h2 id="how-to-modify-system-integrity-protection">How to modify System Integrity Protection</h2>
-                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding   <img src="https://static.binaryage.com/1ca392e0_images_cmd-r.png" title="cmd-r"/>   until the Apple logo appears.</p>
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding   <img src="/images/cmd-r.png" title="cmd-r"/>   until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
-                  <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
+                  <p><img src="/shared/img/recovery-utilities-terminal.png"/></p>
                   <p>In the window that opens, type
                     <code>csrutil enable --without debug</code>
                   and press return. This turns off the part of System Integrity Protection that TotalSpaces2 needs to run, and OSX complains that it is an unsupported configuration.</p>
-                  <p><img src="https://static.binaryage.com/a96af7ca_shared_img_recovery-terminal-csrutil-enable-without-debug.png"/></p>
+                  <p><img src="/shared/img/recovery-terminal-csrutil-enable-without-debug.png"/></p>
                   <p>Reboot your machine and you may install or run the <a href="/changes-beta">latest version of TotalSpaces2</a>.</p>
                   <p>Note, you can also use the <code>csrutil disable</code> command to completely disable System Integrity Protection. This has the advantage that there is no scary warning about an unsupported configuration, but the disadvantage that the whole of SIP (rather than just part) is disabled.</p>
                   <h2 id="technical-details">Technical details</h2>
@@ -165,7 +165,7 @@
             <div class="footer-box-right">
               <div class="footer-copyright">
                 <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="/shared/img/byccnd.png"/></a>
                 </div>
                 <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
@@ -174,7 +174,7 @@
         </div>
       </div>
     </div>
-    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script src="/shared/js/code.js"></script>
     <script type="text/javascript">window.ga=function(){}</script>
     <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
     <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
