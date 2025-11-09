@@ -137,9 +137,6 @@ highlights: [{
       $("#o-buy").fancybox({
         href: "#totalspaces-buy"
       });
-      $("#o-download-button").bind('click', function(e) {
-        ga('send', 'pageview', '/overlays/o-download');
-      });
       $('.screenshot').fancybox();
       $('.screenshot-box').navigen({
         target: $(".navi")
